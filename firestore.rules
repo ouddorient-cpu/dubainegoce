@@ -1,0 +1,36 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Orders - Les utilisateurs peuvent lire leurs propres commandes
+    match /orders/{orderId} {
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      allow create: if true; // Permet la création même pour les invités
+      allow update: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // Users - Les utilisateurs peuvent lire/modifier leur profil
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Newsletter - Tout le monde peut s'inscrire
+    match /newsletter/{subscriberId} {
+      allow create: if true;
+      allow read, update, delete: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // Messages - Tout le monde peut envoyer
+    match /messages/{messageId} {
+      allow create: if true;
+      allow read, update, delete: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // Products - Lecture publique, écriture admin
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.admin == true;
+    }
+  }
+}
