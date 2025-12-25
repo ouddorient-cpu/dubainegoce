@@ -10,12 +10,13 @@ import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD5tneUbaII6z-Y3RxlN3TP0EHg4kXcC4k",
-  authDomain: "dubainegoce-495be.firebaseapp.com",
-  projectId: "dubainegoce-495be",
-  storageBucket: "dubainegoce-495be.firebasestorage.app",
-  messagingSenderId: "404388961346",
-  appId: "1:404388961346:web:a62746aaa4196a6a78a1db"
+  apiKey: "AIzaSyBIQdZycIKoS3sVBKBiqa0_dwnVq47KW5Q",
+  authDomain: "studio-9269357231-ea935.firebaseapp.com",
+  projectId: "studio-9269357231-ea935",
+  storageBucket: "studio-9269357231-ea935.firebasestorage.app",
+  messagingSenderId: "626776869456",
+  appId: "1:626776869456:web:524bbfb0de4b57f98e9f55",
+  measurementId: "G-5SGH7BZYB0"
 };
 
 // Initialize Firebase

@@ -10,7 +10,7 @@ const PRODUCTS_DATABASE = [
     name: "Khamrah",
     brand: "Lattafa",
     price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701177/khamrah_lattafa_xaowuh.png",
+    image: "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Khamrah.jpeg",
     category: "Oriental",
     badge: "BEST-SELLER",
     description: "Une fragrance orientale gourmande avec des notes de cannelle, cardamome et praline. Un parfum chaleureux et enivrant qui évoque les nuits mystiques de Dubaï."
@@ -20,7 +20,7 @@ const PRODUCTS_DATABASE = [
     name: "Fakhar Black",
     brand: "Lattafa",
     price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701178/fakhar_black_lattafa_l1mnzz.png",
+    image: "https://www.frenchavenue.fr/wp-content/uploads/2023/12/fakhar-silver-lattafa-eau-de-parfum-mixte-jpg.webp",
     category: "Boisé",
     badge: "BEST-SELLER",
     description: "Notes de tête : bergamote, pomme. Cœur : jasmin, patchouli. Fond : vanille, musc, ambre. Un parfum sophistiqué et envoûtant."
@@ -30,7 +30,7 @@ const PRODUCTS_DATABASE = [
     name: "Raghba",
     brand: "Lattafa",
     price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701176/raghba_lattafa_j3kkbs.png",
+    image: "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029948-1-jpg.webp",
     category: "Oriental",
     badge: "BEST-SELLER",
     description: "Un mélange captivant d'oud, de vanille et d'encens. Une fragrance riche et opulente qui incarne le luxe oriental."
@@ -40,7 +40,7 @@ const PRODUCTS_DATABASE = [
     name: "Yara",
     brand: "Lattafa",
     price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701176/yara_lattafa_g5khxb.png",
+    image: "https://www.frenchavenue.fr/wp-content/uploads/2023/12/Yara-eau-de-parfum-lattafa-600x600-1-jpg.webp",
     category: "Floral",
     badge: "BEST-SELLER",
     description: "Notes florales douces avec orchidée, héliotrope et gourmandise vanillée. Parfum féminin élégant et sensuel."
@@ -50,7 +50,7 @@ const PRODUCTS_DATABASE = [
     name: "Asad",
     brand: "Lattafa",
     price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701178/asad_lattafa_rqptjz.png",
+    image: "https://www.frenchavenue.fr/wp-content/uploads/2024/01/lattafa-parfum-asad.jpg",
     category: "Boisé",
     badge: "BEST-SELLER",
     description: "Une fragrance masculine puissante avec des notes de cuir, d'oud et d'épices. Force et élégance réunies."

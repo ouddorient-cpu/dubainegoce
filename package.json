@@ -1,0 +1,27 @@
+{
+  "name": "dubainegoce",
+  "version": "1.0.0",
+  "description": "Site e-commerce de parfums authentiques de Dubaï",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "node server.js",
+    "serve": "node server.js",
+    "firebase:dev": "firebase serve --only hosting",
+    "firebase:serve": "firebase serve",
+    "build": "echo 'No build step needed for static site'",
+    "deploy": "firebase deploy --only hosting",
+    "deploy:all": "firebase deploy",
+    "logs": "firebase functions:log"
+  },
+  "keywords": [
+    "e-commerce",
+    "parfums",
+    "dubai",
+    "firebase"
+  ],
+  "author": "DubaiNegoce",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^13.0.0"
+  }
+}

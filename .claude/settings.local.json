@@ -4,7 +4,14 @@
       "Bash(firebase use:*)",
       "Bash(firebase login:list:*)",
       "Bash(firebase login:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(node -c:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)"
     ]
   }
 }
