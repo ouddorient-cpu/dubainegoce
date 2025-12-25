@@ -4,20 +4,30 @@
 # Runtime environment
 runConfig:
   # Specify the runtime (node, python, etc.)
-  # For static sites, we use a simple web server
   runtime: nodejs20
 
-  # Environment variables (if needed)
+  # CPU and memory allocation
+  cpu: 1
+  memoryMiB: 512
+
+  # Maximum number of instances
+  maxInstances: 10
+  minInstances: 0
+
+  # Concurrency
+  concurrency: 80
+
+  # Environment variables
   env:
     - variable: NODE_ENV
       value: production
+    - variable: PORT
+      value: "8080"
 
 # Build configuration
 buildConfig:
-  # No build step needed for this static site
-  # Files are served directly from the public/ directory
-  outputDirectory: public
+  # Install dependencies and start the server
+  installCommand: npm install
 
-  # If you need a build step in the future, uncomment:
-  # buildCommand: npm run build
-  # installCommand: npm install
+  # Start command for the Node.js server
+  startCommand: node server.js
