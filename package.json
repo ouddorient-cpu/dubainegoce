@@ -1,9 +1,10 @@
 {
   "name": "dubainegoce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Site e-commerce de parfums authentiques de Dubaï",
-  "main": "public/index.html",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "node server.js",
     "serve": "node server.js",
     "firebase:dev": "firebase serve --only hosting",
