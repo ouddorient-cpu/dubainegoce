@@ -513,10 +513,12 @@ ul, ol {
   justify-content: center;
 }
 
-.slide-image img {
+.slide-image img,
+.slide-image video {
   max-height: 80%;
   object-fit: contain;
   filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
+  border-radius: 12px;
 }
 
 /* Slider Controls */
