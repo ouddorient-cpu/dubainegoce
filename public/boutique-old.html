@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DubaiNegoce - Parfums authentiques de Dubaï. Prix unique 35€, livraison gratuite. Lattafa, Fragrance World, Maison Alhambra.">
+    <title>DubaiNegoce - Parfums Authentiques de Dubaï | Prix Unique 35€</title>
+    
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles-v2.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner" id="topBanner">
+        <div class="top-banner-slider">
+            <div class="banner-item active">
+                ✨ Livraison GRATUITE dès 49€ avec Mondial Relay
+            </div>
+            <div class="banner-item">
+                🎁 Emballage cadeau OFFERT sur toutes vos commandes
+            </div>
+            <div class="banner-item">
+                💎 100% Authentique - Parfums importés directement de Dubaï
+            </div>
+        </div>
+        <button class="banner-close" onclick="closeBanner()">&times;</button>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="mainHeader">
+        <div class="header-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 2L4 8v8c0 7.732 5.12 14.928 12 16 6.88-1.072 12-8.268 12-16V8L16 2z" 
+                          fill="currentColor" opacity="0.2"/>
+                    <path d="M16 2L4 8v8c0 7.732 5.12 14.928 12 16 6.88-1.072 12-8.268 12-16V8L16 2z" 
+                          stroke="currentColor" stroke-width="2"/>
+                    <circle cx="16" cy="16" r="4" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">DUBAINEGOCE</span>
+            </a>
+
+            <!-- Search Bar -->
+            <div class="header-search">
+                <input type="text" 
+                       id="headerSearchInput" 
+                       placeholder="Rechercher un parfum, une marque..."
+                       class="search-input-header">
+                <button class="search-btn-header" aria-label="Rechercher">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="M21 21l-4.35-4.35"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <button class="header-action" aria-label="Mon compte">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                        <circle cx="12" cy="7" r="4"/>
+                    </svg>
+                    <span class="action-text">Mon compte</span>
+                </button>
+                
+                <button class="header-action" id="cartBtnHeader" aria-label="Panier">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 2L7.17 4H2v2h20V4h-5.17L15 2H9z"/>
+                        <path d="M4 6v13c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6H4z"/>
+                    </svg>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                    <span class="action-text">Panier</span>
+                </button>
+            </div>
+
+            <!-- Mobile Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="main-nav" id="mainNav">
+            <ul class="nav-list">
+                <li class="nav-item has-mega-menu">
+                    <a href="#" class="nav-link">Marques</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-container">
+                            <div class="mega-menu-col">
+                                <h3>Nos Marques</h3>
+                                <ul>
+                                    <li><a href="#" data-brand="Lattafa">Lattafa</a></li>
+                                    <li><a href="#" data-brand="Fragrance World">Fragrance World</a></li>
+                                    <li><a href="#" data-brand="Maison Alhambra">Maison Alhambra</a></li>
+                                    <li><a href="#" data-brand="French Avenue">French Avenue</a></li>
+                                    <li><a href="#">Toutes les marques →</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h3>Les + Vues</h3>
+                                <ul>
+                                    <li><a href="#">Lattafa Khamrah</a></li>
+                                    <li><a href="#">Yara</a></li>
+                                    <li><a href="#">Asad</a></li>
+                                    <li><a href="#">Fakhar Black</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-featured">
+                                <img src="https://res.cloudinary.com/dhjwimevi/image/upload/v1765701177/lovely_cherie_b3nicj.png" alt="Parfum vedette">
+                                <h4>Maison Alhambra</h4>
+                                <p>Lovely Cherie</p>
+                                <a href="#" class="btn-small">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#parfums" class="nav-link">Parfums</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#nouveautes" class="nav-link">Nouveautés</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#best-sellers" class="nav-link">Best-Sellers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#collections" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item nav-promo">
+                    <a href="#promos" class="nav-link">Bons Plans 🔥</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2520 100%);">
+                <div class="slide-content">
+                    <span class="slide-badge">EXCLUSIVITÉ DUBAÏ</span>
+                    <h1 class="slide-title">L'Essence de Dubaï</h1>
+                    <p class="slide-subtitle">Découvrez nos parfums authentiques à prix unique</p>
+                    <a href="#parfums" class="btn-primary-large">Découvrir la collection</a>
+                </div>
+                <div class="slide-image">
+                    <video
+                        autoplay
+                        loop
+                        muted
+                        playsinline
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                        <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255870/grok-video-62d89989-e362-4f7b-8748-be7160716d9d_y6gjhi.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la vidéo.
+                    </video>
+                </div>
+            </div>
+            
+            <div class="slide" style="background: linear-gradient(135deg, #2c1810 0%, #1a1a1a 100%);">
+                <div class="slide-content">
+                    <span class="slide-badge">BEST-SELLERS</span>
+                    <h2 class="slide-title">Nos Incontournables</h2>
+                    <p class="slide-subtitle">Les parfums préférés de nos clients</p>
+                    <a href="#best-sellers" class="btn-primary-large">Voir les best-sellers</a>
+                </div>
+                <div class="slide-image">
+                    <video
+                        autoplay
+                        loop
+                        muted
+                        playsinline
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                        <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255881/grok-video-00e16448-d9d4-42d7-b008-a52bb2d894e6_mrdac7.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la vidéo.
+                    </video>
+                </div>
+            </div>
+            
+            <div class="slide" style="background: linear-gradient(135deg, #1a2836 0%, #1a1a1a 100%);">
+                <div class="slide-content">
+                    <span class="slide-badge">NOUVEAU</span>
+                    <h2 class="slide-title">Dernières Nouveautés</h2>
+                    <p class="slide-subtitle">Les nouvelles fragrances qui font sensation</p>
+                    <a href="#nouveautes" class="btn-primary-large">Découvrir</a>
+                </div>
+                <div class="slide-image">
+                    <video
+                        autoplay
+                        loop
+                        muted
+                        playsinline
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                        <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255913/grok-video-e0b263cc-d799-4eaf-af37-19a495bddfb7_gvix12.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la vidéo.
+                    </video>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slider Controls -->
+        <button class="slider-control prev" onclick="previousSlide()">‹</button>
+        <button class="slider-control next" onclick="nextSlide()">›</button>
+        
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <button class="dot active" onclick="goToSlide(0)"></button>
+            <button class="dot" onclick="goToSlide(1)"></button>
+            <button class="dot" onclick="goToSlide(2)"></button>
+        </div>
+    </section>
+
+    <!-- Mini Banners -->
+    <section class="mini-banners">
+        <div class="container">
+            <div class="mini-banners-grid">
+                <a href="#nouveautes" class="mini-banner" style="background: linear-gradient(135deg, #8B6D47 0%, #D4AF37 100%);">
+                    <h3>Nouveautés 2025</h3>
+                    <p>Découvrez les dernières fragrances</p>
+                    <span class="mini-banner-arrow">→</span>
+                </a>
+                <a href="#prix-exclusifs" class="mini-banner" style="background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3a 100%);">
+                    <h3>Prix Exclusifs</h3>
+                    <p>35€ pour tous les parfums</p>
+                    <span class="mini-banner-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-layout">
+                <!-- Sidebar Filters -->
+                <aside class="sidebar-filters" id="sidebarFilters">
+                    <div class="filter-header">
+                        <h2>Filtres</h2>
+                        <button class="filter-reset" onclick="resetFilters()">Réinitialiser</button>
+                    </div>
+
+                    <!-- Prix Filter -->
+                    <div class="filter-group">
+                        <h3 class="filter-title">Prix</h3>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="price" value="35">
+                                <span>35€</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="price" value="40">
+                                <span>40€ - 45€</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Marques Filter -->
+                    <div class="filter-group">
+                        <h3 class="filter-title">Marques</h3>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="brand" value="Lattafa">
+                                <span>Lattafa</span>
+                                <span class="filter-count">(35)</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="brand" value="Fragrance World">
+                                <span>Fragrance World</span>
+                                <span class="filter-count">(18)</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="brand" value="Maison Alhambra">
+                                <span>Maison Alhambra</span>
+                                <span class="filter-count">(42)</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="brand" value="French Avenue">
+                                <span>French Avenue</span>
+                                <span class="filter-count">(12)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Famille Olfactive -->
+                    <div class="filter-group">
+                        <h3 class="filter-title">Famille Olfactive</h3>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="category" value="Oriental">
+                                <span>Oriental</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="category" value="Boisé">
+                                <span>Boisé</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="category" value="Floral">
+                                <span>Floral</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="category" value="Fruité">
+                                <span>Fruité</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Type Filter -->
+                    <div class="filter-group">
+                        <h3 class="filter-title">Type</h3>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="badge" value="BEST-SELLER">
+                                <span>Best-Sellers</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="badge" value="NOUVEAU">
+                                <span>Nouveautés</span>
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Products Section -->
+                <section class="products-section">
+                    <!-- Products Header -->
+                    <div class="products-header">
+                        <div class="products-title-group">
+                            <h1>Nos Parfums</h1>
+                            <p class="products-count"><span id="productsCount">0</span> produits</p>
+                        </div>
+                        
+                        <div class="products-controls">
+                            <button class="filter-toggle-mobile" onclick="toggleMobileFilters()">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="4" y1="6" x2="20" y2="6"/>
+                                    <line x1="4" y1="12" x2="20" y2="12"/>
+                                    <line x1="4" y1="18" x2="20" y2="18"/>
+                                </svg>
+                                Filtres
+                            </button>
+                            
+                            <select class="sort-select" id="sortSelect">
+                                <option value="default">Trier par</option>
+                                <option value="price-asc">Prix croissant</option>
+                                <option value="price-desc">Prix décroissant</option>
+                                <option value="name-asc">Nom A-Z</option>
+                                <option value="name-desc">Nom Z-A</option>
+                            </select>
+                            
+                            <div class="view-toggle">
+                                <button class="view-btn active" data-view="grid">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <rect x="3" y="3" width="8" height="8"/>
+                                        <rect x="13" y="3" width="8" height="8"/>
+                                        <rect x="3" y="13" width="8" height="8"/>
+                                        <rect x="13" y="13" width="8" height="8"/>
+                                    </svg>
+                                </button>
+                                <button class="view-btn" data-view="list">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <rect x="3" y="4" width="18" height="4"/>
+                                        <rect x="3" y="10" width="18" height="4"/>
+                                        <rect x="3" y="16" width="18" height="4"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Products Grid -->
+                    <div class="products-grid" id="productsGrid">
+                        <!-- Les produits seront injectés ici par JavaScript -->
+                    </div>
+
+                    <!-- Load More -->
+                    <div class="load-more-section" id="loadMoreSection">
+                        <button class="btn-load-more" id="loadMoreBtn">
+                            Afficher plus de produits
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Restez informés</h2>
+                    <p>Inscrivez-vous à notre newsletter et recevez en exclusivité nos nouveautés et offres spéciales</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Votre adresse email" required>
+                    <button type="submit" class="btn-newsletter">S'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>DubaiNegoce</h3>
+                    <p>Votre destination pour les parfums authentiques de Dubaï depuis 2020</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/dubai_negoce/" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.509-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@dubainegoce" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                            </svg>
+                        </a>
+                        <a href="https://web.facebook.com/people/Babou-Father/100007559055739/" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Shopping</h4>
+                    <ul>
+                        <li><a href="#parfums">Tous les parfums</a></li>
+                        <li><a href="#best-sellers">Best-Sellers</a></li>
+                        <li><a href="#nouveautes">Nouveautés</a></li>
+                        <li><a href="#marques">Nos marques</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Livraison & Retours</a></li>
+                        <li><a href="#">Paiement sécurisé</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Service Client</h4>
+                    <ul>
+                        <li><a href="#">Nous contacter</a></li>
+                        <li><a href="#">Suivi de commande</a></li>
+                        <li><a href="#">Mon compte</a></li>
+                        <li><a href="#">CGV</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 DubaiNegoce. Tous droits réservés.</p>
+                <div class="payment-icons">
+                    <span>Paiement sécurisé</span>
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='26' fill='%23635BFF'%3E%3Crect width='40' height='26' rx='3'/%3E%3C/svg%3E" alt="Visa">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='26' fill='%23EB001B'%3E%3Crect width='40' height='26' rx='3'/%3E%3C/svg%3E" alt="Mastercard">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='26' fill='%23003087'%3E%3Crect width='40' height='26' rx='3'/%3E%3C/svg%3E" alt="PayPal">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar (même qu'avant) -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Mon Panier</h3>
+            <button class="cart-close" id="cartClose">&times;</button>
+        </div>
+        <div class="cart-body" id="cartBody"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">0,00 €</span>
+            </div>
+            <button class="btn-checkout" id="checkoutBtn">Commander</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Quick View Modal -->
+    <div class="modal" id="quickViewModal">
+        <div class="modal-backdrop" onclick="closeQuickView()"></div>
+        <div class="modal-content modal-quick-view">
+            <button class="modal-close" onclick="closeQuickView()">&times;</button>
+            <div id="quickViewContent"></div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5m0 0l-7 7m7-7l7 7"/>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/products-data.js"></script>
+    <script src="js/app-v2.js"></script>
+    
+    <!-- Firebase Scripts (Modules) -->
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/firebase-services.js"></script>
+    <script type="module">
+        import { initCheckout } from './js/firebase-checkout.js';
+        // Initialize checkout when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initCheckout);
+        } else {
+            initCheckout();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Panier - DubaiNegoce</title>
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles-v2.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <!-- Header (simplified) -->
+    <header class="header" id="mainHeader">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 2L4 8v8c0 7.732 5.12 14.928 12 16 6.88-1.072 12-8.268 12-16V8L16 2z"
+                          fill="currentColor" opacity="0.2"/>
+                    <path d="M16 2L4 8v8c0 7.732 5.12 14.928 12 16 6.88-1.072 12-8.268 12-16V8L16 2z"
+                          stroke="currentColor" stroke-width="2"/>
+                    <circle cx="16" cy="16" r="4" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">DUBAINEGOCE</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Cart Content -->
+    <main class="cart-page">
+        <div class="container">
+            <!-- Progress Steps -->
+            <div class="checkout-steps">
+                <div class="step active">
+                    <div class="step-number">1</div>
+                    <div class="step-label">Panier</div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-label">Informations</div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-label">Paiement</div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-label">Confirmation</div>
+                </div>
+            </div>
+
+            <div class="cart-layout">
+                <!-- Cart Items -->
+                <div class="cart-main">
+                    <h1>Votre Panier</h1>
+
+                    <div id="cartItems" class="cart-items">
+                        <!-- Cart items will be loaded here -->
+                    </div>
+
+                    <div id="emptyCart" class="empty-cart" style="display: none;">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                        </svg>
+                        <h2>Votre panier est vide</h2>
+                        <p>Découvrez notre collection de parfums authentiques</p>
+                        <a href="boutique.html" class="btn-primary-large">Découvrir la boutique</a>
+                    </div>
+                </div>
+
+                <!-- Cart Summary -->
+                <div class="cart-sidebar">
+                    <div class="cart-summary">
+                        <h2>Récapitulatif</h2>
+
+                        <div class="summary-line">
+                            <span>Sous-total</span>
+                            <span id="subtotal">0€</span>
+                        </div>
+
+                        <div class="summary-line">
+                            <span>Livraison</span>
+                            <span id="shipping">Calculée à la prochaine étape</span>
+                        </div>
+
+                        <div class="promo-code">
+                            <input type="text" id="promoInput" placeholder="Code promo">
+                            <button onclick="applyPromo()">Appliquer</button>
+                        </div>
+
+                        <div id="discountLine" class="summary-line discount" style="display: none;">
+                            <span>Réduction</span>
+                            <span id="discount">-0€</span>
+                        </div>
+
+                        <div class="summary-total">
+                            <span>Total</span>
+                            <span id="total">0€</span>
+                        </div>
+
+                        <button class="btn-checkout" onclick="proceedToCheckout()">
+                            Commander
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+
+                        <a href="boutique.html" class="btn-continue-shopping">← Continuer mes achats</a>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="cart-trust">
+                        <div class="trust-item-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            <span>Paiement 100% sécurisé</span>
+                        </div>
+                        <div class="trust-item-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                                <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+                            </svg>
+                            <span>Livraison gratuite dès 49€</span>
+                        </div>
+                        <div class="trust-item-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                            <span>Retours sous 14 jours</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/cart.js"></script>
+</body>
+</html>
