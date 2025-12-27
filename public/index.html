@@ -103,75 +103,145 @@
         </nav>
     </header>
 
-    <!-- Hero Slider -->
+    <!-- Hero Slider - NOUVEAU DESIGN AVEC IMAGES -->
     <section class="hero-slider">
         <div class="slider-container">
+            <!-- Slide 1: Collection Luxe -->
             <div class="slide active" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2520 100%);">
                 <div class="slide-content">
                     <span class="slide-badge">EXCLUSIVITÉ DUBAÏ</span>
                     <h1 class="slide-title">L'Essence de Dubaï</h1>
                     <p class="slide-subtitle">Découvrez nos parfums authentiques à prix unique</p>
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                            <span>100% Authentique</span>
+                        </div>
+                        <div class="hero-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                                <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+                            </svg>
+                            <span>Livraison Gratuite dès 49€</span>
+                        </div>
+                    </div>
                     <a href="boutique.html" class="btn-primary-large">Découvrir la collection</a>
                 </div>
-                <div class="slide-image">
-                    <video
-                        autoplay
-                        loop
-                        muted
-                        playsinline
-                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
-                        <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255870/grok-video-62d89989-e362-4f7b-8748-be7160716d9d_y6gjhi.mp4" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo.
-                    </video>
+                <div class="slide-image-grid">
+                    <div class="hero-product-card">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546825/Dubai_Negoce_2_cq0vcx.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="hero-product-card featured">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546760/Dubai_Negoce_3_nq8tla.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="hero-product-card">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546729/Dubai_Negoce_1_gqxemw.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <!-- Slide 2: Best-Sellers -->
             <div class="slide" style="background: linear-gradient(135deg, #2c1810 0%, #1a1a1a 100%);">
                 <div class="slide-content">
                     <span class="slide-badge">BEST-SELLERS</span>
                     <h2 class="slide-title">Nos Incontournables</h2>
                     <p class="slide-subtitle">Les parfums préférés de nos clients</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <strong>2000+</strong>
+                            <span>Clients satisfaits</span>
+                        </div>
+                        <div class="stat">
+                            <strong>4.9/5</strong>
+                            <span>Note moyenne</span>
+                        </div>
+                    </div>
                     <a href="#best-sellers" class="btn-primary-large">Voir les best-sellers</a>
                 </div>
-                <div class="slide-image">
-                    <video
-                        autoplay
-                        loop
-                        muted
-                        playsinline
-                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
-                        <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255881/grok-video-00e16448-d9d4-42d7-b008-a52bb2d894e6_mrdac7.mp4" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo.
-                    </video>
+                <div class="slide-image-grid">
+                    <div class="hero-product-card">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546729/Dubai_Negoce_1_gqxemw.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="hero-product-card featured">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546825/Dubai_Negoce_2_cq0vcx.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="hero-product-card">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546760/Dubai_Negoce_3_nq8tla.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <!-- Slide 3: Nouveautés -->
             <div class="slide" style="background: linear-gradient(135deg, #1a2836 0%, #1a1a1a 100%);">
                 <div class="slide-content">
                     <span class="slide-badge">NOUVEAU</span>
                     <h2 class="slide-title">Dernières Nouveautés</h2>
                     <p class="slide-subtitle">Les nouvelles fragrances qui font sensation</p>
+                    <div class="hero-price-highlight">
+                        <span class="price-label">Prix unique</span>
+                        <span class="price">35€</span>
+                        <span class="price-detail">Tous nos parfums au même prix</span>
+                    </div>
                     <a href="#nouveautes" class="btn-primary-large">Découvrir</a>
                 </div>
-                <div class="slide-image">
-                    <video
-                        autoplay
-                        loop
-                        muted
-                        playsinline
-                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
-                        <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255913/grok-video-e0b263cc-d799-4eaf-af37-19a495bddfb7_gvix12.mp4" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo.
-                    </video>
+                <div class="slide-image-grid">
+                    <div class="hero-product-card">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546760/Dubai_Negoce_3_nq8tla.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="hero-product-card featured">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546729/Dubai_Negoce_1_gqxemw.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="hero-product-card">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546825/Dubai_Negoce_2_cq0vcx.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Slider Controls -->
+        <!-- Contrôles du slider -->
         <button class="slider-control prev" onclick="previousSlide()">‹</button>
         <button class="slider-control next" onclick="nextSlide()">›</button>
 
-        <!-- Slider Dots -->
+        <!-- Dots de navigation -->
         <div class="slider-dots">
             <button class="dot active" onclick="goToSlide(0)"></button>
             <button class="dot" onclick="goToSlide(1)"></button>
@@ -433,6 +503,308 @@
                         <a href="#" class="blog-link">Lire l'article →</a>
                     </div>
                 </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Pourquoi nous choisir -->
+    <section class="advantages-section" style="padding: 100px 0; background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+                <span class="section-badge" style="display: inline-block; padding: 8px 20px; background: var(--accent); color: white; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 15px;">POURQUOI NOUS?</span>
+                <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 15px;">Pourquoi choisir DubaiNegoce?</h2>
+                <p class="section-subtitle" style="font-size: 1.15rem; color: var(--text-secondary);">L'excellence et l'authenticité au meilleur prix</p>
+            </div>
+
+            <div class="advantages-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px;">
+                <div class="advantage-card" style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;">
+                    <div class="advantage-icon" style="width: 70px; height: 70px; margin: 0 auto 25px; padding: 18px; background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+                        ✓
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 15px; color: var(--text-primary);">100% Authentique</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Tous nos parfums sont importés directement de Dubaï et garantis authentiques. Certificats d'authenticité disponibles.</p>
+                </div>
+
+                <div class="advantage-card" style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;">
+                    <div class="advantage-icon" style="width: 70px; height: 70px; margin: 0 auto 25px; padding: 18px; background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+                        🚚
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 15px; color: var(--text-primary);">Livraison Rapide</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Livraison gratuite dès 49€. Expédition sous 24h-48h partout en France. Suivi en temps réel.</p>
+                </div>
+
+                <div class="advantage-card" style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;">
+                    <div class="advantage-icon" style="width: 70px; height: 70px; margin: 0 auto 25px; padding: 18px; background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+                        💰
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 15px; color: var(--text-primary);">Prix Imbattables</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Importation directe sans intermédiaires. Tous nos parfums à 35€. Luxe accessible à tous.</p>
+                </div>
+
+                <div class="advantage-card" style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;">
+                    <div class="advantage-icon" style="width: 70px; height: 70px; margin: 0 auto 25px; padding: 18px; background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+                        💎
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 15px; color: var(--text-primary);">Qualité Premium</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Parfums de grande qualité avec une tenue exceptionnelle de 8h minimum. Notes riches et complexes.</p>
+                </div>
+
+                <div class="advantage-card" style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;">
+                    <div class="advantage-icon" style="width: 70px; height: 70px; margin: 0 auto 25px; padding: 18px; background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+                        🔄
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 15px; color: var(--text-primary);">Satisfaction Garantie</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">14 jours pour changer d'avis. Service client réactif 7j/7. Remboursement ou échange garantis.</p>
+                </div>
+
+                <div class="advantage-card" style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); text-align: center; transition: transform 0.3s ease;">
+                    <div class="advantage-icon" style="width: 70px; height: 70px; margin: 0 auto 25px; padding: 18px; background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+                        ⭐
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 15px; color: var(--text-primary);">2000+ Clients Satisfaits</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Note moyenne de 4.9/5 sur plus de 800 avis vérifiés. Rejoignez nos milliers de clients satisfaits.</p>
+                </div>
+            </div>
+
+            <div class="stats-bar" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; padding: 50px; background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); border-radius: 20px; text-align: center;">
+                <div class="stat-item">
+                    <div class="stat-value" style="font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 700; color: white; line-height: 1; margin-bottom: 10px;">153+</div>
+                    <div class="stat-label" style="color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 500;">Parfums Disponibles</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" style="font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 700; color: white; line-height: 1; margin-bottom: 10px;">2000+</div>
+                    <div class="stat-label" style="color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 500;">Clients Satisfaits</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" style="font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 700; color: white; line-height: 1; margin-bottom: 10px;">4.9/5</div>
+                    <div class="stat-label" style="color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 500;">Note Moyenne</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" style="font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 700; color: white; line-height: 1; margin-bottom: 10px;">24h</div>
+                    <div class="stat-label" style="color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 500;">Expédition Rapide</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: FAQ -->
+    <section class="faq-section" style="padding: 100px 0;">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+                <span class="section-badge" style="display: inline-block; padding: 8px 20px; background: var(--accent); color: white; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 15px;">FAQ</span>
+                <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 15px;">Questions Fréquentes</h2>
+                <p class="section-subtitle" style="font-size: 1.15rem; color: var(--text-secondary);">Tout ce que vous devez savoir sur nos parfums</p>
+            </div>
+
+            <div class="faq-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto;">
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Vos parfums sont-ils authentiques ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Absolument ! Tous nos parfums sont 100% authentiques et importés directement de Dubaï. Nous travaillons uniquement avec des fournisseurs certifiés et pouvons fournir des certificats d'authenticité sur demande.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Quelle est la durée de livraison ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Nous expédions sous 24h-48h après validation de votre commande. La livraison prend généralement 2-4 jours ouvrés en France métropolitaine. Livraison gratuite dès 49€ d'achat.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Puis-je retourner un parfum ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Oui, vous disposez de 14 jours pour changer d'avis. Le parfum doit être non ouvert et dans son emballage d'origine. Contactez notre service client pour organiser le retour.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Quelle est la tenue des parfums ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Nos parfums orientaux ont une excellente tenue, généralement entre 8 et 12 heures. Les Eau de Parfum ont une concentration de 15-20%, assurant une diffusion longue durée.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Proposez-vous des échantillons ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Nous incluons gratuitement un échantillon surprise dans chaque commande. Des coffrets découverte avec plusieurs miniatures seront bientôt disponibles.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Quels moyens de paiement acceptez-vous ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Nous acceptons les cartes bancaires (Visa, Mastercard, American Express), PayPal et le paiement en 3x sans frais via Klarna. Paiement 100% sécurisé.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Livrez-vous en Belgique et Suisse ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Oui ! Nous livrons dans toute l'Europe. Les frais de livraison varient selon le pays. Contactez-nous pour obtenir un devis personnalisé.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" style="background: white; border-radius: 12px; box-shadow: var(--shadow-md); overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFAQ(this)" style="width: 100%; padding: 25px 30px; text-align: left; background: white; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; font-weight: 600; color: var(--text-primary); transition: background 0.3s ease;">
+                        <span>Comment choisir le bon parfum ?</span>
+                        <span class="faq-icon" style="font-size: 1.5rem; transition: transform 0.3s ease;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <div style="padding: 0 30px 25px 30px; color: var(--text-secondary); line-height: 1.7;">
+                            Utilisez nos filtres par famille olfactive (boisé, floral, oriental...) et lisez les descriptions détaillées. Notre service client est également disponible pour vous conseiller selon vos préférences.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Marques Partenaires -->
+    <section class="brands-section" style="padding: 100px 0; background: var(--bg-dark); color: white;">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+                <span class="section-badge" style="display: inline-block; padding: 8px 20px; background: var(--accent); color: white; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 15px;">NOS MARQUES</span>
+                <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 15px;">Marques Partenaires</h2>
+                <p class="section-subtitle" style="font-size: 1.15rem; opacity: 0.9;">Les plus grandes maisons de parfumerie orientale</p>
+            </div>
+
+            <div class="brands-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; margin-bottom: 60px;">
+                <div class="brand-card" style="background: rgba(255,255,255,0.05); padding: 40px; border-radius: 16px; text-align: center; border: 1px solid rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
+                    <div class="brand-logo" style="width: 120px; height: 120px; margin: 0 auto 25px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary);">
+                        LATTAFA
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 15px; color: var(--primary);">Lattafa</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.7; margin-bottom: 20px;">Marque emblématique de Dubai, connue pour ses parfums riches et durables inspirés des fragrances occidentales de luxe.</p>
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 20px; padding: 20px 0; border-top: 1px solid rgba(212, 175, 55, 0.2); border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">48</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Parfums</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">4.8★</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Note</div>
+                        </div>
+                    </div>
+                    <a href="boutique.html?brand=Lattafa" class="btn-primary" style="display: inline-block; padding: 12px 30px; background: var(--primary); color: var(--text-primary); border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.3s ease;">Découvrir →</a>
+                </div>
+
+                <div class="brand-card" style="background: rgba(255,255,255,0.05); padding: 40px; border-radius: 16px; text-align: center; border: 1px solid rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
+                    <div class="brand-logo" style="width: 120px; height: 120px; margin: 0 auto 25px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: var(--text-primary); text-align: center; padding: 10px;">
+                        MAISON<br>ALHAMBRA
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 15px; color: var(--primary);">Maison Alhambra</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.7; margin-bottom: 20px;">Collection de parfums de niche haut de gamme, réputée pour ses créations sophistiquées et ses dupes de luxe exceptionnels.</p>
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 20px; padding: 20px 0; border-top: 1px solid rgba(212, 175, 55, 0.2); border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">47</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Parfums</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">4.9★</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Note</div>
+                        </div>
+                    </div>
+                    <a href="boutique.html?brand=Maison Alhambra" class="btn-primary" style="display: inline-block; padding: 12px 30px; background: var(--primary); color: var(--text-primary); border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.3s ease;">Découvrir →</a>
+                </div>
+
+                <div class="brand-card" style="background: rgba(255,255,255,0.05); padding: 40px; border-radius: 16px; text-align: center; border: 1px solid rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
+                    <div class="brand-logo" style="width: 120px; height: 120px; margin: 0 auto 25px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: var(--text-primary); text-align: center; padding: 10px;">
+                        FRAGRANCE<br>WORLD
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 15px; color: var(--primary);">Fragrance World</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.7; margin-bottom: 20px;">Marque innovante proposant des alternatives abordables aux plus grands parfums de luxe avec une qualité irréprochable.</p>
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 20px; padding: 20px 0; border-top: 1px solid rgba(212, 175, 55, 0.2); border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">25</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Parfums</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">4.7★</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Note</div>
+                        </div>
+                    </div>
+                    <a href="boutique.html?brand=Fragrance World" class="btn-primary" style="display: inline-block; padding: 12px 30px; background: var(--primary); color: var(--text-primary); border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.3s ease;">Découvrir →</a>
+                </div>
+
+                <div class="brand-card" style="background: rgba(255,255,255,0.05); padding: 40px; border-radius: 16px; text-align: center; border: 1px solid rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
+                    <div class="brand-logo" style="width: 120px; height: 120px; margin: 0 auto 25px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: var(--text-primary); text-align: center; padding: 10px;">
+                        FRENCH<br>AVENUE
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 15px; color: var(--primary);">French Avenue</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.7; margin-bottom: 20px;">Collection exclusive alliant l'élégance française et la richesse orientale pour des créations olfactives uniques.</p>
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 20px; padding: 20px 0; border-top: 1px solid rgba(212, 175, 55, 0.2); border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">12</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Parfums</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">5.0★</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Note</div>
+                        </div>
+                    </div>
+                    <a href="boutique.html?brand=French Avenue" class="btn-primary" style="display: inline-block; padding: 12px 30px; background: var(--primary); color: var(--text-primary); border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.3s ease;">Découvrir →</a>
+                </div>
+
+                <div class="brand-card" style="background: rgba(255,255,255,0.05); padding: 40px; border-radius: 16px; text-align: center; border: 1px solid rgba(212, 175, 55, 0.2); transition: all 0.3s ease;">
+                    <div class="brand-logo" style="width: 120px; height: 120px; margin: 0 auto 25px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: var(--text-primary); text-align: center; padding: 10px;">
+                        DUBAI<br>PERFUMES
+                    </div>
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; margin-bottom: 15px; color: var(--primary);">Dubai Perfumes</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.7; margin-bottom: 20px;">Sélection premium de parfums orientaux authentiques, représentant la diversité et la richesse de la parfumerie de Dubai.</p>
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 20px; padding: 20px 0; border-top: 1px solid rgba(212, 175, 55, 0.2); border-bottom: 1px solid rgba(212, 175, 55, 0.2);">
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">21</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Parfums</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 700; color: var(--primary);">4.6★</div>
+                            <div style="font-size: 0.85rem; opacity: 0.8;">Note</div>
+                        </div>
+                    </div>
+                    <a href="boutique.html?brand=Dubai Perfumes" class="btn-primary" style="display: inline-block; padding: 12px 30px; background: var(--primary); color: var(--text-primary); border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.3s ease;">Découvrir →</a>
+                </div>
+            </div>
+
+            <div class="brands-trust" style="text-align: center; padding: 50px; background: rgba(212, 175, 55, 0.1); border-radius: 20px; border: 2px solid var(--primary);">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; margin-bottom: 20px; color: var(--primary);">Partenaires Officiels</h3>
+                <p style="font-size: 1.1rem; opacity: 0.9; max-width: 800px; margin: 0 auto;">Nous sommes fiers de travailler directement avec les plus grandes maisons de parfumerie de Dubai pour vous garantir l'authenticité et la qualité de chaque flacon.</p>
             </div>
         </div>
     </section>
