@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   loadLattafaProducts();
   initializeNewsletter();
   updateCartBadge();
+  initHeroVideoCarousel();
 });
 
 // Load all products
@@ -49,16 +50,38 @@ async function loadProducts() {
   }
 }
 
-// Load Best Sellers
+// Load Best Sellers - 4 produits iconiques
 function loadBestSellers() {
   const container = document.getElementById('bestSellersSlider');
   if (!container) return;
 
-  // Filter best sellers (you can add a bestSeller flag to products)
-  const bestSellers = allProducts
-    .filter(p => p.bestseller || p.rating >= 4.5)
-    .slice(0, 4);
+  // Produits iconiques sélectionnés manuellement par nom exact
+  const iconicProducts = [
+    'Khamrah 100 ml – Lattafa – Mixte',
+    'Yara 100 ml Lattafa-Femme',
+    'Ramz Gold 100ml – Lattafa mixte',
+    'Lovely Cherie 100ml Alhambra – Femme'
+  ];
 
+  // Trouver les produits iconiques
+  let bestSellers = [];
+  iconicProducts.forEach(name => {
+    const product = allProducts.find(p => p.name === name);
+    if (product) {
+      bestSellers.push(product);
+    }
+  });
+
+  // Si on n'a pas trouvé les 4, compléter avec les best-sellers par rating
+  if (bestSellers.length < 4) {
+    const additional = allProducts
+      .filter(p => !bestSellers.includes(p) && (p.bestseller || parseFloat(p.rating) >= 4.5))
+      .sort((a, b) => parseFloat(b.rating) - parseFloat(a.rating))
+      .slice(0, 4 - bestSellers.length);
+    bestSellers.push(...additional);
+  }
+
+  bestSellers = bestSellers.slice(0, 4);
   container.innerHTML = bestSellers.map(product => createProductCard(product)).join('');
 }
 
@@ -96,7 +119,10 @@ function createProductCard(product, compact = false) {
       <div class="product-image">
         ${product.bestseller ? '<span class="product-badge bestseller">Best-Seller</span>' : ''}
         ${product.nouveau || product.new ? '<span class="product-badge new">Nouveau</span>' : ''}
-        <img src="${product.image}" alt="${product.name}" loading="lazy">
+        <img src="${product.image}"
+             alt="${product.name}"
+             loading="lazy"
+             onerror="this.src='https://res.cloudinary.com/dzntnjtkc/image/upload/v1/placeholder-perfume.jpg'; this.classList.add('image-error');">
       </div>
       <div class="product-info">
         <div class="product-brand">${product.brand}</div>
@@ -375,3 +401,62 @@ style.textContent = `
 document.head.appendChild(style);
 
 console.log('🏠 Home page initialized');
+
+
+// FAQ Toggle Function
+window.toggleFAQ = function(button) {
+  const faqItem = button.closest('.faq-item');
+  const answer = faqItem.querySelector('.faq-answer');
+  const icon = button.querySelector('.faq-icon');
+  const wasActive = faqItem.classList.contains('active');
+
+  // Fermer tous les FAQs
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.classList.remove('active');
+    const ans = item.querySelector('.faq-answer');
+    const ic = item.querySelector('.faq-icon');
+    ans.style.maxHeight = '0';
+    ans.style.padding = '0 30px';
+    ic.textContent = '+';
+  });
+
+  // Ouvrir celui cliqué s'il n'était pas actif
+  if (!wasActive) {
+    faqItem.classList.add('active');
+    answer.style.maxHeight = answer.scrollHeight + 50 + 'px';
+    answer.style.padding = '0 30px 25px 30px';
+    icon.textContent = '−';
+  }
+};
+
+// ============================================
+// HERO VIDEO CAROUSEL
+// ============================================
+function initHeroVideoCarousel() {
+  // Sélectionner tous les conteneurs de vidéos dans le hero
+  const videoContainers = document.querySelectorAll('.slide-image-grid .video-container');
+
+  videoContainers.forEach(container => {
+    const videos = container.querySelectorAll('.hero-video');
+    if (videos.length <= 1) return; // Pas de carousel si 1 seule vidéo
+
+    let currentIndex = 0;
+
+    // Fonction pour changer de vidéo
+    function nextVideo() {
+      // Cacher la vidéo actuelle
+      videos[currentIndex].classList.remove('active');
+
+      // Passer à la suivante
+      currentIndex = (currentIndex + 1) % videos.length;
+
+      // Afficher la nouvelle vidéo
+      videos[currentIndex].classList.add('active');
+    }
+
+    // Changer de vidéo toutes les 4 secondes
+    setInterval(nextVideo, 4000);
+  });
+
+  console.log('🎬 Hero video carousel initialized');
+}

@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Start banner rotation
   startBannerRotation();
 
-  // Start hero slider
-  startHeroSlider();
+  // Show welcome modal
+  showWelcomeModal();
 
   // Setup header scroll effect
   setupHeaderScroll();
@@ -98,7 +98,10 @@ function renderProducts() {
     <div class="product-card fade-in">
       ${product.badge ? `<span class="product-badge">${product.badge}</span>` : ''}
       <div class="product-image">
-        <img src="${product.image}" alt="${product.name}" loading="lazy">
+        <img src="${product.image}"
+             alt="${product.name}"
+             loading="lazy"
+             onerror="this.src='https://res.cloudinary.com/dzntnjtkc/image/upload/v1/placeholder-perfume.jpg'; this.classList.add('image-error');">
         <button class="product-quick-view" onclick="openQuickView(${product.id})">
           Aperçu rapide
         </button>
@@ -469,77 +472,6 @@ window.closeQuickView = function() {
   }
 };
 
-// ========== HERO SLIDER ==========
-
-let currentSlide = 0;
-let sliderInterval;
-
-/**
- * Start automatic hero slider
- */
-function startHeroSlider() {
-  sliderInterval = setInterval(() => {
-    nextSlide();
-  }, 5000);
-}
-
-/**
- * Go to next slide
- */
-window.nextSlide = function() {
-  const slides = document.querySelectorAll('.slide');
-  const dots = document.querySelectorAll('.dot');
-
-  if (slides.length === 0) return;
-
-  slides[currentSlide].classList.remove('active');
-  dots[currentSlide].classList.remove('active');
-
-  currentSlide = (currentSlide + 1) % slides.length;
-
-  slides[currentSlide].classList.add('active');
-  dots[currentSlide].classList.add('active');
-};
-
-/**
- * Go to previous slide
- */
-window.previousSlide = function() {
-  const slides = document.querySelectorAll('.slide');
-  const dots = document.querySelectorAll('.dot');
-
-  if (slides.length === 0) return;
-
-  slides[currentSlide].classList.remove('active');
-  dots[currentSlide].classList.remove('active');
-
-  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-
-  slides[currentSlide].classList.add('active');
-  dots[currentSlide].classList.add('active');
-};
-
-/**
- * Go to specific slide
- */
-window.goToSlide = function(index) {
-  const slides = document.querySelectorAll('.slide');
-  const dots = document.querySelectorAll('.dot');
-
-  if (slides.length === 0) return;
-
-  slides[currentSlide].classList.remove('active');
-  dots[currentSlide].classList.remove('active');
-
-  currentSlide = index;
-
-  slides[currentSlide].classList.add('active');
-  dots[currentSlide].classList.add('active');
-
-  // Reset interval
-  clearInterval(sliderInterval);
-  startHeroSlider();
-};
 
 // ========== TOP BANNER ==========
 
@@ -570,6 +502,49 @@ window.closeBanner = function() {
     clearInterval(bannerInterval);
   }
 };
+
+// ========== WELCOME MODAL ==========
+
+/**
+ * Show welcome modal (only once per session)
+ */
+function showWelcomeModal() {
+  const modal = document.getElementById('welcomeModal');
+  if (!modal) return;
+
+  // Check if user has already seen the modal
+  const hasSeenWelcome = localStorage.getItem('hasSeenWelcome');
+
+  // Show modal after 1 second if user hasn't seen it
+  if (!hasSeenWelcome) {
+    setTimeout(() => {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }, 1000);
+  }
+}
+
+/**
+ * Close welcome modal
+ */
+window.closeWelcomeModal = function() {
+  const modal = document.getElementById('welcomeModal');
+  if (!modal) return;
+
+  modal.classList.remove('active');
+  document.body.style.overflow = '';
+
+  // Mark as seen in localStorage
+  localStorage.setItem('hasSeenWelcome', 'true');
+};
+
+// Close modal when clicking on overlay
+document.addEventListener('click', (e) => {
+  const modal = document.getElementById('welcomeModal');
+  if (modal && e.target.classList.contains('welcome-modal-overlay')) {
+    closeWelcomeModal();
+  }
+});
 
 // ========== HEADER EFFECTS ==========
 
@@ -824,10 +799,8 @@ window.openQuickView = openQuickView;
 window.closeQuickView = closeQuickView;
 window.resetFilters = resetFilters;
 window.toggleMobileFilters = toggleMobileFilters;
-window.nextSlide = nextSlide;
-window.previousSlide = previousSlide;
-window.goToSlide = goToSlide;
 window.closeBanner = closeBanner;
+window.closeWelcomeModal = closeWelcomeModal;
 window.showToast = showToast;
 window.updateCartUI = updateCartUI;
 window.saveCartToStorage = saveCartToStorage;

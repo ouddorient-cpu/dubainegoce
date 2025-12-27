@@ -1,0 +1,797 @@
+{
+  "timestamp": "2025-12-27T09:08:03.586Z",
+  "totalImages": 120,
+  "matched": 92,
+  "unmatched": 28,
+  "productsUpdated": 92,
+  "details": {
+    "matched": [
+      {
+        "filename": "al-noble-safeer-lattafa.png",
+        "productId": "prod-1829",
+        "productName": "Al Noble Safeer 100ml – Lattafa",
+        "score": 35,
+        "imageUrl": "/al-noble-safeer-lattafa.png"
+      },
+      {
+        "filename": "al-noble-wazeer-lattafa.png",
+        "productId": "prod-1840",
+        "productName": "Al Noble Wazeer – Lattafa",
+        "score": 35,
+        "imageUrl": "/al-noble-wazeer-lattafa.png"
+      },
+      {
+        "filename": "barakkat-rouge-540-white-fragrance-world.png",
+        "productId": "prod-1801",
+        "productName": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "score": 30,
+        "imageUrl": "/barakkat-rouge-540-white-fragrance-world.png"
+      },
+      {
+        "filename": "baroque-rouge-extrait-maison-alhambra.png",
+        "productId": "prod-1881",
+        "productName": "Baroque Rouge Extrait Maison Alhambra 100ml",
+        "score": 45,
+        "imageUrl": "/baroque-rouge-extrait-maison-alhambra.png"
+      },
+      {
+        "filename": "black-afgano-extract-30-ml-nasomatto.png",
+        "productId": "prod-1916",
+        "productName": "Black Afgano parfum de fragrance world",
+        "score": 30,
+        "imageUrl": "/black-afgano-extract-30-ml-nasomatto.png"
+      },
+      {
+        "filename": "cocktail-intense-fragrance-world-1.png",
+        "productId": "prod-1930",
+        "productName": "Cocktail Intense – Fragrance World",
+        "score": 30,
+        "imageUrl": "/cocktail-intense-fragrance-world-1.png"
+      },
+      {
+        "filename": "cocktail-intense-fragrance-world.png",
+        "productId": "prod-1930",
+        "productName": "Cocktail Intense – Fragrance World",
+        "score": 30,
+        "imageUrl": "/cocktail-intense-fragrance-world.png"
+      },
+      {
+        "filename": "confidential-platinum.png",
+        "productId": "prod-1807",
+        "productName": "Confidential Platinum Lattafa",
+        "score": 30,
+        "imageUrl": "/confidential-platinum.png"
+      },
+      {
+        "filename": "confidential-private-gold.png",
+        "productId": "prod-1807",
+        "productName": "Confidential Platinum Lattafa",
+        "score": 15,
+        "imageUrl": "/confidential-private-gold.png"
+      },
+      {
+        "filename": "crafted-oud-zaffiro-collection-100-ml-maison-alhambra.png",
+        "productId": "prod-2835",
+        "productName": "Zaffiro Collection Crafted Oud",
+        "score": 45,
+        "imageUrl": "/crafted-oud-zaffiro-collection-100-ml-maison-alhambra.png"
+      },
+      {
+        "filename": "cuir-leather-fragrance-world.png",
+        "productId": "prod-1821",
+        "productName": "TOSCANO LEATHER  Alhambra",
+        "score": 15,
+        "imageUrl": "/cuir-leather-fragrance-world.png"
+      },
+      {
+        "filename": "de-agua-de-al-noble-safeer.png",
+        "productId": "prod-1829",
+        "productName": "Al Noble Safeer 100ml – Lattafa",
+        "score": 30,
+        "imageUrl": "/de-agua-de-al-noble-safeer.png"
+      },
+      {
+        "filename": "ejaazi-s-lattafa.png",
+        "productId": "prod-1804",
+        "productName": "Ejaazi - Mixte",
+        "score": 20,
+        "imageUrl": "/ejaazi-s-lattafa.png"
+      },
+      {
+        "filename": "eternal-oud-lattafa.png",
+        "productId": "prod-1873",
+        "productName": "Eternal Oud de Lattafa Pride",
+        "score": 20,
+        "imageUrl": "/eternal-oud-lattafa.png"
+      },
+      {
+        "filename": "extreme-aoud-fragrance-world.png",
+        "productId": "prod-1921",
+        "productName": "Extreme aoud Fragrance world",
+        "score": 15,
+        "imageUrl": "/extreme-aoud-fragrance-world.png"
+      },
+      {
+        "filename": "fakhar-rose-lattafa.png",
+        "productId": "prod-1802",
+        "productName": "Fakhar Black Eau de Parfum 100 ml",
+        "score": 20,
+        "imageUrl": "/fakhar-rose-lattafa.png"
+      },
+      {
+        "filename": "fakhar-silver-lattafa.png",
+        "productId": "prod-1796",
+        "productName": "Ramz Silver Lattafa",
+        "score": 20,
+        "imageUrl": "/fakhar-silver-lattafa.png"
+      },
+      {
+        "filename": "francique-107-9.png",
+        "productId": "prod-1871",
+        "productName": "Francique 107.9 Fragrance World",
+        "score": 15,
+        "imageUrl": "/francique-107-9.png"
+      },
+      {
+        "filename": "francique-63-55-01.png",
+        "productId": "prod-1871",
+        "productName": "Francique 107.9 Fragrance World",
+        "score": 15,
+        "imageUrl": "/francique-63-55-01.png"
+      },
+      {
+        "filename": "francique-63-55.png",
+        "productId": "prod-1871",
+        "productName": "Francique 107.9 Fragrance World",
+        "score": 15,
+        "imageUrl": "/francique-63-55.png"
+      },
+      {
+        "filename": "fresh-as-citrus-852x800.png",
+        "productId": "prod-1879",
+        "productName": "Fresh Citrus Fragrance world",
+        "score": 30,
+        "imageUrl": "/fresh-as-citrus-852x800.png"
+      },
+      {
+        "filename": "fresh-as-citrus-fragrance-world.png",
+        "productId": "prod-1879",
+        "productName": "Fresh Citrus Fragrance world",
+        "score": 30,
+        "imageUrl": "/fresh-as-citrus-fragrance-world.png"
+      },
+      {
+        "filename": "grise-lattafa.png",
+        "productId": "prod-1812",
+        "productName": "Grise Maison Alhambra | Eau De Parfum 100ml |",
+        "score": 15,
+        "imageUrl": "/grise-lattafa.png"
+      },
+      {
+        "filename": "infini-rose-elixir-maison-alhambra.png",
+        "productId": "prod-1824",
+        "productName": "Eau de parfum Infini Oud 100ml – Maison Alhambra Mixte",
+        "score": 15,
+        "imageUrl": "/infini-rose-elixir-maison-alhambra.png"
+      },
+      {
+        "filename": "infini-rose-maison-alhambra.png",
+        "productId": "prod-1824",
+        "productName": "Eau de parfum Infini Oud 100ml – Maison Alhambra Mixte",
+        "score": 15,
+        "imageUrl": "/infini-rose-maison-alhambra.png"
+      },
+      {
+        "filename": "infini-rose.png",
+        "productId": "prod-1824",
+        "productName": "Eau de parfum Infini Oud 100ml – Maison Alhambra Mixte",
+        "score": 15,
+        "imageUrl": "/infini-rose.png"
+      },
+      {
+        "filename": "invicto-3-4-fl-oz-fragrance-world.png",
+        "productId": "prod-1926",
+        "productName": "Invicto - Fragrance World",
+        "score": 15,
+        "imageUrl": "/invicto-3-4-fl-oz-fragrance-world.png"
+      },
+      {
+        "filename": "jean-lowe-nouveau-3-4-ounce-maison-alhambra.png",
+        "productId": "prod-1854",
+        "productName": "So Candid -Alhambra",
+        "score": 15,
+        "imageUrl": "/jean-lowe-nouveau-3-4-ounce-maison-alhambra.png"
+      },
+      {
+        "filename": "jorge-di-profumo-maison-alhambra.png",
+        "productId": "prod-1867",
+        "productName": "Jorge Di Profumo Maison Alhambra",
+        "score": 30,
+        "imageUrl": "/jorge-di-profumo-maison-alhambra.png"
+      },
+      {
+        "filename": "karat-e-maison-alhambra-1.png",
+        "productId": "prod-1854",
+        "productName": "So Candid -Alhambra",
+        "score": 15,
+        "imageUrl": "/karat-e-maison-alhambra-1.png"
+      },
+      {
+        "filename": "karat-e-maison-alhambra.png",
+        "productId": "prod-1854",
+        "productName": "So Candid -Alhambra",
+        "score": 15,
+        "imageUrl": "/karat-e-maison-alhambra.png"
+      },
+      {
+        "filename": "karat-maison-alhambra.png",
+        "productId": "prod-1854",
+        "productName": "So Candid -Alhambra",
+        "score": 15,
+        "imageUrl": "/karat-maison-alhambra.png"
+      },
+      {
+        "filename": "khamrah-lattafa.png",
+        "productId": "prod-1799",
+        "productName": "Khamrah Lattafa",
+        "score": 20,
+        "imageUrl": "/khamrah-lattafa.png"
+      },
+      {
+        "filename": "khamrah-qahwa-worldwide-lattafa.png",
+        "productId": "prod-1799",
+        "productName": "Khamrah Lattafa",
+        "score": 20,
+        "imageUrl": "/khamrah-qahwa-worldwide-lattafa.png"
+      },
+      {
+        "filename": "kismet-apa-de-pentru-femei-maison-alhambra-1.png",
+        "productId": "prod-1827",
+        "productName": "Kismet for women Alhambra",
+        "score": 15,
+        "imageUrl": "/kismet-apa-de-pentru-femei-maison-alhambra-1.png"
+      },
+      {
+        "filename": "kismet-apa-de-pentru-femei-maison-alhambra-2.png",
+        "productId": "prod-1827",
+        "productName": "Kismet for women Alhambra",
+        "score": 15,
+        "imageUrl": "/kismet-apa-de-pentru-femei-maison-alhambra-2.png"
+      },
+      {
+        "filename": "kismet-apa-de-pentru-femei-maison-alhambra.png",
+        "productId": "prod-1827",
+        "productName": "Kismet for women Alhambra",
+        "score": 15,
+        "imageUrl": "/kismet-apa-de-pentru-femei-maison-alhambra.png"
+      },
+      {
+        "filename": "kismet-for-man-top-niche-fragrance-maison-alhambra.png",
+        "productId": "prod-1827",
+        "productName": "Kismet for women Alhambra",
+        "score": 15,
+        "imageUrl": "/kismet-for-man-top-niche-fragrance-maison-alhambra.png"
+      },
+      {
+        "filename": "kismet-moscow-100-ml-maison-alhambra.png",
+        "productId": "prod-1838",
+        "productName": "Kismet moscow Maison Alhambra Unisex",
+        "score": 30,
+        "imageUrl": "/kismet-moscow-100-ml-maison-alhambra.png"
+      },
+      {
+        "filename": "maahir-100-ml-lattafa.png",
+        "productId": "prod-1806",
+        "productName": "Maahir Lattafa- eau de toilette -100ml",
+        "score": 20,
+        "imageUrl": "/maahir-100-ml-lattafa.png"
+      },
+      {
+        "filename": "maison-alhambra-jardin-de-paris-lattafa.png",
+        "productId": "prod-1826",
+        "productName": "MINERVA Inspired by Memo Paris",
+        "score": 15,
+        "imageUrl": "/maison-alhambra-jardin-de-paris-lattafa.png"
+      },
+      {
+        "filename": "maison-alhambra-jorge-di-profumo-deep-blue-for-maison-alha-lattafa.png",
+        "productId": "prod-1867",
+        "productName": "Jorge Di Profumo Maison Alhambra",
+        "score": 30,
+        "imageUrl": "/maison-alhambra-jorge-di-profumo-deep-blue-for-maison-alha-lattafa.png"
+      },
+      {
+        "filename": "majdal-sultan-brown-homme-lattafa.png",
+        "productId": "prod-1846",
+        "productName": "Majd Al Sultan – Lattafa",
+        "score": 20,
+        "imageUrl": "/majdal-sultan-brown-homme-lattafa.png"
+      },
+      {
+        "filename": "masculino-fakhar-black-lattafa.png",
+        "productId": "prod-1802",
+        "productName": "Fakhar Black Eau de Parfum 100 ml",
+        "score": 35,
+        "imageUrl": "/masculino-fakhar-black-lattafa.png"
+      },
+      {
+        "filename": "matiere-alhambra-jean-lowe.png",
+        "productId": "prod-1822",
+        "productName": "Matière – Jean Lowe",
+        "score": 15,
+        "imageUrl": "/matiere-alhambra-jean-lowe.png"
+      },
+      {
+        "filename": "mayar-s-floral-fruity-and-amber-scent-lattafa.png",
+        "productId": "prod-1852",
+        "productName": "Mayar – Lattafa Parfums",
+        "score": 20,
+        "imageUrl": "/mayar-s-floral-fruity-and-amber-scent-lattafa.png"
+      },
+      {
+        "filename": "mayar-women.png",
+        "productId": "prod-1827",
+        "productName": "Kismet for women Alhambra",
+        "score": 15,
+        "imageUrl": "/mayar-women.png"
+      },
+      {
+        "filename": "minerva.png",
+        "productId": "prod-1826",
+        "productName": "MINERVA Inspired by Memo Paris",
+        "score": 45,
+        "imageUrl": "/minerva.png"
+      },
+      {
+        "filename": "mocha-wood-world-s.png",
+        "productId": "prod-1919",
+        "productName": "Mocha Wood – Fragrance World",
+        "score": 15,
+        "imageUrl": "/mocha-wood-world-s.png"
+      },
+      {
+        "filename": "montera-rouge-tobacco-1.png",
+        "productId": "prod-1801",
+        "productName": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "score": 15,
+        "imageUrl": "/montera-rouge-tobacco-1.png"
+      },
+      {
+        "filename": "montera-rouge-tobacco.png",
+        "productId": "prod-1801",
+        "productName": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "score": 15,
+        "imageUrl": "/montera-rouge-tobacco.png"
+      },
+      {
+        "filename": "my-rose-sublime.png",
+        "productId": "prod-4194",
+        "productName": "Fleur de Coton – Collection Coton d’Or Sublime Eau de Parfum",
+        "score": 15,
+        "imageUrl": "/my-rose-sublime.png"
+      },
+      {
+        "filename": "najdia-tribute-4-oz-men-lattafa.png",
+        "productId": "prod-1832",
+        "productName": "Najdia – Lattafa – 100ml",
+        "score": 20,
+        "imageUrl": "/najdia-tribute-4-oz-men-lattafa.png"
+      },
+      {
+        "filename": "ombre-jean-lowe-1.png",
+        "productId": "prod-1857",
+        "productName": "Jean Lowe Ombre",
+        "score": 15,
+        "imageUrl": "/ombre-jean-lowe-1.png"
+      },
+      {
+        "filename": "ombre-jean-lowe.png",
+        "productId": "prod-1857",
+        "productName": "Jean Lowe Ombre",
+        "score": 15,
+        "imageUrl": "/ombre-jean-lowe.png"
+      },
+      {
+        "filename": "opera-noir-maison-alhambra.png",
+        "productId": "prod-1843",
+        "productName": "Opera Noir – Maison Alhambra",
+        "score": 15,
+        "imageUrl": "/opera-noir-maison-alhambra.png"
+      },
+      {
+        "filename": "optimysitc-white-3-4-fl-oz-fragrance-world.png",
+        "productId": "prod-1801",
+        "productName": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "score": 15,
+        "imageUrl": "/optimysitc-white-3-4-fl-oz-fragrance-world.png"
+      },
+      {
+        "filename": "optimystic-black-3-3oz-intense-fragrance-world.png",
+        "productId": "prod-1802",
+        "productName": "Fakhar Black Eau de Parfum 100 ml",
+        "score": 15,
+        "imageUrl": "/optimystic-black-3-3oz-intense-fragrance-world.png"
+      },
+      {
+        "filename": "oud-mood-silver-reminiscence-100-ml-women-lattafa.png",
+        "productId": "prod-1796",
+        "productName": "Ramz Silver Lattafa",
+        "score": 20,
+        "imageUrl": "/oud-mood-silver-reminiscence-100-ml-women-lattafa.png"
+      },
+      {
+        "filename": "pendora-scents-tudor-100-ml-paris-corner.png",
+        "productId": "prod-1927",
+        "productName": "Tudor Paris corner",
+        "score": 45,
+        "imageUrl": "/pendora-scents-tudor-100-ml-paris-corner.png"
+      },
+      {
+        "filename": "porto-neroli-80-ml-super-rich-uae-version-maison-alhambra.png",
+        "productId": "prod-1868",
+        "productName": "Porto Néroli – Maison Alhambra",
+        "score": 30,
+        "imageUrl": "/porto-neroli-80-ml-super-rich-uae-version-maison-alhambra.png"
+      },
+      {
+        "filename": "pride-tharwah-gold-natural-lattafa.png",
+        "productId": "prod-1859",
+        "productName": "Tharwah Gold Lattafa Pride",
+        "score": 35,
+        "imageUrl": "/pride-tharwah-gold-natural-lattafa.png"
+      },
+      {
+        "filename": "pure-passion-vapaoris-fragrance-world.png",
+        "productId": "prod-1924",
+        "productName": "Pure passion de Fragrance World",
+        "score": 15,
+        "imageUrl": "/pure-passion-vapaoris-fragrance-world.png"
+      },
+      {
+        "filename": "raghba-lattafa.png",
+        "productId": "prod-1798",
+        "productName": "Raghba 100 ml – Lattafa-Mixte",
+        "score": 20,
+        "imageUrl": "/raghba-lattafa.png"
+      },
+      {
+        "filename": "ramz-silver-lattafa-1.png",
+        "productId": "prod-1796",
+        "productName": "Ramz Silver Lattafa",
+        "score": 20,
+        "imageUrl": "/ramz-silver-lattafa-1.png"
+      },
+      {
+        "filename": "ramz-silver-lattafa.png",
+        "productId": "prod-1796",
+        "productName": "Ramz Silver Lattafa",
+        "score": 20,
+        "imageUrl": "/ramz-silver-lattafa.png"
+      },
+      {
+        "filename": "ramz.png",
+        "productId": "prod-1796",
+        "productName": "Ramz Silver Lattafa",
+        "score": 30,
+        "imageUrl": "/ramz.png"
+      },
+      {
+        "filename": "s-ana-abiyedh-rouge-2-0-ounce-60-ml-lattafa.png",
+        "productId": "prod-1801",
+        "productName": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "score": 35,
+        "imageUrl": "/s-ana-abiyedh-rouge-2-0-ounce-60-ml-lattafa.png"
+      },
+      {
+        "filename": "s-tour-de-havana-fragrance-world-1.png",
+        "productId": "prod-1920",
+        "productName": "Tour De Havana de Fragrance World",
+        "score": 15,
+        "imageUrl": "/s-tour-de-havana-fragrance-world-1.png"
+      },
+      {
+        "filename": "s-tour-de-havana-fragrance-world.png",
+        "productId": "prod-1920",
+        "productName": "Tour De Havana de Fragrance World",
+        "score": 15,
+        "imageUrl": "/s-tour-de-havana-fragrance-world.png"
+      },
+      {
+        "filename": "saffron-arabesc-dubai-inspirat-din-maison-alhambra.png",
+        "productId": "prod-1854",
+        "productName": "So Candid -Alhambra",
+        "score": 15,
+        "imageUrl": "/saffron-arabesc-dubai-inspirat-din-maison-alhambra.png"
+      },
+      {
+        "filename": "safwaan-l-autre-oud-lattafa.png",
+        "productId": "prod-1814",
+        "productName": "Safwaan L’autre musk – Lattafa",
+        "score": 35,
+        "imageUrl": "/safwaan-l-autre-oud-lattafa.png"
+      },
+      {
+        "filename": "safwaan-lattafa.png",
+        "productId": "prod-1814",
+        "productName": "Safwaan L’autre musk – Lattafa",
+        "score": 20,
+        "imageUrl": "/safwaan-lattafa.png"
+      },
+      {
+        "filename": "sakeena-mujer-100-ml-lattafa.png",
+        "productId": "prod-1851",
+        "productName": "Parfum Sakeena – Lattafa100ml",
+        "score": 20,
+        "imageUrl": "/sakeena-mujer-100-ml-lattafa.png"
+      },
+      {
+        "filename": "suits-perfumy-arabskie-fragrance-world.png",
+        "productId": "prod-2840",
+        "productName": "suits fragrance world",
+        "score": 15,
+        "imageUrl": "/suits-perfumy-arabskie-fragrance-world.png"
+      },
+      {
+        "filename": "tempete-jacques-yves-s-fragrance-world.png",
+        "productId": "prod-2708",
+        "productName": "Tempête – Jacques Yves 100ml Parfums",
+        "score": 30,
+        "imageUrl": "/tempete-jacques-yves-s-fragrance-world.png"
+      },
+      {
+        "filename": "teriaq-para-mulheres-e-homens-lattafa.png",
+        "productId": "prod-2618",
+        "productName": "Teriaq Parfums  Lattafa mixte",
+        "score": 20,
+        "imageUrl": "/teriaq-para-mulheres-e-homens-lattafa.png"
+      },
+      {
+        "filename": "tharwah-gold-pride-free-express-shipping-lattafa.png",
+        "productId": "prod-1859",
+        "productName": "Tharwah Gold Lattafa Pride",
+        "score": 35,
+        "imageUrl": "/tharwah-gold-pride-free-express-shipping-lattafa.png"
+      },
+      {
+        "filename": "toscano-leather-maison-alhambra.png",
+        "productId": "prod-1821",
+        "productName": "TOSCANO LEATHER  Alhambra",
+        "score": 30,
+        "imageUrl": "/toscano-leather-maison-alhambra.png"
+      },
+      {
+        "filename": "tour-de-havana-fragrance-world.png",
+        "productId": "prod-1920",
+        "productName": "Tour De Havana de Fragrance World",
+        "score": 15,
+        "imageUrl": "/tour-de-havana-fragrance-world.png"
+      },
+      {
+        "filename": "vanilla-so-sweet-uae-fragrance-world.png",
+        "productId": "prod-3913",
+        "productName": "Sweet Paradise – French Avenue",
+        "score": 15,
+        "imageUrl": "/vanilla-so-sweet-uae-fragrance-world.png"
+      },
+      {
+        "filename": "velvet-oud-lattafa.png",
+        "productId": "prod-1817",
+        "productName": "Velvet Oud – Lattafa Parfum",
+        "score": 20,
+        "imageUrl": "/velvet-oud-lattafa.png"
+      },
+      {
+        "filename": "victorioso-victory.png",
+        "productId": "prod-1880",
+        "productName": "Victorioso Victory Maison Alhambra",
+        "score": 30,
+        "imageUrl": "/victorioso-victory.png"
+      },
+      {
+        "filename": "white-as-tuberose-fragrance-world.png",
+        "productId": "prod-1801",
+        "productName": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "score": 15,
+        "imageUrl": "/white-as-tuberose-fragrance-world.png"
+      },
+      {
+        "filename": "winsome-the-tux-90-ml-maison-alhambra.png",
+        "productId": "prod-1854",
+        "productName": "So Candid -Alhambra",
+        "score": 15,
+        "imageUrl": "/winsome-the-tux-90-ml-maison-alhambra.png"
+      },
+      {
+        "filename": "woody-oud-maison-alhambra.png",
+        "productId": "prod-1794",
+        "productName": "Woody Oud 80 ml – Maison Alhambra",
+        "score": 15,
+        "imageUrl": "/woody-oud-maison-alhambra.png"
+      },
+      {
+        "filename": "yeah-maison-alhambra.png",
+        "productId": "prod-1854",
+        "productName": "So Candid -Alhambra",
+        "score": 15,
+        "imageUrl": "/yeah-maison-alhambra.png"
+      },
+      {
+        "filename": "zaffiro-collection-regale-100-ml-maison-alhambra.png",
+        "productId": "prod-2824",
+        "productName": "zaffiro regale by maison alhambra UNISEX",
+        "score": 30,
+        "imageUrl": "/zaffiro-collection-regale-100-ml-maison-alhambra.png"
+      },
+      {
+        "filename": "zaffiro-collection-regale.png",
+        "productId": "prod-2824",
+        "productName": "zaffiro regale by maison alhambra UNISEX",
+        "score": 30,
+        "imageUrl": "/zaffiro-collection-regale.png"
+      },
+      {
+        "filename": "zaffiro-crafted-oud-100-ml-niche-uae-version-maison-alhambra.png",
+        "productId": "prod-2835",
+        "productName": "Zaffiro Collection Crafted Oud",
+        "score": 30,
+        "imageUrl": "/zaffiro-crafted-oud-100-ml-niche-uae-version-maison-alhambra.png"
+      },
+      {
+        "filename": "zarah-oud-highness-zarah-2-7-oz-1.png",
+        "productId": "prod-2837",
+        "productName": "Oud highness Paris corner",
+        "score": 15,
+        "imageUrl": "/zarah-oud-highness-zarah-2-7-oz-1.png"
+      },
+      {
+        "filename": "zarah-oud-highness-zarah-2-7-oz.png",
+        "productId": "prod-2837",
+        "productName": "Oud highness Paris corner",
+        "score": 15,
+        "imageUrl": "/zarah-oud-highness-zarah-2-7-oz.png"
+      }
+    ],
+    "unmatched": [
+      {
+        "filename": "alhambra-narissa-for-her-eau-de-long-lasting-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "asad-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "bright-peach.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "dark-as-wood-fragrance-world.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "golde-1.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "jack-of-clubs-fragrance-world.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "khamra-qahwa-100-ml.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "king-fragrance-world.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "monocline-01.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "musk-mood-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "now-rave.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "oip-11.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "opulent-musk-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "opulent-oud-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "oud-mood-elixir.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "oud-mood-gold.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "patchouli-jean-couturier.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "purple-wood.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "qaa-ed-3-4-fl-oz-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "qaa-ed-al-fursan-90-ml-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "rose-khayali-jean-couturier-1.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "rose-khayali-jean-couturier.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "s-bade-e-al-oud-amethyst-lattafa.png",
+        "bestCandidate": "Ramz Silver Lattafa",
+        "score": 5
+      },
+      {
+        "filename": "s-l500-91.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "t-l-chargement-9.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "t-l-chargement.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "untitled-1-a03fd66f-ed5f-4c92-bf5c-660a6afb4e23-jpeg.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "wafa.png",
+        "bestCandidate": "Aucun",
+        "score": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1449 @@
+{
+  "timestamp": "2025-12-26T08:05:32.016Z",
+  "cloudinary": {
+    "cloud_name": "dzntnjtkc",
+    "totalImages": 335
+  },
+  "matching": {
+    "total": 153,
+    "matched": 55,
+    "unmatched": 98,
+    "matchRate": "35.95%"
+  },
+  "byBrand": {
+    "Maison Alhambra": {
+      "matched": 16,
+      "total": 47
+    },
+    "Lattafa": {
+      "matched": 16,
+      "total": 48
+    },
+    "Fragrance World": {
+      "matched": 12,
+      "total": 25
+    },
+    "Dubai Perfumes": {
+      "matched": 5,
+      "total": 21
+    },
+    "French Avenue": {
+      "matched": 6,
+      "total": 12
+    }
+  },
+  "matchedProducts": [
+    {
+      "productName": "Ramz Silver Lattafa",
+      "brand": "Lattafa",
+      "imageName": "Ramz_Lattafa_SilveR-Photoroom_zepppb",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796096/Ramz_Lattafa_SilveR-Photoroom_zepppb.jpg"
+    },
+    {
+      "productName": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+      "brand": "Lattafa",
+      "imageName": "I-am-white-Ana-Abiyedh-Photoroom_xmhrls",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798654/I-am-white-Ana-Abiyedh-Photoroom_xmhrls.png"
+    },
+    {
+      "productName": "Fakhar Black Eau de Parfum 100 ml",
+      "brand": "Lattafa",
+      "imageName": "Fakhar_rose_eau_de_parfum_lattafa_100ml-1-Photoroom-Photoroom_nwrkhf",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798652/Fakhar_rose_eau_de_parfum_lattafa_100ml-1-Photoroom-Photoroom_nwrkhf.png"
+    },
+    {
+      "productName": "Eau de Parfum Fakhar Lattafa Rose Gold 100ml de Lattafa",
+      "brand": "Lattafa",
+      "imageName": "FRENCHAVENUE/Je ne vois pas de parfum sur cette image Limage montre une femme portant un pyjama  carreaux roses et blancs",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766511211/FRENCHAVENUE/Je%20ne%20vois%20pas%20de%20parfum%20sur%20cette%20image%20Limage%20montre%20une%20femme%20portant%20un%20pyjama%20%20carreaux%20roses%20et%20blancs.jpg"
+    },
+    {
+      "productName": "I am white Ana Abiyedh 60ml – Lattafa",
+      "brand": "Lattafa",
+      "imageName": "I-am-white-Ana-Abiyedh-Photoroom_xmhrls",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798654/I-am-white-Ana-Abiyedh-Photoroom_xmhrls.png"
+    },
+    {
+      "productName": "Eau de parfum Safwaan ( 100ml –L’autre oud) Lattafa",
+      "brand": "Lattafa",
+      "imageName": "parfum-Safwaan_qge7xj",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735865/parfum-Safwaan_qge7xj.jpg"
+    },
+    {
+      "productName": "TOSCANO LEATHER  Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "Maison_Alhambra_Toscano_Leather-1-Photoroom-Photoroom_plwvvw",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796078/Maison_Alhambra_Toscano_Leather-1-Photoroom-Photoroom_plwvvw.jpg"
+    },
+    {
+      "productName": "Matière – Jean Lowe",
+      "brand": "Maison Alhambra",
+      "imageName": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg"
+    },
+    {
+      "productName": "Kismet for women Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "Maison_Alhambra_Kismet_For_Women___Apa_de_Parfum_Pentru_Femei_100ml-1-1-Photoroom-Photoroom_de3jcn",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796078/Maison_Alhambra_Kismet_For_Women___Apa_de_Parfum_Pentru_Femei_100ml-1-1-Photoroom-Photoroom_de3jcn.jpg"
+    },
+    {
+      "productName": "Al Noble Safeer 100ml – Lattafa",
+      "brand": "Lattafa",
+      "imageName": "al-noble-safeer_lxmykc",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796062/al-noble-safeer_lxmykc.jpg"
+    },
+    {
+      "productName": "Al Noble Wazeer – Lattafa",
+      "brand": "Lattafa",
+      "imageName": "al-noble---wazeer_om3g6z",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796065/al-noble---wazeer_om3g6z.jpg"
+    },
+    {
+      "productName": "Opera Noir – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "opera_noir-Photoroom_l8n7bz",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796089/opera_noir-Photoroom_l8n7bz.jpg"
+    },
+    {
+      "productName": "Majd Al Sultan – Lattafa",
+      "brand": "Lattafa",
+      "imageName": "Lattafa___Majdal_Sultan_Brown_100ML_Eau_de_parfum_homme-1-Photoroom-Photoroom_levitq",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796069/Lattafa___Majdal_Sultan_Brown_100ML_Eau_de_parfum_homme-1-Photoroom-Photoroom_levitq.jpg"
+    },
+    {
+      "productName": "Pure Oudi Lattafa Parfum",
+      "brand": "Lattafa",
+      "imageName": "pure-oudi-lattafa_jpqg00",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735866/pure-oudi-lattafa_jpqg00.png"
+    },
+    {
+      "productName": "Oud Mood Reminiscence – Lattafa",
+      "brand": "Lattafa",
+      "imageName": "Lattafa_Oud_Mood_Silver_Reminiscence_Edp_Perfume___100_Ml__for_Men___Women__-Photoroom-Photoroom_xhxnd3",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796069/Lattafa_Oud_Mood_Silver_Reminiscence_Edp_Perfume___100_Ml__for_Men___Women__-Photoroom-Photoroom_xhxnd3.jpg"
+    },
+    {
+      "productName": "Jean Lowe Nouveau Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg"
+    },
+    {
+      "productName": "Jean Lowe Ombre",
+      "brand": "Maison Alhambra",
+      "imageName": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg"
+    },
+    {
+      "productName": "Tharwah Gold Lattafa Pride",
+      "brand": "Lattafa",
+      "imageName": "Lattafa_Pride_Tharwah_Gold_Natural_Spray_Eau_De_Parfum_For_Unisex_100ml-1-Photoroom-Photoroom_zpfh49",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796070/Lattafa_Pride_Tharwah_Gold_Natural_Spray_Eau_De_Parfum_For_Unisex_100ml-1-Photoroom-Photoroom_zpfh49.jpg"
+    },
+    {
+      "productName": "Al Khas Winners Trophy lattafa pride",
+      "brand": "Lattafa",
+      "imageName": "lal-ul---winners-trophy_ls4j4r",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796069/lal-ul---winners-trophy_ls4j4r.jpg"
+    },
+    {
+      "productName": "Dark As Wood – Fragrance World",
+      "brand": "Fragrance World",
+      "imageName": "dark-as-wood-world_ihybpw",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735887/dark-as-wood-world_ihybpw.png"
+    },
+    {
+      "productName": "Jorge Di Profumo Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "Maison_Alhambra_Jorge_Di_Profumo-Photoroom-Photoroom_i0o3wb",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796078/Maison_Alhambra_Jorge_Di_Profumo-Photoroom-Photoroom_i0o3wb.jpg"
+    },
+    {
+      "productName": "Francique 107.9 Fragrance World",
+      "brand": "Fragrance World",
+      "imageName": "Francique_107.9_French_Avenue1_noz7hl",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235947/Francique_107.9_French_Avenue1_noz7hl.jpg"
+    },
+    {
+      "productName": "Karat – Maison Alhambra -Eau de parfum 100ml",
+      "brand": "Maison Alhambra",
+      "imageName": "alhambra-eau-de-parfum_ioirdb",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798642/alhambra-eau-de-parfum_ioirdb.png"
+    },
+    {
+      "productName": "Francique 63.55 - Fragrance World",
+      "brand": "Fragrance World",
+      "imageName": "Francique_63.55_French_Avenue1_sld5l3",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235947/Francique_63.55_French_Avenue1_sld5l3.jpg"
+    },
+    {
+      "productName": "Infini Rose Maison alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "infini-rose-elixir-alhambra_pps4ca",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735845/infini-rose-elixir-alhambra_pps4ca.png"
+    },
+    {
+      "productName": "Lovely Cherie Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "lovely-cherie-alhambra-valon_eltt13",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796077/lovely-cherie-alhambra-valon_eltt13.jpg"
+    },
+    {
+      "productName": "Fresh Citrus Fragrance world",
+      "brand": "Fragrance World",
+      "imageName": "fresh-as-citrus-fragrance-world_vkvtmi",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798653/fresh-as-citrus-fragrance-world_vkvtmi.png"
+    },
+    {
+      "productName": "Baroque Rouge Extrait Maison Alhambra 100ml",
+      "brand": "Maison Alhambra",
+      "imageName": "baroque-rouge-540_hi5hrh",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798643/baroque-rouge-540_hi5hrh.png"
+    },
+    {
+      "productName": "Jean Lowe Immortal Maison Alhambra pour homme",
+      "brand": "Maison Alhambra",
+      "imageName": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg"
+    },
+    {
+      "productName": "Black Afgano parfum de fragrance world",
+      "brand": "Fragrance World",
+      "imageName": "Fragrance_World_Optimystic_Black_Eau_de_Parfum_3_3oz___100ml_for_Men___Intense_-1-Photoroom-Photoroom_duhhae",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798652/Fragrance_World_Optimystic_Black_Eau_de_Parfum_3_3oz___100ml_for_Men___Intense_-1-Photoroom-Photoroom_duhhae.png"
+    },
+    {
+      "productName": "Mocha Wood – Fragrance World",
+      "brand": "Fragrance World",
+      "imageName": "Mocha_Wood_Eau_De_Parfum_Perfume_100ml__3_4_Oz_By_World_Perfumes_Unisex-1-Photoroom-Photoroom_i0ucrh",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796083/Mocha_Wood_Eau_De_Parfum_Perfume_100ml__3_4_Oz_By_World_Perfumes_Unisex-1-Photoroom-Photoroom_i0ucrh.jpg"
+    },
+    {
+      "productName": "Tour De Havana de Fragrance World",
+      "brand": "Fragrance World",
+      "imageName": "Fragrance_World_TOUR_DE_HAVANA_______________________________-1-Photoroom-Photoroom_bavyou",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798652/Fragrance_World_TOUR_DE_HAVANA_______________________________-1-Photoroom-Photoroom_bavyou.png"
+    },
+    {
+      "productName": "Extreme aoud Fragrance world",
+      "brand": "Fragrance World",
+      "imageName": "extreme_aoud-fragrance_world_gpzibl",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735912/extreme_aoud-fragrance_world_gpzibl.png"
+    },
+    {
+      "productName": "Pure passion de Fragrance World",
+      "brand": "Fragrance World",
+      "imageName": "Pure-passion-Photoroom_xdhrlh",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796096/Pure-passion-Photoroom_xdhrlh.jpg"
+    },
+    {
+      "productName": "Cuir leather de fragrance world",
+      "brand": "Fragrance World",
+      "imageName": "cuir-leather-world_a2xypb",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735886/cuir-leather-world_a2xypb.png"
+    },
+    {
+      "productName": "Tudor Paris corner",
+      "brand": "Fragrance World",
+      "imageName": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796091/Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn.jpg"
+    },
+    {
+      "productName": "Cocktail Intense – Fragrance World",
+      "brand": "Fragrance World",
+      "imageName": "fragrance-world-cocktail-intense_bzwzrm",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766736160/fragrance-world-cocktail-intense_bzwzrm.jpg"
+    },
+    {
+      "productName": "Amber Grand Pendora Paris Corner",
+      "brand": "Dubai Perfumes",
+      "imageName": "Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1_nt44ql",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735877/Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1_nt44ql.png"
+    },
+    {
+      "productName": "Lueur d'espoir ambre De Paris Corner",
+      "brand": "Dubai Perfumes",
+      "imageName": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796091/Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn.jpg"
+    },
+    {
+      "productName": "zaffiro regale by maison alhambra UNISEX",
+      "brand": "Maison Alhambra",
+      "imageName": "Zaffiro_Collection_Regale_100ml-Photoroom_pg25bc",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796099/Zaffiro_Collection_Regale_100ml-Photoroom_pg25bc.jpg"
+    },
+    {
+      "productName": "Zaffiro Collection Crafted Oud",
+      "brand": "Maison Alhambra",
+      "imageName": "Zaffiro_Crafted_Oud_Edp_Perfume_By_Maison_Alhambra_100_Ml_niche_Uae_Version_-Photoroom_ivafhx",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796099/Zaffiro_Crafted_Oud_Edp_Perfume_By_Maison_Alhambra_100_Ml_niche_Uae_Version_-Photoroom_ivafhx.jpg"
+    },
+    {
+      "productName": "Oud highness Paris corner",
+      "brand": "Dubai Perfumes",
+      "imageName": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796091/Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn.jpg"
+    },
+    {
+      "productName": "Jean Lowe Noir Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg"
+    },
+    {
+      "productName": "Parfum Yara de Lattafa",
+      "brand": "Lattafa",
+      "imageName": "Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796070/Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt.jpg"
+    },
+    {
+      "productName": "Tobacco Touch de Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "imageName": "tobacco-touch-de-maison-alhambra-Photoroom_pjtcvs",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796098/tobacco-touch-de-maison-alhambra-Photoroom_pjtcvs.jpg"
+    },
+    {
+      "productName": "Francique 107.9 – French Avenue",
+      "brand": "French Avenue",
+      "imageName": "Francique_107.9_French_Avenue1_noz7hl",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235947/Francique_107.9_French_Avenue1_noz7hl.jpg"
+    },
+    {
+      "productName": "Francique 63.55 – French Avenue",
+      "brand": "French Avenue",
+      "imageName": "Francique_63.55_French_Avenue1_sld5l3",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235947/Francique_63.55_French_Avenue1_sld5l3.jpg"
+    },
+    {
+      "productName": "Irida Extrait – French Avenue",
+      "brand": "French Avenue",
+      "imageName": "Irida_Extrait_French_Avenue_jflns3",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766236027/Irida_Extrait_French_Avenue_jflns3.jpg"
+    },
+    {
+      "productName": "Aether Extrait – French Avenue",
+      "brand": "French Avenue",
+      "imageName": "Aether_Extrait_French_Avenue_gyyd43",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235958/Aether_Extrait_French_Avenue_gyyd43.jpg"
+    },
+    {
+      "productName": "Liquide Brun – French Avenue",
+      "brand": "French Avenue",
+      "imageName": "Liquide_Brun1_rrouvn",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235951/Liquide_Brun1_rrouvn.jpg"
+    },
+    {
+      "productName": "After Effect – French Avenue",
+      "brand": "French Avenue",
+      "imageName": "after-effect-fragrance_world_zpihcz",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735874/after-effect-fragrance_world_zpihcz.jpg"
+    },
+    {
+      "productName": "Khair Fusion Paris Corner",
+      "brand": "Dubai Perfumes",
+      "imageName": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796091/Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn.jpg"
+    },
+    {
+      "productName": "Fleur de Coton – Collection Coton d’Or Sublime Eau de Parfum",
+      "brand": "Dubai Perfumes",
+      "imageName": "My-rose-Sublime-eau-de-parfum-Photoroom-Photoroom_tjrcnw",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796084/My-rose-Sublime-eau-de-parfum-Photoroom-Photoroom_tjrcnw.jpg"
+    },
+    {
+      "productName": "YARA LATTAFA | L'Essentiel Parfum Féminin Incontournable",
+      "brand": "Lattafa",
+      "imageName": "Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796070/Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt.jpg"
+    },
+    {
+      "productName": "YARA LATTAFA : Le Soin Iconique pour une Peau Rayonnante",
+      "brand": "Lattafa",
+      "imageName": "je-suis-dsol-mais-je-ne-peux-pas-extraire-de-texte-dimages-si-vous-avez-besoin-daide-pour-autre-chose-nhsitez-pas-me-le-faire-savoir_dwyjqq",
+      "url": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765799759/je-suis-dsol-mais-je-ne-peux-pas-extraire-de-texte-dimages-si-vous-avez-besoin-daide-pour-autre-chose-nhsitez-pas-me-le-faire-savoir_dwyjqq.png"
+    }
+  ],
+  "unmatchedProducts": [
+    {
+      "id": "prod-1794",
+      "name": "Woody Oud 80 ml – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000041833-jpg.webp"
+    },
+    {
+      "id": "prod-1795",
+      "name": "The Tux Maison Alhambra-Mixte",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/Capture-decran-2024-01-19-172807.png"
+    },
+    {
+      "id": "prod-1797",
+      "name": "Ramz Gold 100ml – Lattafa mixte",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/ramz-lattafa-eau-de-parfum-jpg.webp"
+    },
+    {
+      "id": "prod-1798",
+      "name": "Raghba 100 ml – Lattafa-Mixte",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029948-1-jpg.webp"
+    },
+    {
+      "id": "prod-1799",
+      "name": "Khamrah Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Khamrah.jpeg"
+    },
+    {
+      "id": "prod-1800",
+      "name": "Qaa'ed de Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/qaaed-2-1-jpg.webp"
+    },
+    {
+      "id": "prod-1804",
+      "name": "Ejaazi - Mixte",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029282-1-jpg.webp"
+    },
+    {
+      "id": "prod-1805",
+      "name": "Yeah – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029303-1-jpg.webp"
+    },
+    {
+      "id": "prod-1806",
+      "name": "Maahir Lattafa- eau de toilette -100ml",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/Maahir-Lattafa-1-jpeg.webp"
+    },
+    {
+      "id": "prod-1807",
+      "name": "Confidential Platinum Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Confidential-Platinum.jpg"
+    },
+    {
+      "id": "prod-1809",
+      "name": "Asad Lattafa100 ml Eau de Parfum",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/lattafa-parfum-asad.jpg"
+    },
+    {
+      "id": "prod-1810",
+      "name": "FAKHAR – WASAM de Lattafa -Mixte",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/527167d186647dc1dc14433967afc41c.jpg"
+    },
+    {
+      "id": "prod-1811",
+      "name": "Glacier Pour Homme 100ml EDP For Men",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Glacier-Pour-Homme.jpg"
+    },
+    {
+      "id": "prod-1812",
+      "name": "Grise Maison Alhambra | Eau De Parfum 100ml |",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/maison-alhambra–grise-100ml_baytik.jpg"
+    },
+    {
+      "id": "prod-1814",
+      "name": "Safwaan L’autre musk – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029898-1-jpg.webp"
+    },
+    {
+      "id": "prod-1815",
+      "name": "Badee Parfum Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000030330-jpg.webp"
+    },
+    {
+      "id": "prod-1816",
+      "name": "Oud mood Maison lattafa  AL Zaafran",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/28-removebg-preview.png"
+    },
+    {
+      "id": "prod-1817",
+      "name": "Velvet Oud – Lattafa Parfum",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029886-1-jpg.webp"
+    },
+    {
+      "id": "prod-1823",
+      "name": "alhambra-glacier-le-noir",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/11/GLACIER-LE-NOIR.jpeg"
+    },
+    {
+      "id": "prod-1824",
+      "name": "Eau de parfum Infini Oud 100ml – Maison Alhambra Mixte",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/27-removebg-preview.png"
+    },
+    {
+      "id": "prod-1825",
+      "name": "La vita Bella Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000031009-jpg.webp"
+    },
+    {
+      "id": "prod-1826",
+      "name": "MINERVA Inspired by Memo Paris",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000030241-jpg.webp"
+    },
+    {
+      "id": "prod-1828",
+      "name": "Perseus Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000031008-jpg.webp"
+    },
+    {
+      "id": "prod-1830",
+      "name": "VERSENCIA CRYSTAL ALHAMBRA",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029854-1-jpg.webp"
+    },
+    {
+      "id": "prod-1831",
+      "name": "Ameer Al Oudh (INTENSE OUD) – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029842-jpg.webp"
+    },
+    {
+      "id": "prod-1832",
+      "name": "Najdia – Lattafa – 100ml",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000030386-1-jpg.webp"
+    },
+    {
+      "id": "prod-1833",
+      "name": "Ajwad – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029829-1-jpg.webp"
+    },
+    {
+      "id": "prod-1834",
+      "name": "Salvo Intense Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/11/1000031005-1.jpg"
+    },
+    {
+      "id": "prod-1835",
+      "name": "Maahir Black Edition – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/Maahir-Black-Edition-jpeg.webp"
+    },
+    {
+      "id": "prod-1836",
+      "name": "Now Rave – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029823-jpg.webp"
+    },
+    {
+      "id": "prod-1837",
+      "name": "Tabac Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029809-jpg.webp"
+    },
+    {
+      "id": "prod-1838",
+      "name": "Kismet moscow Maison Alhambra Unisex",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000030332-jpg.webp"
+    },
+    {
+      "id": "prod-1839",
+      "name": "Niche Royal Rouge Alhambra  Femme",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000031004-jpg.webp"
+    },
+    {
+      "id": "prod-1841",
+      "name": "Galatea Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000031000-jpg.webp"
+    },
+    {
+      "id": "prod-1842",
+      "name": "Avant Maison Alhambra Parfum 100 ml Mixte",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000031003-1-jpg.webp"
+    },
+    {
+      "id": "prod-1844",
+      "name": "Hercules – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Capture-decran-2024-09-17-222435.png"
+    },
+    {
+      "id": "prod-1845",
+      "name": "Olivia Blossom-Alhambra 80 ml Parfum",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000030657-jpg.webp"
+    },
+    {
+      "id": "prod-1847",
+      "name": "Maahir Legacy- (Inspiration: Hermes, eau des merveilles)",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000030428-jpg.webp"
+    },
+    {
+      "id": "prod-1850",
+      "name": "Parfum-Musk Mood – Lattafa  mixte",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029789-jpg.webp"
+    },
+    {
+      "id": "prod-1851",
+      "name": "Parfum Sakeena – Lattafa100ml",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000041633-jpg.webp"
+    },
+    {
+      "id": "prod-1852",
+      "name": "Mayar – Lattafa Parfums",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000030631-jpg.webp"
+    },
+    {
+      "id": "prod-1853",
+      "name": "Andaleeb – Asdaaf -Mixte 100ml",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029797-jpg.webp"
+    },
+    {
+      "id": "prod-1854",
+      "name": "So Candid -Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/SO-CANDID-ALHAMBRA.jpeg"
+    },
+    {
+      "id": "prod-1855",
+      "name": "Côme Moiselle - ALHAMBRA Parfum 100 ml",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Capture-decran-2024-04-08-155043.png"
+    },
+    {
+      "id": "prod-1858",
+      "name": "kismet angel-maison alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/11/61eZ8rI7mYL._AC_UF10001000_QL80_FMwebp_.webp"
+    },
+    {
+      "id": "prod-1861",
+      "name": "A king fragrance world",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/pdt2_6_0_2_1_700x700_AAAAG89602-jpg.webp"
+    },
+    {
+      "id": "prod-1862",
+      "name": "K King – Fragrance World",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/11/K-FRAGRANCE-WORLD.jpg"
+    },
+    {
+      "id": "prod-1863",
+      "name": "J – Fragrance World",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1-jpg.webp"
+    },
+    {
+      "id": "prod-1864",
+      "name": "Queen Q – Fragrance World",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/Q-king-fragrance-world-jpg.webp"
+    },
+    {
+      "id": "prod-1865",
+      "name": "Pose As Rose – Fragrance World",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/FRAGRANCEWORLDPOSEASROSEEDP.jpg"
+    },
+    {
+      "id": "prod-1868",
+      "name": "Porto Néroli – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Capture-decran-2024-04-24-004242.png"
+    },
+    {
+      "id": "prod-1869",
+      "name": "L’Intrude Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/11/lintrude.jpeg"
+    },
+    {
+      "id": "prod-1870",
+      "name": "confidential gold Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/1000035788.jpg"
+    },
+    {
+      "id": "prod-1873",
+      "name": "Eternal Oud de Lattafa Pride",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/lattafa-pride-eternal-oud-edp-100ml-394007.webp"
+    },
+    {
+      "id": "prod-1876",
+      "name": "By Saffron Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/1000035789.jpg"
+    },
+    {
+      "id": "prod-1878",
+      "name": "Rose Petals Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/ALHAMABRA-removebg-preview-1.png"
+    },
+    {
+      "id": "prod-1880",
+      "name": "Victorioso Victory Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/07/1000052572.jpg"
+    },
+    {
+      "id": "prod-1884",
+      "name": "Musk vanille 100ml – Maison Alhambra Eau de parfum",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2023/12/Laissez-vous-envouter-par-le-parfum-Musk-Vanille-de-Maison-Alhambra.png"
+    },
+    {
+      "id": "prod-1917",
+      "name": "Optimystic blanc de fragrance world",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Optimystic-blanc-de-fragrance-world.jpg"
+    },
+    {
+      "id": "prod-1918",
+      "name": "Optimystic Noir de Fragrance world",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Optimystic-EDP.png"
+    },
+    {
+      "id": "prod-1922",
+      "name": "Absolute oud magnificent 7 Fragrance World",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Absolute-Oud-Magnifcent-7.jpeg"
+    },
+    {
+      "id": "prod-1926",
+      "name": "Invicto - Fragrance World",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/01/INVICTO.jpg"
+    },
+    {
+      "id": "prod-2618",
+      "name": "Teriaq Parfums  Lattafa mixte",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/TERIAQ-LATTAFA.jpg"
+    },
+    {
+      "id": "prod-2708",
+      "name": "Tempête – Jacques Yves 100ml Parfums",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/jacques-yves-tempete.jpg"
+    },
+    {
+      "id": "prod-2800",
+      "name": "The Artist No.1 Eau De Parfum 100ml Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/Capture-decran-2024-03-29-220550.png"
+    },
+    {
+      "id": "prod-2812",
+      "name": "Spectre Ghost - Fragrance world",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/Capture-decran-2024-03-30-113816.png"
+    },
+    {
+      "id": "prod-2840",
+      "name": "suits fragrance world",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/03/Capture-decran-2024-03-31-111924.png"
+    },
+    {
+      "id": "prod-3150",
+      "name": "Amber-Neroli - Inspiration Black Pepper",
+      "brand": "Fragrance World",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2024/08/Amber-Neroli-1.png"
+    },
+    {
+      "id": "prod-3851",
+      "name": "Lumière Garçon | French Avenue",
+      "brand": "French Avenue",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/Capture-decran-2025-05-18-144111.png"
+    },
+    {
+      "id": "prod-3878",
+      "name": "Lumière Elle – French Avenue",
+      "brand": "French Avenue",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/1-3.jpg"
+    },
+    {
+      "id": "prod-3913",
+      "name": "Sweet Paradise – French Avenue",
+      "brand": "French Avenue",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/Capture-decran-2025-05-18-142827.png"
+    },
+    {
+      "id": "prod-3914",
+      "name": "Royal Blend Nero – French Avenue",
+      "brand": "French Avenue",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/Capture-decran-2025-05-19-052200.png"
+    },
+    {
+      "id": "prod-3917",
+      "name": "Azzure Aoud - French Avenue",
+      "brand": "French Avenue",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/Azzure-Oud-1.jpeg"
+    },
+    {
+      "id": "prod-3921",
+      "name": "Glorious Oud – French Avenue",
+      "brand": "French Avenue",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/Capture-decran-2025-05-19-055847.png"
+    },
+    {
+      "id": "prod-4145",
+      "name": "Kenzie Marshmallow – FrenchAvenue",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0041.jpg"
+    },
+    {
+      "id": "prod-4180",
+      "name": "Kenzie Candid Vanilla",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0042.jpg"
+    },
+    {
+      "id": "prod-4181",
+      "name": "Éclaire – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0049.jpg"
+    },
+    {
+      "id": "prod-4182",
+      "name": "Pistachio – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0044.jpg"
+    },
+    {
+      "id": "prod-4183",
+      "name": "Ithra Mango – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0043.jpg"
+    },
+    {
+      "id": "prod-4184",
+      "name": "Ithra Cotton Candy – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0045.jpg"
+    },
+    {
+      "id": "prod-4185",
+      "name": "Vanilla Latte – Gulf Orchid",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0047.jpg"
+    },
+    {
+      "id": "prod-4186",
+      "name": "Yara Candy",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0038.jpg"
+    },
+    {
+      "id": "prod-4187",
+      "name": "Yara Blanc – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0035.jpg"
+    },
+    {
+      "id": "prod-4188",
+      "name": "Yara Orange – Lattafa",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0037.jpg"
+    },
+    {
+      "id": "prod-4191",
+      "name": "Khair confection",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0032.jpg"
+    },
+    {
+      "id": "prod-4192",
+      "name": "Khair felicity",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0033.jpg"
+    },
+    {
+      "id": "prod-4193",
+      "name": "Coton Blanc Inspiré Paris",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0063.jpg"
+    },
+    {
+      "id": "prod-4196",
+      "name": "Ana abiyedh poudrée",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0030.jpg"
+    },
+    {
+      "id": "prod-4209",
+      "name": "Bint Hooran Rose Passion – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0046.jpg"
+    },
+    {
+      "id": "prod-4211",
+      "name": "L'Impresio – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0048.jpg"
+    },
+    {
+      "id": "prod-4212",
+      "name": "Omniyat – Surrati",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0054.jpg"
+    },
+    {
+      "id": "prod-4213",
+      "name": "Killer - Loui Martin",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0051.jpg"
+    },
+    {
+      "id": "prod-4215",
+      "name": "Good Girl by Killer",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0052.jpg"
+    },
+    {
+      "id": "prod-4216",
+      "name": "Verato White Musk – MIRADA",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0055.jpg"
+    },
+    {
+      "id": "prod-4217",
+      "name": "Léonie de Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0057.jpg"
+    },
+    {
+      "id": "prod-4219",
+      "name": "Qandeel d’Ard Al Zaafaran",
+      "brand": "Lattafa",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0050.jpg"
+    },
+    {
+      "id": "prod-4220",
+      "name": "Mirada Perla",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0053.jpg"
+    },
+    {
+      "id": "prod-4221",
+      "name": "Fondue Tropical",
+      "brand": "Dubai Perfumes",
+      "currentImage": "https://www.frenchavenue.fr/wp-content/uploads/2025/05/IMG-20250527-WA0059.jpg"
+    }
+  ],
+  "suggestions": [
+    {
+      "product": "Woody Oud 80 ml – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: woody-oud-80---.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "The Tux Maison Alhambra-Mixte",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: the-tux---mixte.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Ramz Gold 100ml – Lattafa mixte",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: ramz-gold-100--mixte.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Raghba 100 ml – Lattafa-Mixte",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: raghba-100---mixte.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Khamrah Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: khamrah-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Qaa'ed de Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: qaaed-de-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Ejaazi - Mixte",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: ejaazi---mixte.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Yeah – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: yeah--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Maahir Lattafa- eau de toilette -100ml",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: maahir---eau-de-toilette--100.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Confidential Platinum Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: confidential-platinum-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Asad Lattafa100 ml Eau de Parfum",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: asad-100--edp.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "FAKHAR – WASAM de Lattafa -Mixte",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: fakhar-wasam-de---mixte.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Glacier Pour Homme 100ml EDP For Men",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: glacier-pour-homme-100-edp-for-men.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Grise Maison Alhambra | Eau De Parfum 100ml |",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: grise---edp-100-.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Safwaan L’autre musk – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: safwaan-lautre-musk-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Badee Parfum Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: badee-parfum-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Oud mood Maison lattafa  AL Zaafran",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: oud-mood---al-zaafran.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Velvet Oud – Lattafa Parfum",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: velvet-oud--parfum.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "alhambra-glacier-le-noir",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: -glacier-le-noir.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Eau de parfum Infini Oud 100ml – Maison Alhambra Mixte",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: edp-infini-oud-100---mixte.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "La vita Bella Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: la-vita-bella--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "MINERVA Inspired by Memo Paris",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: minerva-inspired-by-memo-paris.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Perseus Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: perseus--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "VERSENCIA CRYSTAL ALHAMBRA",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: versencia-crystal-.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Ameer Al Oudh (INTENSE OUD) – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: ameer-al-oudh-intense-oud-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Najdia – Lattafa – 100ml",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: najdia--100.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Ajwad – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: ajwad-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Salvo Intense Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: salvo-intense--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Maahir Black Edition – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: maahir-black-edition-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Now Rave – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: now-rave-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Tabac Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: tabac-.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Kismet moscow Maison Alhambra Unisex",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: kismet-moscow---unisex.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Niche Royal Rouge Alhambra  Femme",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: niche-royal-rouge--femme.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Galatea Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: galatea--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Avant Maison Alhambra Parfum 100 ml Mixte",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: avant---parfum-100--mixte.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Hercules – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: hercules--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Olivia Blossom-Alhambra 80 ml Parfum",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: olivia-blossom--80--parfum.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Maahir Legacy- (Inspiration: Hermes, eau des merveilles)",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: maahir-legacy--inspiration-hermes-eau-des-merveilles.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Parfum-Musk Mood – Lattafa  mixte",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: parfum-musk-mood--mixte.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Parfum Sakeena – Lattafa100ml",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: parfum-sakeena-100.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Mayar – Lattafa Parfums",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: mayar--parfums.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Andaleeb – Asdaaf -Mixte 100ml",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: andaleeb-asdaaf--mixte-100.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "So Candid -Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: so-candid--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Côme Moiselle - ALHAMBRA Parfum 100 ml",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: come-moiselle----parfum-100-.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "kismet angel-maison alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: kismet-angel--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "A king fragrance world",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: a-king-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "K King – Fragrance World",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: k-king-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "J – Fragrance World",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: j-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Queen Q – Fragrance World",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: queen-q-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Pose As Rose – Fragrance World",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: pose-as-rose-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Porto Néroli – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: porto-neroli--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "L’Intrude Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: lintrude--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "confidential gold Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: confidential-gold-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Eternal Oud de Lattafa Pride",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: eternal-oud-de--pride.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "By Saffron Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: by-saffron--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Rose Petals Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: rose-petals-.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Victorioso Victory Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: victorioso-victory--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Musk vanille 100ml – Maison Alhambra Eau de parfum",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: musk-vanille-100---edp.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Optimystic blanc de fragrance world",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: optimystic-blanc-de-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Optimystic Noir de Fragrance world",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: optimystic-noir-de-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Absolute oud magnificent 7 Fragrance World",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: absolute-oud-magnificent-7-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Invicto - Fragrance World",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: invicto---.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Teriaq Parfums  Lattafa mixte",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: teriaq-parfums--mixte.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Tempête – Jacques Yves 100ml Parfums",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: tempete-jacques-yves-100-parfums.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "The Artist No.1 Eau De Parfum 100ml Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: the-artist-no1-edp-100--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Spectre Ghost - Fragrance world",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: spectre-ghost---.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "suits fragrance world",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: suits-.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Amber-Neroli - Inspiration Black Pepper",
+      "brand": "Fragrance World",
+      "suggestion": "Uploader une image nommée: amber-neroli---inspiration-black-pepper.jpg dans le dossier fragrance-world/"
+    },
+    {
+      "product": "Lumière Garçon | French Avenue",
+      "brand": "French Avenue",
+      "suggestion": "Uploader une image nommée: lumiere-garcon-.jpg dans le dossier french-avenue/"
+    },
+    {
+      "product": "Lumière Elle – French Avenue",
+      "brand": "French Avenue",
+      "suggestion": "Uploader une image nommée: lumiere-elle-.jpg dans le dossier french-avenue/"
+    },
+    {
+      "product": "Sweet Paradise – French Avenue",
+      "brand": "French Avenue",
+      "suggestion": "Uploader une image nommée: sweet-paradise-.jpg dans le dossier french-avenue/"
+    },
+    {
+      "product": "Royal Blend Nero – French Avenue",
+      "brand": "French Avenue",
+      "suggestion": "Uploader une image nommée: royal-blend-nero-.jpg dans le dossier french-avenue/"
+    },
+    {
+      "product": "Azzure Aoud - French Avenue",
+      "brand": "French Avenue",
+      "suggestion": "Uploader une image nommée: azzure-aoud---.jpg dans le dossier french-avenue/"
+    },
+    {
+      "product": "Glorious Oud – French Avenue",
+      "brand": "French Avenue",
+      "suggestion": "Uploader une image nommée: glorious-oud-.jpg dans le dossier french-avenue/"
+    },
+    {
+      "product": "Kenzie Marshmallow – FrenchAvenue",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: kenzie-marshmallow-frenchavenue.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Kenzie Candid Vanilla",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: kenzie-candid-vanilla.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Éclaire – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: eclaire-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Pistachio – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: pistachio-ard-al-zaafaran.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Ithra Mango – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: ithra-mango-ard-al-zaafaran.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Ithra Cotton Candy – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: ithra-cotton-candy-ard-al-zaafaran.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Vanilla Latte – Gulf Orchid",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: vanilla-latte-gulf-orchid.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Yara Candy",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: yara-candy.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Yara Blanc – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: yara-blanc-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Yara Orange – Lattafa",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: yara-orange-.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Khair confection",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: khair-confection.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Khair felicity",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: khair-felicity.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Coton Blanc Inspiré Paris",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: coton-blanc-inspire-paris.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Ana abiyedh poudrée",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: ana-abiyedh-poudree.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Bint Hooran Rose Passion – Ard Al Zaafaran",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: bint-hooran-rose-passion-ard-al-zaafaran.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "L'Impresio – Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: limpresio--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Omniyat – Surrati",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: omniyat-surrati.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Killer - Loui Martin",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: killer---loui-martin.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Good Girl by Killer",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: good-girl-by-killer.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Verato White Musk – MIRADA",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: verato-white-musk-mirada.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Léonie de Maison Alhambra",
+      "brand": "Maison Alhambra",
+      "suggestion": "Uploader une image nommée: leonie-de--.jpg dans le dossier alhambra/"
+    },
+    {
+      "product": "Qandeel d’Ard Al Zaafaran",
+      "brand": "Lattafa",
+      "suggestion": "Uploader une image nommée: qandeel-dard-al-zaafaran.jpg dans le dossier lattafa/"
+    },
+    {
+      "product": "Mirada Perla",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: mirada-perla.jpg dans le dossier dubai-perfumes/"
+    },
+    {
+      "product": "Fondue Tropical",
+      "brand": "Dubai Perfumes",
+      "suggestion": "Uploader une image nommée: fondue-tropical.jpg dans le dossier dubai-perfumes/"
+    }
+  ]
+}

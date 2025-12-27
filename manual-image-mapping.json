@@ -1,0 +1,1678 @@
+{
+  "instructions": [
+    "Pour chaque image, choisissez le bon produit parmi les suggestions",
+    "Modifiez le champ 'selectedProductId' avec l'ID du produit correct",
+    "Si aucune suggestion n'est correcte, laissez null",
+    "Format: mettre l'ID du produit (ex: 'prod-1794')",
+    "",
+    "Une fois terminé, lancez: node process-manual-mapping.js"
+  ],
+  "totalImages": 171,
+  "totalProducts": 153,
+  "mappings": [
+    {
+      "imageFile": "11.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\11.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "12.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\12.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "13.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\13.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "14.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\14.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "15.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\15.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "16.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\16.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "17.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\17.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "18.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\18.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "19.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\19.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\2.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "20.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\20.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "21.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\21.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "22.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\22.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "23.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\23.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "24.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\24.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "25.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\25.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "26.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\26.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "27.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\27.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "28.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\28.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "29.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\29.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "30.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\30.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "31.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\31.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "32.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\32.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "33.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\33.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "34.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\34.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "35.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\35.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "36.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\36.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "37.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\37.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "38.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\38.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "39.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\39.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "4.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\4.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "40.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\40.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "41.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\41.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "42.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\42.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "43.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\43.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "44.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\44.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "45.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\45.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "46.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\46.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "47.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\47.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "48.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\48.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "49.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\49.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "50.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\50.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "51.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\51.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "52.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\52.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "53.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\53.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "54.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\54.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "56.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\56.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "57.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\57.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "58.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\58.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "59.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\59.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "61.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\61.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "62.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\62.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "64.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\64.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "65.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\65.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "66.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\66.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "67.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\67.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "68.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\68.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "69.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\69.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "70.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\70.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "71.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\71.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "72.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\72.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "73.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\73.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "74.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\74.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "75.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\75.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "76.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\76.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "77.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\77.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "78.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\78.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "79.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\79.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "81.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\81.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "82.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\82.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "83.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\83.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "84.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\84.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "85.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\85.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "86.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\86.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "87.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\87.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "88.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\88.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "89.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\89.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "90.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\90.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "91.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\91.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "92.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\92.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "93.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\93.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "94.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\94.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "95.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\95.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "96.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\96.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "97.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\97.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "98.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\98.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "99.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\99.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "after-effect-fragrance world.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\after-effect-fragrance world.jpg",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1861",
+          "productName": "A king fragrance world",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "a-king-fragrance-world-fragrance-world"
+        },
+        {
+          "productId": "prod-1862",
+          "productName": "K King – Fragrance World",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "k-king-fragrance-world-fragrance-world"
+        },
+        {
+          "productId": "prod-1863",
+          "productName": "J – Fragrance World",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "j-fragrance-world-fragrance-world"
+        }
+      ]
+    },
+    {
+      "imageFile": "ajwed-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\ajwed-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "amber-neroli-world-fragrance world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\amber-neroli-world-fragrance world.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1861",
+          "productName": "A king fragrance world",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "a-king-fragrance-world-fragrance-world"
+        },
+        {
+          "productId": "prod-1862",
+          "productName": "K King – Fragrance World",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "k-king-fragrance-world-fragrance-world"
+        },
+        {
+          "productId": "prod-1863",
+          "productName": "J – Fragrance World",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "j-fragrance-world-fragrance-world"
+        }
+      ]
+    },
+    {
+      "imageFile": "Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "Amber___Neroli_Eau_De_Parfum_By_Fragrance_World_80ml_2_7_Fl_Oz-1.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Amber___Neroli_Eau_De_Parfum_By_Fragrance_World_80ml_2_7_Fl_Oz-1.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "Ameer_Al_Oud_lattafa_100ml_600x600.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Ameer_Al_Oud_lattafa_100ml_600x600.jpg",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "as-tuberose-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\as-tuberose-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "badee-for-glory.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\badee-for-glory.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "badee_al_oud_perfume_600x600.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\badee_al_oud_perfume_600x600.jpg",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "cocktail-world.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\cocktail-world.jpg",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "cuir-leather-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\cuir-leather-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "dark-as-wood-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\dark-as-wood-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "extreme-aoud-fragrance-world-fragrance-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\extreme-aoud-fragrance-world-fragrance-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragranc-world-francique-63_55.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragranc-world-francique-63_55.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-cocktail-intense.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-cocktail-intense.jpg",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-cuir-leather-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-cuir-leather-2.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-cuir-leather.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-cuir-leather.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-dark-as-wood-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-dark-as-wood-2.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-dark-as-wood.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-dark-as-wood.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-extreme-aoud.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-extreme-aoud.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-fresh-as-citrus-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-fresh-as-citrus-2.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-fresh-as-citrus.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-fresh-as-citrus.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-invicto.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-invicto.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-jack-of-clubs.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-jack-of-clubs.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-king.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-king.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-mocha-wood.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-mocha-wood.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-optimystic.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-optimystic.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-suits.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-suits.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-tour-de-havana.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-tour-de-havana.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-vanilla-so-sweet.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-vanilla-so-sweet.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "fragrance-world-white-as-tuberose.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\fragrance-world-white-as-tuberose.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "Francique-107.9-–-French-Avenue1.jpeg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Francique-107.9-–-French-Avenue1.jpeg",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "francique-1079-fragrance-world-fragrance-world-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\francique-1079-fragrance-world-fragrance-world-2.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "francique-1079-fragrance-world-fragrance-world-3.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\francique-1079-fragrance-world-fragrance-world-3.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "francique-1079-fragrance-world-fragrance-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\francique-1079-fragrance-world-fragrance-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "francique-6355-fragrance-world-fragrance-world-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\francique-6355-fragrance-world-fragrance-world-2.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "francique-6355-fragrance-world-fragrance-world-3.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\francique-6355-fragrance-world-fragrance-world-3.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "francique-6355-fragrance-world-fragrance-world-4.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\francique-6355-fragrance-world-fragrance-world-4.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "francique-6355-fragrance-world-fragrance-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\francique-6355-fragrance-world-fragrance-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "grise-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\grise-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "Grise_Perfume_Lattafa-1.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Grise_Perfume_Lattafa-1.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "i-am-white-ana-abiyedh-rouge-lattafa-lattafa-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\i-am-white-ana-abiyedh-rouge-lattafa-lattafa-2.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "i-am-white-ana-abiyedh-rouge-lattafa-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\i-am-white-ana-abiyedh-rouge-lattafa-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "infini-rose-elixir-alhambra.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\infini-rose-elixir-alhambra.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "infini-rose.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\infini-rose.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "invicto-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\invicto-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "jack-of-clubs-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\jack-of-clubs-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "king-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\king-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "lattafa-asad.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-asad.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "lattafa-badee-al-oud-amethyst.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-badee-al-oud-amethyst.jpg",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "lattafa-badee-al-oud-oud-for-glory.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-badee-al-oud-oud-for-glory.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "lattafa-ejaazi.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-ejaazi.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "lattafa-eternal-oud.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-eternal-oud.jpg",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "lattafa-fakhar.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-fakhar.jpg",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "lattafa-qaed-al-fursan-2.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-qaed-al-fursan-2.jpg",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "lattafa-yara.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\lattafa-yara.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "majdal-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\majdal-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "mayar-floral-fruity-and-amber-scent-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\mayar-floral-fruity-and-amber-scent-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "Mayar_100ml_Edp_By_Lattafa_Perfumes_For_Women_Floral__Fruity__And_Amber_Scent-1.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Mayar_100ml_Edp_By_Lattafa_Perfumes_For_Women_Floral__Fruity__And_Amber_Scent-1.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "mocha-wood-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\mocha-wood-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "Montera-Rouge-Tobacco-PARFUM-1.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Montera-Rouge-Tobacco-PARFUM-1.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "montera-tobacco.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\montera-tobacco.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "mood-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\mood-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "MUSC-VANILLE.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\MUSC-VANILLE.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "musk-mood-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\musk-mood-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "najdia-tribute-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\najdia-tribute-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "nasomatto-afgano.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\nasomatto-afgano.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "now-rave.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\now-rave.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "Now_EDP_100ml__3_4Oz__By_RAVE.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Now_EDP_100ml__3_4Oz__By_RAVE.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "optimysitc-world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\optimysitc-world.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "parfum-Safwaan.jpg",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\parfum-Safwaan.jpg",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "pure-oudi-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\pure-oudi-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "Pure-passion.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\Pure-passion.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "queen-qfragrance world.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\queen-qfragrance world.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1861",
+          "productName": "A king fragrance world",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "a-king-fragrance-world-fragrance-world"
+        },
+        {
+          "productId": "prod-1862",
+          "productName": "K King – Fragrance World",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "k-king-fragrance-world-fragrance-world"
+        },
+        {
+          "productId": "prod-1863",
+          "productName": "J – Fragrance World",
+          "brand": "Fragrance World",
+          "score": 3,
+          "cloudinaryName": "j-fragrance-world-fragrance-world"
+        }
+      ]
+    },
+    {
+      "imageFile": "ramz-gold-lattafa-mixte-lattafa-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\ramz-gold-lattafa-mixte-lattafa-2.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "ramz-gold-lattafa-mixte-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\ramz-gold-lattafa-mixte-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "safwaan-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\safwaan-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "suits-world-perfumy-arabskie.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\suits-world-perfumy-arabskie.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "velvet-oud-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\velvet-oud-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    },
+    {
+      "imageFile": "woody-oud-maison-alhambra-maison-alhambra-2.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\woody-oud-maison-alhambra-maison-alhambra-2.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "woody-oud-maison-alhambra-maison-alhambra.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\woody-oud-maison-alhambra-maison-alhambra.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "world-optimystic.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\world-optimystic.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "world-tour-havana.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\world-tour-havana.png",
+      "selectedProductId": null,
+      "suggestions": []
+    },
+    {
+      "imageFile": "yara-lattafa.png",
+      "imagePath": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier\\yara-lattafa.png",
+      "selectedProductId": null,
+      "suggestions": [
+        {
+          "productId": "prod-1796",
+          "productName": "Ramz Silver Lattafa",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-silver-lattafa-lattafa"
+        },
+        {
+          "productId": "prod-1797",
+          "productName": "Ramz Gold 100ml – Lattafa mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "ramz-gold-lattafa-mixte-lattafa"
+        },
+        {
+          "productId": "prod-1798",
+          "productName": "Raghba 100 ml – Lattafa-Mixte",
+          "brand": "Lattafa",
+          "score": 2,
+          "cloudinaryName": "raghba-lattafa-mixte-lattafa"
+        }
+      ]
+    }
+  ]
+}

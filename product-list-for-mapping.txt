@@ -1,0 +1,186 @@
+================================================================
+LISTE COMPLÈTE DES 153 PRODUITS - Pour Mapping Manuel
+================================================================
+
+COMMENT UTILISER CE FICHIER:
+1. Regardez chaque image dans le dossier
+2. Trouvez le produit correspondant dans cette liste
+3. Copiez l'ID du produit (ex: prod-1794)
+4. Collez-le dans manual-image-mapping.json
+
+================================================================
+
+LATTAFA (48 produits)
+================================================================
+prod-1794 → Ramz Silver Lattafa
+prod-1813 → Ramz Gold 100ml – Lattafa mixte
+prod-1831 → Raghba 100 ml – Lattafa-Mixte
+prod-1849 → Qaed Al Fursan 90ml – Lattafa
+prod-1867 → Opulent Musk 100ml Lattafa-Mixte
+prod-1885 → Lail Maleki 100ml – Lattafa – Mixte
+prod-1903 → Khamrah 100 ml – Lattafa – Mixte
+prod-1921 → Khamrah Qahwa 100 ml – Lattafa – Mixte
+prod-1939 → Khaltaat al Arabia Royal Blends 100 ml Lattafa – Mixte
+prod-1957 → Khaltaat Al Arabia – Lattafa – 100 ml – Mixte
+prod-1975 → Hawas Ice – 100ml Lattafa – Mixte
+prod-1993 → Hawas for Him – 100ml Lattafa -Homme
+prod-2011 → Hayaati Gold 100 ml – Lattafa-Mixte
+prod-2029 → Hayaati 100ml Lattafa-Mixte
+prod-2047 → Yara 100 ml Lattafa-Femme
+prod-2065 → Yara Moi 100ml Lattafa Femme
+prod-2083 → Najdia Tribute – Lattafa Homme 100ml
+prod-2101 → Sheikh Al Shuyukh Luxe Edition-Lattafa Homme-100ml
+prod-2119 → Oud Mood 100ml Lattafa-Mixte
+prod-2137 → Musk Mood 100ml Lattafa-Mixte
+prod-2155 → Ana Abiyedh Rouge 60ml – Lattafa – Mixte
+prod-2173 → Asad 100ml – Lattafa – Homme
+prod-2191 → Badee Al Oud Honor & Glory 100ml Lattafa- Homme
+prod-2209 → Badee Al Oud Oud For Glory – 100ml – Lattafa – Mixte
+prod-2227 → Badee Al Oud Amethyst 100ml Lattafa-Mixte
+prod-2245 → Ejaazi 100ml Lattafa Homme
+prod-2263 → Fakhar Homme 100ml Lattafa
+prod-2281 → Maahir Classic 100ml – Lattafa – Homme
+prod-2299 → Velvet Oud 100ml Lattafa-Mixte
+prod-2317 → Ajwad 100 ml Lattafa – Mixte
+prod-2335 → Haya Halal Perfumes 100ml – Lattafa – Femme
+prod-2353 → Teriaq 100ml – Lattafa- Mixte
+prod-2371 → Mayar 100ml Lattafa Femme
+prod-2389 → Al Dur Al Maknoon Silver 100 ml – Lattafa – Mixte
+prod-2407 → Al Dur Al Maknoon Gold 100 ml – Lattafa – Mixte
+prod-2425 → Eternal Oud 100 ml Lattafa – Mixte
+prod-2443 → Raed Maleki 100ml -Lattafa -Homme
+prod-2461 → Maahir Silver – 100ml Lattafa Homme
+prod-2479 → Maahir Gold 100ml Lattafa-Homme
+prod-2497 → Ghala Zayed Legacy Parfum – 100ml Lattafa – Femme
+prod-2515 → Grise – 100ml -Lattafa- Mixte
+prod-2533 → Ser Al Malika – Lattafa -100 ml – Femme
+prod-2551 → Pure Passion – Lattafa – 100 ml – Mixte
+prod-2569 → Nebras 100ml Lattafa – Mixte
+prod-2587 → Ameer Al Oudh 100ml Lattafa – Mixte
+prod-2605 → Pure Oudi – Lattafa – 100 ml – Mixte
+prod-2623 → Safwaan 100ml Lattafa – Homme
+prod-2641 → Majdal 100ml – Lattafa – Mixte
+
+================================================================
+MAISON ALHAMBRA (47 produits)
+================================================================
+prod-1795 → The Tux – Maison Alhambra 100ml Homme
+prod-1814 → Portofino Intense – Maison Alhambra – Homme
+prod-1832 → Portofino – Maison Alhambra – Homme
+prod-1850 → Jean Lowe Intense Blue -100ml- Alhambra – Homme
+prod-1868 → Jean Lowe Intense – Maison Alhambra – 100 ml – Homme
+prod-1886 → Pegasus Pour Homme – Maison Alhambra – 100ml – Homme
+prod-1904 → Lovely Cherie 100ml Alhambra – Femme
+prod-1922 → Crystal Love 100ml Alhambra – Femme
+prod-1940 → Infini Rose – Maison Alhambra – 100ml – Femme
+prod-1958 → Infini Rose Elixir – Maison Alhambra -100ml – Femme
+prod-1976 → L'Envol 100ml Alhambra – Homme
+prod-1994 → Poizon – Maison Alhambra – 100ml – Homme
+prod-2012 → Reflection Man Intense – Maison Alhambra – 100ml – Homme
+prod-2030 → Silver Rose Elixir 100ml Alhambra – Femme
+prod-2048 → Soir D'été Elixir – Maison Alhambra – 100ml – Femme
+prod-2066 → Soir D'été Femme 100ml – Maison Alhambra – Femme
+prod-2084 → Montera Rouge Tobacco Parfum 100ml Alhambra – Homme
+prod-2102 → Fazza – Maison Alhambra – 100ml – Homme
+prod-2120 → Tiger Royal – Maison Alhambra 100ml – Homme
+prod-2138 → Woody Oud 80 ml – Maison Alhambra
+prod-2156 → Sedbury – Maison Alhambra – 100ml – Homme
+prod-2174 → Café Intense 100ml Alhambra – Mixte
+prod-2192 → Sillage d'Odessa Elixir – Maison Alhambra – 100ml – Femme
+prod-2210 → Rose Lumière Elixir 100ml Alhambra – Femme
+prod-2228 → Italian Leather 100ml – Alhambra – Homme
+prod-2246 → Exceptional Vétiver 100ml Alhambra – Homme
+prod-2264 → 1 Million Royal – 100ml Alhambra – Homme
+prod-2282 → Hawai Rouge 100ml Alhambra – Mixte
+prod-2300 → Hawai – Maison Alhambra – 100ml – Mixte
+prod-2318 → Blue de Maison – Alhambra – 100ml – Homme
+prod-2336 → Amber Grand Pendora – Maison Alhambra – 100ml – Mixte
+prod-2354 → 24 Gold 100ml Alhambra – Homme
+prod-2372 → Intense Love – Maison Alhambra – 100ml – Femme
+prod-2390 → Eau De Cédrat – Maison Alhambra – Mixte – 100 ml
+prod-2408 → Nasomatto Afgano – 80ml – Alhambra – Mixte
+prod-2426 → Private Patchouli – Maison Alhambra – 100ml – Mixte
+prod-2444 → Oud Royal – Maison Alhambra – 100ml – Mixte
+prod-2462 → Oud Vanille – Maison Alhambra – 100ml – Mixte
+prod-2480 → Astreo – Maison Alhambra – Mixte – 100ml
+prod-2498 → Her Elixir Precious 100ml Alhambra – Femme
+prod-2516 → Soir Lointain Elixir – Maison Alhambra – 100ml – Femme
+prod-2534 → Millesime Aoud Elixir 100 ml Alhambra – Homme
+prod-2552 → Royal Tabacco – Maison Alhambra – 100ml – Homme
+prod-2570 → Nuit Élégante Elixir 100ml Alhambra – Homme
+prod-2588 → Intense Aoud – Maison Alhambra – 100ml – Mixte
+prod-2606 → Vanilla Planifolia Elixir – Maison Alhambra – Mixte – 100ml
+prod-2624 → J – Alhambra – 100ml – Homme
+prod-2642 → So Scandal Royale Elixir – Maison Alhambra – Femme – 100ml
+
+================================================================
+FRAGRANCE WORLD (25 produits)
+================================================================
+prod-1796 → Optimystic 100ml – Fragrance World
+prod-1815 → After Effect Edp – Fragrance World
+prod-1833 → Suits – Fragrance World 100 ml
+prod-1851 → King – Fragrance World 100 ml
+prod-1869 → Francique 63.55 Fragrance World
+prod-1887 → Francique 107.9 Fragrance World
+prod-1905 → Invicto – Fragrance World 100 ml
+prod-1923 → A king fragrance world
+prod-1941 → Dark as Wood – Fragrance World 100 ml
+prod-1959 → Fresh as Citrus – Fragrance World 100 ml
+prod-1977 → White as Tuberose – Fragrance World 100 ml
+prod-1995 → K King – Fragrance World
+prod-2013 → Coktail Intense – Fragrance World 100 ml
+prod-2031 → Queen Q – fragrance world
+prod-2049 → Vanilla So Sweet Fragrance World
+prod-2067 → J – Fragrance World
+prod-2085 → Cuir Leather – Fragrance World – 100ml
+prod-2103 → Tour de Havana – Fragrance World 100ml
+prod-2121 → Extreme Aoud – Fragrance World
+prod-2139 → Mocha Wood – Fragrance World 100ml
+prod-2157 → Jack of Clubs Fragrance World
+prod-2175 → Valentina Fragrance World
+prod-2193 → Blue Deep Velvet Fragrance World
+prod-2211 → Cashmere Wood Fragrance World
+prod-2229 → Amber Neroli Fragrance World
+
+================================================================
+FRENCH AVENUE (12 produits)
+================================================================
+prod-1797 → Francique 107.9 – French Avenue
+prod-1816 → First Class Lady – 100 ml – French Avenue – Femme
+prod-1834 → The Gentleman – 100ml – French Avenue – Homme
+prod-1852 → The Asgard – French Avenue – Homme – 100ml
+prod-1870 → VIP Blue – French Avenue – 100ml – Homme
+prod-1888 → The Supreme Oud – French Avenue – Mixte – 100ml
+prod-1906 → Green Oud – French Avenue – Mixte 100ml
+prod-1924 → Royal Code – French Avenue – 100ml – Homme
+prod-1942 → The Club – French Avenue – Homme – 100ml
+prod-1960 → Musc Vanille – French Avenue – Mixte – 100ml
+prod-1978 → VIP Pour Femme – French Avenue – Femme -100ml
+prod-1996 → Oud Royal – French Avenue – Mixte – 100ml
+
+================================================================
+DUBAI PERFUMES (21 produits)
+================================================================
+prod-1798 → Arwaah Ateeq – Dubai Perfumes – 100ml – Homme
+prod-1817 → Saffron Blue – Dubai Perfumes 100ml Homme
+prod-1835 → Majestic Oud – 100ml Dubai Perfumes – Homme
+prod-1853 → Oud Intense 100ml – Dubai Perfumes – Homme
+prod-1871 → Oud Infinity 100ml – Dubai Perfumes – Homme
+prod-1889 → Prestige Royal Bloom – Dubai Perfumes – 100ml – Femme
+prod-1907 → Magnificent Rose 100ml – Dubai Perfumes – Femme
+prod-1925 → Prestige Roses – Dubai Perfumes – Femme – 100ml
+prod-1943 → PRESTIGE SULTAN – Dubai Perfumes – 100ml – Homme
+prod-1961 → Now – Dubai Perfumes (Rave) – Mixte – 100ml
+prod-1979 → Prestige Infinity Oud 100ml – Dubai Perfumes – Mixte
+prod-1997 → Intense Oud 100ml – Dubai Perfumes -Homme
+prod-2015 → Ultimate Prestige – Dubai Perfumes – Homme – 100ml
+prod-2033 → Imperial Honey Oud 100ml – Dubai Perfumes – Mixte
+prod-2051 → Prestige Blossom – Dubai Perfumes – 100ml – Femme
+prod-2069 → Pure Passion – Dubai Perfumes – Femme – 100ml
+prod-2087 → Prestige Pure Oud 100ml – Dubai Perfumes – Mixte
+prod-2105 → Private Intense Oud 100ml Dubai Perfumes – Mixte
+prod-2123 → Prestige Intense Oud 100ml – Dubai Perfumes – Mixte
+prod-2141 → Prestige Vanilla – Dubai Perfumes – Femme – 100ml
+prod-2159 → Imperial – Dubai Perfumes – Homme – 100ml
+
+================================================================

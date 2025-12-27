@@ -103,149 +103,107 @@
         </nav>
     </header>
 
-    <!-- Hero Slider - NOUVEAU DESIGN AVEC IMAGES -->
-    <section class="hero-slider">
-        <div class="slider-container">
-            <!-- Slide 1: Collection Luxe -->
-            <div class="slide active" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2520 100%);">
-                <div class="slide-content">
-                    <span class="slide-badge">EXCLUSIVITÉ DUBAÏ</span>
-                    <h1 class="slide-title">L'Essence de Dubaï</h1>
-                    <p class="slide-subtitle">Découvrez nos parfums authentiques à prix unique</p>
-                    <div class="hero-features">
-                        <div class="hero-feature">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                                <path d="M9 12l2 2 4-4"/>
-                            </svg>
-                            <span>100% Authentique</span>
-                        </div>
-                        <div class="hero-feature">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
-                                <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
-                            </svg>
-                            <span>Livraison Gratuite dès 49€</span>
-                        </div>
-                    </div>
-                    <a href="boutique.html" class="btn-primary-large">Découvrir la collection</a>
+    <!-- Welcome Modal -->
+    <div class="welcome-modal" id="welcomeModal">
+        <div class="welcome-modal-overlay"></div>
+        <div class="welcome-modal-content">
+            <button class="welcome-close" onclick="closeWelcomeModal()">&times;</button>
+
+            <div class="welcome-icon">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 2L4 8v8c0 7.732 5.12 14.928 12 16 6.88-1.072 12-8.268 12-16V8L12 2z"/>
+                    <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                </svg>
+            </div>
+
+            <h2 class="welcome-title">Bienvenue sur DubaiNegoce</h2>
+            <p class="welcome-subtitle">Découvrez l'excellence de la parfumerie orientale</p>
+
+            <div class="welcome-features">
+                <div class="welcome-feature">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                    <h3>100% Authentique</h3>
+                    <p>Parfums originaux importés directement de Dubaï</p>
                 </div>
-                <div class="slide-image-grid">
-                    <div class="hero-product-card">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546825/Dubai_Negoce_2_cq0vcx.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="hero-product-card featured">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546760/Dubai_Negoce_3_nq8tla.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="hero-product-card">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546729/Dubai_Negoce_1_gqxemw.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
+                <div class="welcome-feature">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 6v6l4 2"/>
+                    </svg>
+                    <h3>Prix Unique</h3>
+                    <p>Tous nos parfums à 35€ - Qualité premium accessible</p>
+                </div>
+                <div class="welcome-feature">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="1" y="3" width="15" height="13"/>
+                        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                        <circle cx="5.5" cy="18.5" r="2.5"/>
+                        <circle cx="18.5" cy="18.5" r="2.5"/>
+                    </svg>
+                    <h3>Livraison Gratuite</h3>
+                    <p>Dès 49€ d'achat avec Mondial Relay</p>
                 </div>
             </div>
 
-            <!-- Slide 2: Best-Sellers -->
-            <div class="slide" style="background: linear-gradient(135deg, #2c1810 0%, #1a1a1a 100%);">
-                <div class="slide-content">
-                    <span class="slide-badge">BEST-SELLERS</span>
-                    <h2 class="slide-title">Nos Incontournables</h2>
-                    <p class="slide-subtitle">Les parfums préférés de nos clients</p>
-                    <div class="hero-stats">
-                        <div class="stat">
-                            <strong>2000+</strong>
-                            <span>Clients satisfaits</span>
-                        </div>
-                        <div class="stat">
-                            <strong>4.9/5</strong>
-                            <span>Note moyenne</span>
-                        </div>
-                    </div>
-                    <a href="#best-sellers" class="btn-primary-large">Voir les best-sellers</a>
-                </div>
-                <div class="slide-image-grid">
-                    <div class="hero-product-card">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546729/Dubai_Negoce_1_gqxemw.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="hero-product-card featured">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546825/Dubai_Negoce_2_cq0vcx.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="hero-product-card">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546760/Dubai_Negoce_3_nq8tla.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                </div>
+            <div class="welcome-cta">
+                <a href="#best-sellers" class="btn-welcome-primary" onclick="closeWelcomeModal()">
+                    Découvrir nos best-sellers
+                </a>
+                <a href="boutique.html" class="btn-welcome-secondary" onclick="closeWelcomeModal()">
+                    Voir toute la boutique
+                </a>
             </div>
 
-            <!-- Slide 3: Nouveautés -->
-            <div class="slide" style="background: linear-gradient(135deg, #1a2836 0%, #1a1a1a 100%);">
-                <div class="slide-content">
-                    <span class="slide-badge">NOUVEAU</span>
-                    <h2 class="slide-title">Dernières Nouveautés</h2>
-                    <p class="slide-subtitle">Les nouvelles fragrances qui font sensation</p>
-                    <div class="hero-price-highlight">
-                        <span class="price-label">Prix unique</span>
-                        <span class="price">35€</span>
-                        <span class="price-detail">Tous nos parfums au même prix</span>
-                    </div>
-                    <a href="#nouveautes" class="btn-primary-large">Découvrir</a>
-                </div>
-                <div class="slide-image-grid">
-                    <div class="hero-product-card">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546760/Dubai_Negoce_3_nq8tla.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="hero-product-card featured">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546729/Dubai_Negoce_1_gqxemw.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="hero-product-card">
-                        <div class="video-container">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://res.cloudinary.com/dzntnjtkc/video/upload/v1734546825/Dubai_Negoce_2_cq0vcx.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="welcome-promo">🎁 Code promo: <strong>BIENVENUE10</strong> pour -10% sur votre première commande</p>
         </div>
+    </div>
 
-        <!-- Contrôles du slider -->
-        <button class="slider-control prev" onclick="previousSlide()">‹</button>
-        <button class="slider-control next" onclick="nextSlide()">›</button>
-
-        <!-- Dots de navigation -->
-        <div class="slider-dots">
-            <button class="dot active" onclick="goToSlide(0)"></button>
-            <button class="dot" onclick="goToSlide(1)"></button>
-            <button class="dot" onclick="goToSlide(2)"></button>
+    <!-- Hero Section - Carousel de vidéos -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">EXCLUSIVITÉ DUBAÏ</span>
+                <h1 class="hero-title">L'Essence de Dubaï</h1>
+                <p class="hero-subtitle">Découvrez nos parfums authentiques à prix unique</p>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M9 12l2 2 4-4"/>
+                        </svg>
+                        <span>100% Authentique</span>
+                    </div>
+                    <div class="hero-feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                            <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+                        </svg>
+                        <span>Livraison Gratuite dès 49€</span>
+                    </div>
+                </div>
+                <a href="boutique.html" class="btn-primary-large">Découvrir la collection</a>
+            </div>
+            <div class="hero-video-wrapper">
+                <div class="hero-product-card">
+                    <div class="video-container">
+                        <video autoplay muted loop playsinline class="hero-video active">
+                            <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255913/grok-video-e0b263cc-d799-4eaf-af37-19a495bddfb7_gvix12.mp4" type="video/mp4">
+                        </video>
+                        <video autoplay muted loop playsinline class="hero-video">
+                            <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255870/grok-video-62d89989-e362-4f7b-8748-be7160716d9d_y6gjhi.mp4" type="video/mp4">
+                        </video>
+                        <video autoplay muted loop playsinline class="hero-video">
+                            <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255882/grok-video-47eb3ac0-be42-4cdb-a184-80277705f1d4_ca1kj5.mp4" type="video/mp4">
+                        </video>
+                        <video autoplay muted loop playsinline class="hero-video">
+                            <source src="https://res.cloudinary.com/dhjwimevi/video/upload/v1766255881/grok-video-00e16448-d9d4-42d7-b008-a52bb2d894e6_mrdac7.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

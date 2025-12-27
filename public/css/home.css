@@ -101,7 +101,7 @@
   transform: translateX(5px);
 }
 
-/* Hero Video Grid Styles - Un seul cadre rond avec halo doré */
+/* Hero Video Grid Styles - Un seul cercle rond avec carousel de vidéos */
 .slide-image-grid {
   display: flex;
   justify-content: center;
@@ -114,11 +114,6 @@
   width: 450px;
   height: 450px;
   cursor: pointer;
-}
-
-/* Cacher les cartes non-featured */
-.hero-product-card:not(.featured) {
-  display: none;
 }
 
 /* Halo lumineux doré animé */
@@ -177,35 +172,27 @@
     inset 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
-.hero-product-card video {
+/* Les vidéos dans le conteneur rond */
+.hero-product-card .hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
 }
 
-.hero-product-card:hover video {
-  transform: scale(1.1);
-}
-
-/* Carte produit centrale mise en avant */
-.hero-product-card.featured {
-  width: 450px;
-  height: 450px;
+/* Vidéo active visible */
+.hero-product-card .hero-video.active {
+  opacity: 1;
   z-index: 2;
 }
 
-.hero-product-card.featured::before {
-  filter: blur(25px);
-  opacity: 1;
-}
-
-.hero-product-card.featured .video-container {
-  border-width: 6px;
-  box-shadow:
-    0 0 50px rgba(212, 175, 55, 0.8),
-    0 0 100px rgba(255, 215, 0, 0.6),
-    inset 0 0 30px rgba(0, 0, 0, 0.3);
+.hero-product-card:hover .hero-video {
+  transform: scale(1.05);
 }
 
 .hero-product-label {
@@ -774,6 +761,12 @@
   .products-slider {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  /* Hero responsive sur tablette */
+  .hero-product-card {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -824,14 +817,10 @@
     gap: 16px;
   }
 
-  /* Hero responsive */
-  .slide-image-grid {
-    grid-template-columns: 1fr;
-    gap: 15px;
-  }
-
-  .hero-product-card.featured {
-    transform: scale(1);
+  /* Hero responsive sur mobile */
+  .hero-product-card {
+    width: 300px;
+    height: 300px;
   }
 
   .hero-product-card img {

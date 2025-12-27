@@ -11,7 +11,19 @@
       "Bash(git pull:*)",
       "Bash(node -c:*)",
       "Bash(npm install:*)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(node extract-products.js:*)",
+      "Bash(node final-import.js:*)",
+      "Bash(node import-part1.js:*)",
+      "Bash(head:*)",
+      "Bash(wc:*)",
+      "Bash(node -e:*)",
+      "Bash(node:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(firebase deploy:*)",
+      "Bash(firebase apphosting:backends:list:*)",
+      "Bash(firebase projects:list:*)"
     ]
   }
 }

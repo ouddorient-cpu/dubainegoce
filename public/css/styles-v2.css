@@ -63,8 +63,8 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  zoom: 0.75;
-  -moz-transform: scale(0.75);
+  zoom: 0.90;
+  -moz-transform: scale(0.90);
   -moz-transform-origin: 0 0;
 }
 
@@ -431,43 +431,237 @@ ul, ol {
   background: var(--color-primary-dark);
 }
 
-/* ========== HERO SLIDER ========== */
-.hero-slider {
-  position: relative;
-  height: 600px;
-  overflow: hidden;
-  background: var(--color-charcoal);
-}
-
-.slider-container {
-  position: relative;
+/* ========== WELCOME MODAL ========== */
+.welcome-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-}
-
-.slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  z-index: 10000;
   display: flex;
   align-items: center;
+  justify-content: center;
   opacity: 0;
-  transition: opacity 0.5s ease;
-  padding: 0 var(--spacing-xl);
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.slide.active {
+.welcome-modal.active {
   opacity: 1;
+  visibility: visible;
 }
 
-.slide-content {
+.welcome-modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.welcome-modal-content {
+  position: relative;
+  max-width: 700px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  border-radius: 24px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
+  animation: modalSlideUp 0.5s ease;
+  text-align: center;
+}
+
+@keyframes modalSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.welcome-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(90deg);
+}
+
+.welcome-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  animation: pulse 2s infinite;
+}
+
+.welcome-title {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 2rem;
+}
+
+.welcome-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.welcome-feature {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.welcome-feature:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-5px);
+}
+
+.welcome-feature svg {
+  color: white;
+  margin: 0 auto 1rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.welcome-feature h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-feature p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.4;
+}
+
+.welcome-cta {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 1.5rem;
+  justify-content: center;
+}
+
+.btn-welcome-primary,
+.btn-welcome-secondary {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-welcome-primary {
+  background: white;
+  color: #667eea;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-welcome-primary:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+}
+
+.btn-welcome-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-welcome-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.welcome-promo {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.95);
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.welcome-promo strong {
+  color: #FFD700;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+/* ========== HERO SECTION ========== */
+.hero-section {
+  position: relative;
+  min-height: 600px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2520 100%);
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+.hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero-content {
   flex: 1;
   max-width: 600px;
   color: var(--color-white);
   z-index: 2;
 }
 
-.slide-badge {
+.hero-badge {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: var(--color-primary);
@@ -478,7 +672,7 @@ ul, ol {
   margin-bottom: 1.5rem;
 }
 
-.slide-title {
+.hero-title {
   font-family: var(--font-display);
   font-size: 2.5rem;
   font-weight: 700;
@@ -487,7 +681,7 @@ ul, ol {
   color: var(--color-white);
 }
 
-.slide-subtitle {
+.hero-subtitle {
   font-size: 1rem;
   color: rgba(255,255,255,0.9);
   margin-bottom: 1.5rem;
@@ -510,77 +704,31 @@ ul, ol {
   box-shadow: var(--shadow-lg);
 }
 
-.slide-image {
+.hero-video-wrapper {
   flex: 1;
-  position: relative;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.slide-image img,
-.slide-image video {
-  max-height: 80%;
-  object-fit: contain;
-  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
-  border-radius: 12px;
+/* Hero Features */
+.hero-features {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
 }
 
-/* Slider Controls */
-.slider-control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 3rem;
-  height: 3rem;
-  background: rgba(255,255,255,0.2);
-  color: var(--color-white);
-  border-radius: 50%;
+.hero-feature {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  z-index: 10;
-  transition: var(--transition-base);
-  backdrop-filter: blur(10px);
+  gap: 10px;
+  color: rgba(255,255,255,0.9);
+  font-size: 0.9rem;
 }
 
-.slider-control:hover {
-  background: rgba(255,255,255,0.3);
-}
-
-.slider-control.prev {
-  left: 2rem;
-}
-
-.slider-control.next {
-  right: 2rem;
-}
-
-/* Slider Dots */
-.slider-dots {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 0.75rem;
-  z-index: 10;
-}
-
-.dot {
-  width: 0.75rem;
-  height: 0.75rem;
-  background: rgba(255,255,255,0.3);
-  border-radius: 50%;
-  transition: var(--transition-base);
-}
-
-.dot.active {
-  background: var(--color-primary);
-  width: 2rem;
-  border-radius: 0.375rem;
+.hero-feature svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
 }
 
 /* ========== MINI BANNERS ========== */
@@ -1688,22 +1836,50 @@ ul, ol {
     padding: 1rem 0;
   }
 
-  .hero-slider {
-    height: 500px;
+  .hero-section {
+    min-height: 500px;
+    padding: 40px 0;
   }
 
-  .slide {
+  .hero-container {
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 0 1.5rem;
+    gap: 2rem;
+  }
+
+  .hero-content {
     text-align: center;
   }
 
-  .slide-title {
-    font-size: 2.5rem;
+  .hero-title {
+    font-size: 2rem;
   }
 
-  .slide-image {
-    display: none;
+  .hero-features {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .welcome-modal-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .welcome-title {
+    font-size: 1.8rem;
+  }
+
+  .welcome-features {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .welcome-cta {
+    flex-direction: column;
+  }
+
+  .btn-welcome-primary,
+  .btn-welcome-secondary {
+    width: 100%;
   }
 
   .mini-banners-grid {

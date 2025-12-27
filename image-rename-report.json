@@ -1,0 +1,939 @@
+{
+  "timestamp": "2025-12-26T08:39:04.017Z",
+  "folder": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier",
+  "totalImages": 171,
+  "renamed": 14,
+  "notMatched": 157,
+  "duplicates": 8,
+  "details": {
+    "renamed": [
+      {
+        "original": "1.png",
+        "new": "ramz-gold-lattafa-mixte-lattafa.png",
+        "product": "Ramz Gold 100ml – Lattafa mixte",
+        "brand": "Lattafa",
+        "score": 5
+      },
+      {
+        "original": "10.png",
+        "new": "ramz-gold-lattafa-mixte-lattafa-2.png",
+        "product": "Ramz Gold 100ml – Lattafa mixte",
+        "brand": "Lattafa",
+        "score": 5
+      },
+      {
+        "original": "3.png",
+        "new": "francique-6355-fragrance-world-fragrance-world.png",
+        "product": "Francique 63.55 - Fragrance World",
+        "brand": "Fragrance World",
+        "score": 5
+      },
+      {
+        "original": "5.png",
+        "new": "francique-6355-fragrance-world-fragrance-world-2.png",
+        "product": "Francique 63.55 - Fragrance World",
+        "brand": "Fragrance World",
+        "score": 5
+      },
+      {
+        "original": "55.png",
+        "new": "francique-6355-fragrance-world-fragrance-world-3.png",
+        "product": "Francique 63.55 - Fragrance World",
+        "brand": "Fragrance World",
+        "score": 5
+      },
+      {
+        "original": "6.png",
+        "new": "i-am-white-ana-abiyedh-rouge-lattafa-lattafa.png",
+        "product": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "brand": "Lattafa",
+        "score": 5
+      },
+      {
+        "original": "60.png",
+        "new": "i-am-white-ana-abiyedh-rouge-lattafa-lattafa-2.png",
+        "product": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+        "brand": "Lattafa",
+        "score": 5
+      },
+      {
+        "original": "63.png",
+        "new": "francique-6355-fragrance-world-fragrance-world-4.png",
+        "product": "Francique 63.55 - Fragrance World",
+        "brand": "Fragrance World",
+        "score": 5
+      },
+      {
+        "original": "7.png",
+        "new": "francique-1079-fragrance-world-fragrance-world.png",
+        "product": "Francique 107.9 Fragrance World",
+        "brand": "Fragrance World",
+        "score": 5
+      },
+      {
+        "original": "8.png",
+        "new": "woody-oud-maison-alhambra-maison-alhambra.png",
+        "product": "Woody Oud 80 ml – Maison Alhambra",
+        "brand": "Maison Alhambra",
+        "score": 5
+      },
+      {
+        "original": "80.png",
+        "new": "woody-oud-maison-alhambra-maison-alhambra-2.png",
+        "product": "Woody Oud 80 ml – Maison Alhambra",
+        "brand": "Maison Alhambra",
+        "score": 5
+      },
+      {
+        "original": "9.png",
+        "new": "francique-1079-fragrance-world-fragrance-world-2.png",
+        "product": "Francique 107.9 Fragrance World",
+        "brand": "Fragrance World",
+        "score": 5
+      },
+      {
+        "original": "extreme aoud-fragrance world.png",
+        "new": "extreme-aoud-fragrance-world-fragrance-world.png",
+        "product": "Extreme aoud Fragrance world",
+        "brand": "Fragrance World",
+        "score": 2
+      },
+      {
+        "original": "francique.png",
+        "new": "francique-1079-fragrance-world-fragrance-world-3.png",
+        "product": "Francique 107.9 Fragrance World",
+        "brand": "Fragrance World",
+        "score": 6
+      }
+    ],
+    "notMatched": [
+      {
+        "filename": "11.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "12.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "13.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "14.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "15.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "16.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "17.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "18.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "19.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "2.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "20.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "21.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "22.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "23.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "24.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "25.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "26.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "27.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "28.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "29.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "30.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "31.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "32.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "33.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "34.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "35.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "36.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "37.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "38.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "39.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "4.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "40.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "41.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "42.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "43.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "44.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "45.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "46.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "47.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "48.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "49.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "50.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "51.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "52.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "53.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "54.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "56.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "57.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "58.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "59.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "61.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "62.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "64.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "65.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "66.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "67.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "68.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "69.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "70.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "71.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "72.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "73.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "74.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "75.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "76.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "77.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "78.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "79.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "81.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "82.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "83.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "84.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "85.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "86.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "87.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "88.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "89.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "90.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "91.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "92.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "93.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "94.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "95.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "96.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "97.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "98.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "99.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "after-effect-fragrance world.jpg",
+        "bestMatch": "A king fragrance world",
+        "score": 1
+      },
+      {
+        "filename": "ajwed-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "amber-neroli-world-fragrance world.png",
+        "bestMatch": "A king fragrance world",
+        "score": 1
+      },
+      {
+        "filename": "Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Amber___Neroli_Eau_De_Parfum_By_Fragrance_World_80ml_2_7_Fl_Oz-1.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Ameer_Al_Oud_lattafa_100ml_600x600.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "as-tuberose-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "badee-for-glory.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "badee_al_oud_perfume_600x600.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "cocktail-world.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "cuir-leather-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "dark-as-wood-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragranc-world-francique-63_55.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-cocktail-intense.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-cuir-leather-2.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-cuir-leather.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-dark-as-wood-2.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-dark-as-wood.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-extreme-aoud.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-fresh-as-citrus-2.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-fresh-as-citrus.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-invicto.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-jack-of-clubs.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-king.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-mocha-wood.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-optimystic.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-suits.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-tour-de-havana.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-vanilla-so-sweet.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "fragrance-world-white-as-tuberose.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Francique-107.9-–-French-Avenue1.jpeg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "grise-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Grise_Perfume_Lattafa-1.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "infini-rose-elixir-alhambra.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "infini-rose.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "invicto-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "jack-of-clubs-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "king-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-asad.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-badee-al-oud-amethyst.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-badee-al-oud-oud-for-glory.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-ejaazi.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-eternal-oud.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-fakhar.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-qaed-al-fursan-2.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "lattafa-yara.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "majdal-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "mayar-floral-fruity-and-amber-scent-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Mayar_100ml_Edp_By_Lattafa_Perfumes_For_Women_Floral__Fruity__And_Amber_Scent-1.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "mocha-wood-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Montera-Rouge-Tobacco-PARFUM-1.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "montera-tobacco.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "mood-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "MUSC-VANILLE.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "musk-mood-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "najdia-tribute-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "nasomatto-afgano.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "now-rave.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Now_EDP_100ml__3_4Oz__By_RAVE.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "optimysitc-world.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "parfum-Safwaan.jpg",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "pure-oudi-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "Pure-passion.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "queen-qfragrance world.png",
+        "bestMatch": "A king fragrance world",
+        "score": 1
+      },
+      {
+        "filename": "safwaan-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "suits-world-perfumy-arabskie.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "velvet-oud-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "world-optimystic.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "world-tour-havana.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      },
+      {
+        "filename": "yara-lattafa.png",
+        "bestMatch": "Aucun",
+        "score": 0
+      }
+    ],
+    "duplicates": [
+      {
+        "original": "10.png",
+        "new": "ramz-gold-lattafa-mixte-lattafa-2.png",
+        "product": "Ramz Gold 100ml – Lattafa mixte"
+      },
+      {
+        "original": "5.png",
+        "new": "francique-6355-fragrance-world-fragrance-world-2.png",
+        "product": "Francique 63.55 - Fragrance World"
+      },
+      {
+        "original": "55.png",
+        "new": "francique-6355-fragrance-world-fragrance-world-3.png",
+        "product": "Francique 63.55 - Fragrance World"
+      },
+      {
+        "original": "60.png",
+        "new": "i-am-white-ana-abiyedh-rouge-lattafa-lattafa-2.png",
+        "product": "I am white Ana Abiyedh Rouge 60ml – Lattafa"
+      },
+      {
+        "original": "63.png",
+        "new": "francique-6355-fragrance-world-fragrance-world-4.png",
+        "product": "Francique 63.55 - Fragrance World"
+      },
+      {
+        "original": "80.png",
+        "new": "woody-oud-maison-alhambra-maison-alhambra-2.png",
+        "product": "Woody Oud 80 ml – Maison Alhambra"
+      },
+      {
+        "original": "9.png",
+        "new": "francique-1079-fragrance-world-fragrance-world-2.png",
+        "product": "Francique 107.9 Fragrance World"
+      },
+      {
+        "original": "francique.png",
+        "new": "francique-1079-fragrance-world-fragrance-world-3.png",
+        "product": "Francique 107.9 Fragrance World"
+      }
+    ]
+  }
+}

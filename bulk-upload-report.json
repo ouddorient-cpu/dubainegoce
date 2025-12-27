@@ -1,0 +1,862 @@
+{
+  "timestamp": "2025-12-26T08:53:27.135Z",
+  "folder": "C:\\Users\\abder\\OneDrive\\Bureau\\SITES PERSO\\images avec fond gris\\Nouveau dossier",
+  "totalImages": 171,
+  "uploaded": 162,
+  "skipped": 0,
+  "failed": 9,
+  "cloudinaryFolder": "temp-uploads",
+  "details": {
+    "uploaded": [
+      {
+        "original": "11.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738974/temp-uploads/temp-uploads/11.png",
+        "publicId": "temp-uploads/temp-uploads/11"
+      },
+      {
+        "original": "12.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738975/temp-uploads/temp-uploads/12.png",
+        "publicId": "temp-uploads/temp-uploads/12"
+      },
+      {
+        "original": "13.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738977/temp-uploads/temp-uploads/13.png",
+        "publicId": "temp-uploads/temp-uploads/13"
+      },
+      {
+        "original": "14.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738978/temp-uploads/temp-uploads/14.png",
+        "publicId": "temp-uploads/temp-uploads/14"
+      },
+      {
+        "original": "15.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738979/temp-uploads/temp-uploads/15.png",
+        "publicId": "temp-uploads/temp-uploads/15"
+      },
+      {
+        "original": "16.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738981/temp-uploads/temp-uploads/16.png",
+        "publicId": "temp-uploads/temp-uploads/16"
+      },
+      {
+        "original": "17.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738982/temp-uploads/temp-uploads/17.png",
+        "publicId": "temp-uploads/temp-uploads/17"
+      },
+      {
+        "original": "18.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738983/temp-uploads/temp-uploads/18.png",
+        "publicId": "temp-uploads/temp-uploads/18"
+      },
+      {
+        "original": "19.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738985/temp-uploads/temp-uploads/19.png",
+        "publicId": "temp-uploads/temp-uploads/19"
+      },
+      {
+        "original": "2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738987/temp-uploads/temp-uploads/2.png",
+        "publicId": "temp-uploads/temp-uploads/2"
+      },
+      {
+        "original": "20.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738988/temp-uploads/temp-uploads/20.png",
+        "publicId": "temp-uploads/temp-uploads/20"
+      },
+      {
+        "original": "21.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738990/temp-uploads/temp-uploads/21.png",
+        "publicId": "temp-uploads/temp-uploads/21"
+      },
+      {
+        "original": "22.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738991/temp-uploads/temp-uploads/22.png",
+        "publicId": "temp-uploads/temp-uploads/22"
+      },
+      {
+        "original": "23.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738992/temp-uploads/temp-uploads/23.png",
+        "publicId": "temp-uploads/temp-uploads/23"
+      },
+      {
+        "original": "24.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738995/temp-uploads/temp-uploads/24.png",
+        "publicId": "temp-uploads/temp-uploads/24"
+      },
+      {
+        "original": "25.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738996/temp-uploads/temp-uploads/25.png",
+        "publicId": "temp-uploads/temp-uploads/25"
+      },
+      {
+        "original": "26.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738997/temp-uploads/temp-uploads/26.png",
+        "publicId": "temp-uploads/temp-uploads/26"
+      },
+      {
+        "original": "27.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766738998/temp-uploads/temp-uploads/27.png",
+        "publicId": "temp-uploads/temp-uploads/27"
+      },
+      {
+        "original": "28.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739000/temp-uploads/temp-uploads/28.png",
+        "publicId": "temp-uploads/temp-uploads/28"
+      },
+      {
+        "original": "29.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739002/temp-uploads/temp-uploads/29.png",
+        "publicId": "temp-uploads/temp-uploads/29"
+      },
+      {
+        "original": "30.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739003/temp-uploads/temp-uploads/30.png",
+        "publicId": "temp-uploads/temp-uploads/30"
+      },
+      {
+        "original": "31.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739004/temp-uploads/temp-uploads/31.png",
+        "publicId": "temp-uploads/temp-uploads/31"
+      },
+      {
+        "original": "32.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739005/temp-uploads/temp-uploads/32.png",
+        "publicId": "temp-uploads/temp-uploads/32"
+      },
+      {
+        "original": "33.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739007/temp-uploads/temp-uploads/33.png",
+        "publicId": "temp-uploads/temp-uploads/33"
+      },
+      {
+        "original": "34.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739008/temp-uploads/temp-uploads/34.png",
+        "publicId": "temp-uploads/temp-uploads/34"
+      },
+      {
+        "original": "35.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739010/temp-uploads/temp-uploads/35.png",
+        "publicId": "temp-uploads/temp-uploads/35"
+      },
+      {
+        "original": "36.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739012/temp-uploads/temp-uploads/36.png",
+        "publicId": "temp-uploads/temp-uploads/36"
+      },
+      {
+        "original": "37.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739013/temp-uploads/temp-uploads/37.png",
+        "publicId": "temp-uploads/temp-uploads/37"
+      },
+      {
+        "original": "38.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739015/temp-uploads/temp-uploads/38.png",
+        "publicId": "temp-uploads/temp-uploads/38"
+      },
+      {
+        "original": "39.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739016/temp-uploads/temp-uploads/39.png",
+        "publicId": "temp-uploads/temp-uploads/39"
+      },
+      {
+        "original": "4.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739017/temp-uploads/temp-uploads/4.png",
+        "publicId": "temp-uploads/temp-uploads/4"
+      },
+      {
+        "original": "40.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739019/temp-uploads/temp-uploads/40.png",
+        "publicId": "temp-uploads/temp-uploads/40"
+      },
+      {
+        "original": "41.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739020/temp-uploads/temp-uploads/41.png",
+        "publicId": "temp-uploads/temp-uploads/41"
+      },
+      {
+        "original": "42.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739021/temp-uploads/temp-uploads/42.png",
+        "publicId": "temp-uploads/temp-uploads/42"
+      },
+      {
+        "original": "43.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739023/temp-uploads/temp-uploads/43.png",
+        "publicId": "temp-uploads/temp-uploads/43"
+      },
+      {
+        "original": "44.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739024/temp-uploads/temp-uploads/44.png",
+        "publicId": "temp-uploads/temp-uploads/44"
+      },
+      {
+        "original": "45.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739025/temp-uploads/temp-uploads/45.png",
+        "publicId": "temp-uploads/temp-uploads/45"
+      },
+      {
+        "original": "46.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739027/temp-uploads/temp-uploads/46.png",
+        "publicId": "temp-uploads/temp-uploads/46"
+      },
+      {
+        "original": "47.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739028/temp-uploads/temp-uploads/47.png",
+        "publicId": "temp-uploads/temp-uploads/47"
+      },
+      {
+        "original": "48.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739029/temp-uploads/temp-uploads/48.png",
+        "publicId": "temp-uploads/temp-uploads/48"
+      },
+      {
+        "original": "49.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739031/temp-uploads/temp-uploads/49.png",
+        "publicId": "temp-uploads/temp-uploads/49"
+      },
+      {
+        "original": "50.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739032/temp-uploads/temp-uploads/50.png",
+        "publicId": "temp-uploads/temp-uploads/50"
+      },
+      {
+        "original": "51.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739033/temp-uploads/temp-uploads/51.png",
+        "publicId": "temp-uploads/temp-uploads/51"
+      },
+      {
+        "original": "52.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739035/temp-uploads/temp-uploads/52.png",
+        "publicId": "temp-uploads/temp-uploads/52"
+      },
+      {
+        "original": "53.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739036/temp-uploads/temp-uploads/53.png",
+        "publicId": "temp-uploads/temp-uploads/53"
+      },
+      {
+        "original": "54.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739038/temp-uploads/temp-uploads/54.png",
+        "publicId": "temp-uploads/temp-uploads/54"
+      },
+      {
+        "original": "56.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739039/temp-uploads/temp-uploads/56.png",
+        "publicId": "temp-uploads/temp-uploads/56"
+      },
+      {
+        "original": "57.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739040/temp-uploads/temp-uploads/57.png",
+        "publicId": "temp-uploads/temp-uploads/57"
+      },
+      {
+        "original": "58.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739043/temp-uploads/temp-uploads/58.png",
+        "publicId": "temp-uploads/temp-uploads/58"
+      },
+      {
+        "original": "59.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739045/temp-uploads/temp-uploads/59.png",
+        "publicId": "temp-uploads/temp-uploads/59"
+      },
+      {
+        "original": "61.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739047/temp-uploads/temp-uploads/61.png",
+        "publicId": "temp-uploads/temp-uploads/61"
+      },
+      {
+        "original": "62.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739049/temp-uploads/temp-uploads/62.png",
+        "publicId": "temp-uploads/temp-uploads/62"
+      },
+      {
+        "original": "64.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739050/temp-uploads/temp-uploads/64.png",
+        "publicId": "temp-uploads/temp-uploads/64"
+      },
+      {
+        "original": "65.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739052/temp-uploads/temp-uploads/65.png",
+        "publicId": "temp-uploads/temp-uploads/65"
+      },
+      {
+        "original": "66.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739053/temp-uploads/temp-uploads/66.png",
+        "publicId": "temp-uploads/temp-uploads/66"
+      },
+      {
+        "original": "67.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739054/temp-uploads/temp-uploads/67.png",
+        "publicId": "temp-uploads/temp-uploads/67"
+      },
+      {
+        "original": "68.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739055/temp-uploads/temp-uploads/68.png",
+        "publicId": "temp-uploads/temp-uploads/68"
+      },
+      {
+        "original": "69.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739057/temp-uploads/temp-uploads/69.png",
+        "publicId": "temp-uploads/temp-uploads/69"
+      },
+      {
+        "original": "70.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739058/temp-uploads/temp-uploads/70.png",
+        "publicId": "temp-uploads/temp-uploads/70"
+      },
+      {
+        "original": "71.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739065/temp-uploads/temp-uploads/71.png",
+        "publicId": "temp-uploads/temp-uploads/71"
+      },
+      {
+        "original": "72.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739068/temp-uploads/temp-uploads/72.png",
+        "publicId": "temp-uploads/temp-uploads/72"
+      },
+      {
+        "original": "73.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739074/temp-uploads/temp-uploads/73.png",
+        "publicId": "temp-uploads/temp-uploads/73"
+      },
+      {
+        "original": "74.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739077/temp-uploads/temp-uploads/74.png",
+        "publicId": "temp-uploads/temp-uploads/74"
+      },
+      {
+        "original": "75.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739080/temp-uploads/temp-uploads/75.png",
+        "publicId": "temp-uploads/temp-uploads/75"
+      },
+      {
+        "original": "76.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739084/temp-uploads/temp-uploads/76.png",
+        "publicId": "temp-uploads/temp-uploads/76"
+      },
+      {
+        "original": "77.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739086/temp-uploads/temp-uploads/77.png",
+        "publicId": "temp-uploads/temp-uploads/77"
+      },
+      {
+        "original": "78.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739087/temp-uploads/temp-uploads/78.png",
+        "publicId": "temp-uploads/temp-uploads/78"
+      },
+      {
+        "original": "79.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739089/temp-uploads/temp-uploads/79.png",
+        "publicId": "temp-uploads/temp-uploads/79"
+      },
+      {
+        "original": "81.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739091/temp-uploads/temp-uploads/81.png",
+        "publicId": "temp-uploads/temp-uploads/81"
+      },
+      {
+        "original": "82.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739092/temp-uploads/temp-uploads/82.png",
+        "publicId": "temp-uploads/temp-uploads/82"
+      },
+      {
+        "original": "83.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739094/temp-uploads/temp-uploads/83.png",
+        "publicId": "temp-uploads/temp-uploads/83"
+      },
+      {
+        "original": "84.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739095/temp-uploads/temp-uploads/84.png",
+        "publicId": "temp-uploads/temp-uploads/84"
+      },
+      {
+        "original": "85.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739098/temp-uploads/temp-uploads/85.png",
+        "publicId": "temp-uploads/temp-uploads/85"
+      },
+      {
+        "original": "86.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739099/temp-uploads/temp-uploads/86.png",
+        "publicId": "temp-uploads/temp-uploads/86"
+      },
+      {
+        "original": "87.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739101/temp-uploads/temp-uploads/87.png",
+        "publicId": "temp-uploads/temp-uploads/87"
+      },
+      {
+        "original": "88.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739102/temp-uploads/temp-uploads/88.png",
+        "publicId": "temp-uploads/temp-uploads/88"
+      },
+      {
+        "original": "89.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739104/temp-uploads/temp-uploads/89.png",
+        "publicId": "temp-uploads/temp-uploads/89"
+      },
+      {
+        "original": "90.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739106/temp-uploads/temp-uploads/90.png",
+        "publicId": "temp-uploads/temp-uploads/90"
+      },
+      {
+        "original": "91.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739109/temp-uploads/temp-uploads/91.png",
+        "publicId": "temp-uploads/temp-uploads/91"
+      },
+      {
+        "original": "92.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739111/temp-uploads/temp-uploads/92.png",
+        "publicId": "temp-uploads/temp-uploads/92"
+      },
+      {
+        "original": "93.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739112/temp-uploads/temp-uploads/93.png",
+        "publicId": "temp-uploads/temp-uploads/93"
+      },
+      {
+        "original": "94.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739113/temp-uploads/temp-uploads/94.png",
+        "publicId": "temp-uploads/temp-uploads/94"
+      },
+      {
+        "original": "95.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739115/temp-uploads/temp-uploads/95.png",
+        "publicId": "temp-uploads/temp-uploads/95"
+      },
+      {
+        "original": "96.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739116/temp-uploads/temp-uploads/96.png",
+        "publicId": "temp-uploads/temp-uploads/96"
+      },
+      {
+        "original": "97.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739118/temp-uploads/temp-uploads/97.png",
+        "publicId": "temp-uploads/temp-uploads/97"
+      },
+      {
+        "original": "98.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739119/temp-uploads/temp-uploads/98.png",
+        "publicId": "temp-uploads/temp-uploads/98"
+      },
+      {
+        "original": "99.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739121/temp-uploads/temp-uploads/99.png",
+        "publicId": "temp-uploads/temp-uploads/99"
+      },
+      {
+        "original": "after-effect-fragrance world.jpg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739122/temp-uploads/temp-uploads/after-effect-fragrance%20world.jpg",
+        "publicId": "temp-uploads/temp-uploads/after-effect-fragrance world"
+      },
+      {
+        "original": "ajwed-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739123/temp-uploads/temp-uploads/ajwed-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/ajwed-lattafa"
+      },
+      {
+        "original": "amber-neroli-world-fragrance world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739124/temp-uploads/temp-uploads/amber-neroli-world-fragrance%20world.png",
+        "publicId": "temp-uploads/temp-uploads/amber-neroli-world-fragrance world"
+      },
+      {
+        "original": "Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739125/temp-uploads/temp-uploads/Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1.png",
+        "publicId": "temp-uploads/temp-uploads/Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1"
+      },
+      {
+        "original": "Amber___Neroli_Eau_De_Parfum_By_Fragrance_World_80ml_2_7_Fl_Oz-1.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739126/temp-uploads/temp-uploads/Amber___Neroli_Eau_De_Parfum_By_Fragrance_World_80ml_2_7_Fl_Oz-1.png",
+        "publicId": "temp-uploads/temp-uploads/Amber___Neroli_Eau_De_Parfum_By_Fragrance_World_80ml_2_7_Fl_Oz-1"
+      },
+      {
+        "original": "Ameer_Al_Oud_lattafa_100ml_600x600.jpg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739127/temp-uploads/temp-uploads/Ameer_Al_Oud_lattafa_100ml_600x600.jpg",
+        "publicId": "temp-uploads/temp-uploads/Ameer_Al_Oud_lattafa_100ml_600x600"
+      },
+      {
+        "original": "as-tuberose-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739127/temp-uploads/temp-uploads/as-tuberose-world.png",
+        "publicId": "temp-uploads/temp-uploads/as-tuberose-world"
+      },
+      {
+        "original": "badee-for-glory.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739129/temp-uploads/temp-uploads/badee-for-glory.png",
+        "publicId": "temp-uploads/temp-uploads/badee-for-glory"
+      },
+      {
+        "original": "badee_al_oud_perfume_600x600.jpg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739130/temp-uploads/temp-uploads/badee_al_oud_perfume_600x600.jpg",
+        "publicId": "temp-uploads/temp-uploads/badee_al_oud_perfume_600x600"
+      },
+      {
+        "original": "cocktail-world.jpg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739130/temp-uploads/temp-uploads/cocktail-world.jpg",
+        "publicId": "temp-uploads/temp-uploads/cocktail-world"
+      },
+      {
+        "original": "cuir-leather-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739131/temp-uploads/temp-uploads/cuir-leather-world.png",
+        "publicId": "temp-uploads/temp-uploads/cuir-leather-world"
+      },
+      {
+        "original": "dark-as-wood-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739133/temp-uploads/temp-uploads/dark-as-wood-world.png",
+        "publicId": "temp-uploads/temp-uploads/dark-as-wood-world"
+      },
+      {
+        "original": "extreme-aoud-fragrance-world-fragrance-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739134/temp-uploads/temp-uploads/extreme-aoud-fragrance-world-fragrance-world.png",
+        "publicId": "temp-uploads/temp-uploads/extreme-aoud-fragrance-world-fragrance-world"
+      },
+      {
+        "original": "fragranc-world-francique-63_55.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739134/temp-uploads/temp-uploads/fragranc-world-francique-63_55.png",
+        "publicId": "temp-uploads/temp-uploads/fragranc-world-francique-63_55"
+      },
+      {
+        "original": "fragrance-world-cocktail-intense.jpg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739135/temp-uploads/temp-uploads/fragrance-world-cocktail-intense.jpg",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-cocktail-intense"
+      },
+      {
+        "original": "fragrance-world-cuir-leather-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739136/temp-uploads/temp-uploads/fragrance-world-cuir-leather-2.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-cuir-leather-2"
+      },
+      {
+        "original": "fragrance-world-dark-as-wood-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739137/temp-uploads/temp-uploads/fragrance-world-dark-as-wood-2.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-dark-as-wood-2"
+      },
+      {
+        "original": "fragrance-world-extreme-aoud.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739138/temp-uploads/temp-uploads/fragrance-world-extreme-aoud.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-extreme-aoud"
+      },
+      {
+        "original": "fragrance-world-fresh-as-citrus-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739139/temp-uploads/temp-uploads/fragrance-world-fresh-as-citrus-2.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-fresh-as-citrus-2"
+      },
+      {
+        "original": "fragrance-world-invicto.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739141/temp-uploads/temp-uploads/fragrance-world-invicto.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-invicto"
+      },
+      {
+        "original": "fragrance-world-jack-of-clubs.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739142/temp-uploads/temp-uploads/fragrance-world-jack-of-clubs.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-jack-of-clubs"
+      },
+      {
+        "original": "fragrance-world-king.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739143/temp-uploads/temp-uploads/fragrance-world-king.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-king"
+      },
+      {
+        "original": "fragrance-world-mocha-wood.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739143/temp-uploads/temp-uploads/fragrance-world-mocha-wood.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-mocha-wood"
+      },
+      {
+        "original": "fragrance-world-optimystic.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739144/temp-uploads/temp-uploads/fragrance-world-optimystic.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-optimystic"
+      },
+      {
+        "original": "fragrance-world-suits.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739145/temp-uploads/temp-uploads/fragrance-world-suits.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-suits"
+      },
+      {
+        "original": "fragrance-world-tour-de-havana.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739146/temp-uploads/temp-uploads/fragrance-world-tour-de-havana.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-tour-de-havana"
+      },
+      {
+        "original": "fragrance-world-vanilla-so-sweet.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739147/temp-uploads/temp-uploads/fragrance-world-vanilla-so-sweet.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-vanilla-so-sweet"
+      },
+      {
+        "original": "fragrance-world-white-as-tuberose.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739148/temp-uploads/temp-uploads/fragrance-world-white-as-tuberose.png",
+        "publicId": "temp-uploads/temp-uploads/fragrance-world-white-as-tuberose"
+      },
+      {
+        "original": "Francique-107.9-–-French-Avenue1.jpeg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739149/temp-uploads/temp-uploads/Francique-107.9-%E2%80%93-French-Avenue1.jpg",
+        "publicId": "temp-uploads/temp-uploads/Francique-107.9-–-French-Avenue1"
+      },
+      {
+        "original": "francique-1079-fragrance-world-fragrance-world-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739150/temp-uploads/temp-uploads/francique-1079-fragrance-world-fragrance-world-2.png",
+        "publicId": "temp-uploads/temp-uploads/francique-1079-fragrance-world-fragrance-world-2"
+      },
+      {
+        "original": "francique-1079-fragrance-world-fragrance-world-3.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739151/temp-uploads/temp-uploads/francique-1079-fragrance-world-fragrance-world-3.png",
+        "publicId": "temp-uploads/temp-uploads/francique-1079-fragrance-world-fragrance-world-3"
+      },
+      {
+        "original": "francique-1079-fragrance-world-fragrance-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739153/temp-uploads/temp-uploads/francique-1079-fragrance-world-fragrance-world.png",
+        "publicId": "temp-uploads/temp-uploads/francique-1079-fragrance-world-fragrance-world"
+      },
+      {
+        "original": "francique-6355-fragrance-world-fragrance-world-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739154/temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world-2.png",
+        "publicId": "temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world-2"
+      },
+      {
+        "original": "francique-6355-fragrance-world-fragrance-world-3.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739155/temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world-3.png",
+        "publicId": "temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world-3"
+      },
+      {
+        "original": "francique-6355-fragrance-world-fragrance-world-4.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739156/temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world-4.png",
+        "publicId": "temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world-4"
+      },
+      {
+        "original": "francique-6355-fragrance-world-fragrance-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739158/temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world.png",
+        "publicId": "temp-uploads/temp-uploads/francique-6355-fragrance-world-fragrance-world"
+      },
+      {
+        "original": "grise-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739159/temp-uploads/temp-uploads/grise-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/grise-lattafa"
+      },
+      {
+        "original": "Grise_Perfume_Lattafa-1.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739160/temp-uploads/temp-uploads/Grise_Perfume_Lattafa-1.png",
+        "publicId": "temp-uploads/temp-uploads/Grise_Perfume_Lattafa-1"
+      },
+      {
+        "original": "i-am-white-ana-abiyedh-rouge-lattafa-lattafa-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739161/temp-uploads/temp-uploads/i-am-white-ana-abiyedh-rouge-lattafa-lattafa-2.png",
+        "publicId": "temp-uploads/temp-uploads/i-am-white-ana-abiyedh-rouge-lattafa-lattafa-2"
+      },
+      {
+        "original": "i-am-white-ana-abiyedh-rouge-lattafa-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739162/temp-uploads/temp-uploads/i-am-white-ana-abiyedh-rouge-lattafa-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/i-am-white-ana-abiyedh-rouge-lattafa-lattafa"
+      },
+      {
+        "original": "infini-rose-elixir-alhambra.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739163/temp-uploads/temp-uploads/infini-rose-elixir-alhambra.png",
+        "publicId": "temp-uploads/temp-uploads/infini-rose-elixir-alhambra"
+      },
+      {
+        "original": "infini-rose.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739164/temp-uploads/temp-uploads/infini-rose.png",
+        "publicId": "temp-uploads/temp-uploads/infini-rose"
+      },
+      {
+        "original": "invicto-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739164/temp-uploads/temp-uploads/invicto-world.png",
+        "publicId": "temp-uploads/temp-uploads/invicto-world"
+      },
+      {
+        "original": "jack-of-clubs-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739165/temp-uploads/temp-uploads/jack-of-clubs-world.png",
+        "publicId": "temp-uploads/temp-uploads/jack-of-clubs-world"
+      },
+      {
+        "original": "king-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739166/temp-uploads/temp-uploads/king-world.png",
+        "publicId": "temp-uploads/temp-uploads/king-world"
+      },
+      {
+        "original": "lattafa-qaed-al-fursan-2.jpg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739172/temp-uploads/temp-uploads/lattafa-qaed-al-fursan-2.jpg",
+        "publicId": "temp-uploads/temp-uploads/lattafa-qaed-al-fursan-2"
+      },
+      {
+        "original": "lattafa-yara.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739173/temp-uploads/temp-uploads/lattafa-yara.png",
+        "publicId": "temp-uploads/temp-uploads/lattafa-yara"
+      },
+      {
+        "original": "majdal-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739174/temp-uploads/temp-uploads/majdal-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/majdal-lattafa"
+      },
+      {
+        "original": "mayar-floral-fruity-and-amber-scent-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739175/temp-uploads/temp-uploads/mayar-floral-fruity-and-amber-scent-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/mayar-floral-fruity-and-amber-scent-lattafa"
+      },
+      {
+        "original": "Mayar_100ml_Edp_By_Lattafa_Perfumes_For_Women_Floral__Fruity__And_Amber_Scent-1.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739175/temp-uploads/temp-uploads/Mayar_100ml_Edp_By_Lattafa_Perfumes_For_Women_Floral__Fruity__And_Amber_Scent-1.png",
+        "publicId": "temp-uploads/temp-uploads/Mayar_100ml_Edp_By_Lattafa_Perfumes_For_Women_Floral__Fruity__And_Amber_Scent-1"
+      },
+      {
+        "original": "mocha-wood-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739176/temp-uploads/temp-uploads/mocha-wood-world.png",
+        "publicId": "temp-uploads/temp-uploads/mocha-wood-world"
+      },
+      {
+        "original": "Montera-Rouge-Tobacco-PARFUM-1.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739177/temp-uploads/temp-uploads/Montera-Rouge-Tobacco-PARFUM-1.png",
+        "publicId": "temp-uploads/temp-uploads/Montera-Rouge-Tobacco-PARFUM-1"
+      },
+      {
+        "original": "montera-tobacco.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739178/temp-uploads/temp-uploads/montera-tobacco.png",
+        "publicId": "temp-uploads/temp-uploads/montera-tobacco"
+      },
+      {
+        "original": "mood-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739180/temp-uploads/temp-uploads/mood-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/mood-lattafa"
+      },
+      {
+        "original": "MUSC-VANILLE.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739180/temp-uploads/temp-uploads/MUSC-VANILLE.png",
+        "publicId": "temp-uploads/temp-uploads/MUSC-VANILLE"
+      },
+      {
+        "original": "musk-mood-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739181/temp-uploads/temp-uploads/musk-mood-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/musk-mood-lattafa"
+      },
+      {
+        "original": "najdia-tribute-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739182/temp-uploads/temp-uploads/najdia-tribute-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/najdia-tribute-lattafa"
+      },
+      {
+        "original": "nasomatto-afgano.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739183/temp-uploads/temp-uploads/nasomatto-afgano.png",
+        "publicId": "temp-uploads/temp-uploads/nasomatto-afgano"
+      },
+      {
+        "original": "now-rave.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739184/temp-uploads/temp-uploads/now-rave.png",
+        "publicId": "temp-uploads/temp-uploads/now-rave"
+      },
+      {
+        "original": "Now_EDP_100ml__3_4Oz__By_RAVE.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739184/temp-uploads/temp-uploads/Now_EDP_100ml__3_4Oz__By_RAVE.png",
+        "publicId": "temp-uploads/temp-uploads/Now_EDP_100ml__3_4Oz__By_RAVE"
+      },
+      {
+        "original": "optimysitc-world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739185/temp-uploads/temp-uploads/optimysitc-world.png",
+        "publicId": "temp-uploads/temp-uploads/optimysitc-world"
+      },
+      {
+        "original": "parfum-Safwaan.jpg",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739186/temp-uploads/temp-uploads/parfum-Safwaan.jpg",
+        "publicId": "temp-uploads/temp-uploads/parfum-Safwaan"
+      },
+      {
+        "original": "pure-oudi-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739187/temp-uploads/temp-uploads/pure-oudi-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/pure-oudi-lattafa"
+      },
+      {
+        "original": "Pure-passion.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739188/temp-uploads/temp-uploads/Pure-passion.png",
+        "publicId": "temp-uploads/temp-uploads/Pure-passion"
+      },
+      {
+        "original": "queen-qfragrance world.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739189/temp-uploads/temp-uploads/queen-qfragrance%20world.png",
+        "publicId": "temp-uploads/temp-uploads/queen-qfragrance world"
+      },
+      {
+        "original": "ramz-gold-lattafa-mixte-lattafa-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739191/temp-uploads/temp-uploads/ramz-gold-lattafa-mixte-lattafa-2.png",
+        "publicId": "temp-uploads/temp-uploads/ramz-gold-lattafa-mixte-lattafa-2"
+      },
+      {
+        "original": "ramz-gold-lattafa-mixte-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739193/temp-uploads/temp-uploads/ramz-gold-lattafa-mixte-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/ramz-gold-lattafa-mixte-lattafa"
+      },
+      {
+        "original": "safwaan-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739194/temp-uploads/temp-uploads/safwaan-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/safwaan-lattafa"
+      },
+      {
+        "original": "suits-world-perfumy-arabskie.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739195/temp-uploads/temp-uploads/suits-world-perfumy-arabskie.png",
+        "publicId": "temp-uploads/temp-uploads/suits-world-perfumy-arabskie"
+      },
+      {
+        "original": "velvet-oud-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739196/temp-uploads/temp-uploads/velvet-oud-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/velvet-oud-lattafa"
+      },
+      {
+        "original": "woody-oud-maison-alhambra-maison-alhambra-2.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739197/temp-uploads/temp-uploads/woody-oud-maison-alhambra-maison-alhambra-2.png",
+        "publicId": "temp-uploads/temp-uploads/woody-oud-maison-alhambra-maison-alhambra-2"
+      },
+      {
+        "original": "woody-oud-maison-alhambra-maison-alhambra.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739204/temp-uploads/temp-uploads/woody-oud-maison-alhambra-maison-alhambra.png",
+        "publicId": "temp-uploads/temp-uploads/woody-oud-maison-alhambra-maison-alhambra"
+      },
+      {
+        "original": "world-optimystic.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739205/temp-uploads/temp-uploads/world-optimystic.png",
+        "publicId": "temp-uploads/temp-uploads/world-optimystic"
+      },
+      {
+        "original": "world-tour-havana.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739207/temp-uploads/temp-uploads/world-tour-havana.png",
+        "publicId": "temp-uploads/temp-uploads/world-tour-havana"
+      },
+      {
+        "original": "yara-lattafa.png",
+        "cloudinaryUrl": "https://res.cloudinary.com/dzntnjtkc/image/upload/v1766739208/temp-uploads/temp-uploads/yara-lattafa.png",
+        "publicId": "temp-uploads/temp-uploads/yara-lattafa"
+      }
+    ],
+    "skipped": [],
+    "failed": [
+      {
+        "original": "fragrance-world-cuir-leather.png",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "fragrance-world-dark-as-wood.png",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "fragrance-world-fresh-as-citrus.png",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "lattafa-asad.png",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "lattafa-badee-al-oud-amethyst.jpg",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "lattafa-badee-al-oud-oud-for-glory.png",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "lattafa-ejaazi.png",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "lattafa-eternal-oud.jpg",
+        "error": "Invalid image file"
+      },
+      {
+        "original": "lattafa-fakhar.jpg",
+        "error": "Invalid image file"
+      }
+    ]
+  }
+}

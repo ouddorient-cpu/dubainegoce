@@ -24,5 +24,8 @@
   "license": "ISC",
   "devDependencies": {
     "firebase-tools": "^13.0.0"
+  },
+  "dependencies": {
+    "cloudinary": "^2.8.0"
   }
 }

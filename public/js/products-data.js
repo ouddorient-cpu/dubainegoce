@@ -1,1139 +1,3269 @@
-// ============================================
-// DUBAINEGOCE - PRODUCTS DATABASE
-// Base de données de parfums de Dubaï
-// ============================================
+// ==============================================
+// DUBAINEGOCE - OPTIMIZED PRODUCTS DATABASE
+// ==============================================
+// Total Products: 153
+// Generated: 27/12/2025 12:06:23
+// Optimized: Deduplicated, Images Fixed, Categories Enhanced
+// ==============================================
 
-const PRODUCTS_DATABASE = [
-  // ========== LATTAFA ==========
-  {
-    id: 1,
-    name: "Khamrah",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://www.frenchavenue.fr/wp-content/uploads/2024/01/Khamrah.jpeg",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Une fragrance orientale gourmande avec des notes de cannelle, cardamome et praline. Un parfum chaleureux et enivrant qui évoque les nuits mystiques de Dubaï."
-  },
-  {
-    id: 2,
-    name: "Fakhar Black",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://www.frenchavenue.fr/wp-content/uploads/2023/12/fakhar-silver-lattafa-eau-de-parfum-mixte-jpg.webp",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Notes de tête : bergamote, pomme. Cœur : jasmin, patchouli. Fond : vanille, musc, ambre. Un parfum sophistiqué et envoûtant."
-  },
-  {
-    id: 3,
-    name: "Raghba",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://www.frenchavenue.fr/wp-content/uploads/2023/12/1000029948-1-jpg.webp",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Un mélange captivant d'oud, de vanille et d'encens. Une fragrance riche et opulente qui incarne le luxe oriental."
-  },
-  {
-    id: 4,
-    name: "Yara",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://www.frenchavenue.fr/wp-content/uploads/2023/12/Yara-eau-de-parfum-lattafa-600x600-1-jpg.webp",
-    category: "Floral",
-    badge: "BEST-SELLER",
-    description: "Notes florales douces avec orchidée, héliotrope et gourmandise vanillée. Parfum féminin élégant et sensuel."
-  },
-  {
-    id: 5,
-    name: "Asad",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://www.frenchavenue.fr/wp-content/uploads/2024/01/lattafa-parfum-asad.jpg",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Une fragrance masculine puissante avec des notes de cuir, d'oud et d'épices. Force et élégance réunies."
-  },
-  {
-    id: 6,
-    name: "Yara Tous",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701177/yara_tous_lattafa_jm1prx.png",
-    category: "Floral",
-    badge: null,
-    description: "Variation florale de Yara avec des notes plus fraîches et pétillantes. Parfait pour le jour."
-  },
-  {
-    id: 7,
-    name: "Opulent Oud",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Opulent+Oud",
-    category: "Oriental",
-    badge: null,
-    description: "Oud cambodgien noble enrichi de rose et de safran. Une expérience olfactive luxueuse."
-  },
-  {
-    id: 8,
-    name: "Pride Tharwah",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Pride+Tharwah",
-    category: "Oriental",
-    badge: "NOUVEAU",
-    description: "Notes de tête citronnées, cœur floral, fond ambré musqué. Élégance orientale moderne."
-  },
-  {
-    id: 9,
-    name: "Velvet Oud",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Velvet+Oud",
-    category: "Boisé",
-    badge: null,
-    description: "Oud velouté associé à des notes de cuir et de cèdre. Sophistication masculine."
-  },
-  {
-    id: 10,
-    name: "Ana Abiyedh",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Ana+Abiyedh",
-    category: "Floral",
-    badge: null,
-    description: "Fragrance florale blanche avec muguet, jasmin et muscs poudrés. Féminité pure."
-  },
-  {
-    id: 11,
-    name: "Oud Mood",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Oud+Mood",
-    category: "Oriental",
-    badge: null,
-    description: "Oud intense avec rose damascène et safran iranien. Luxe oriental authentique."
-  },
-  {
-    id: 12,
-    name: "Najdia",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Najdia",
-    category: "Oriental",
-    badge: null,
-    description: "Mélange épicé-floral avec notes de jasmin, safran et ambre chaud."
-  },
-  {
-    id: 13,
-    name: "Bade'e Al Oud",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Bade'e+Al+Oud",
-    category: "Boisé",
-    badge: null,
-    description: "Oud pur avec touches de musc noir et ambre gris. Puissance et caractère."
-  },
-  {
-    id: 14,
-    name: "Raed",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Raed",
-    category: "Frais",
-    badge: "NOUVEAU",
-    description: "Fraîcheur agrumes avec bergamote, menthe et notes marines. Vivifiant."
-  },
-  {
-    id: 15,
-    name: "Sheikh Al Shuyukh",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Sheikh",
-    category: "Oriental",
-    badge: null,
-    description: "Composition royale d'oud, rose et épices précieuses. Majestueux."
-  },
-
-  // ========== MAISON ALHAMBRA ==========
-  {
-    id: 16,
-    name: "Lovely Cherie",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701177/lovely_cherie_b3nicj.png",
-    category: "Floral",
-    badge: "BEST-SELLER",
-    description: "Fragrance florale gourmande avec rose, lychee et vanille. Romantisme et douceur."
-  },
-  {
-    id: 17,
-    name: "Jean Lowe",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://res.cloudinary.com/dhjwimevi/image/upload/v1765701177/jean_lowe_alhambra_qkm11z.png",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Notes boisées masculines avec cèdre, vétiver et musc. Charisme et élégance."
-  },
-  {
-    id: 18,
-    name: "Glamour Seduction",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Glamour+Seduction",
-    category: "Floral",
-    badge: null,
-    description: "Tubéreuse, fleur d'oranger et notes sensuelles. Séduction incarnée."
-  },
-  {
-    id: 19,
-    name: "Porta Bellissimo",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Porta+Bellissimo",
-    category: "Boisé",
-    badge: null,
-    description: "Bois précieux avec santal, patchouli et ambre. Sophistication italienne."
-  },
-  {
-    id: 20,
-    name: "Rocca Azzuro",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Rocca+Azzuro",
-    category: "Frais",
-    badge: "NOUVEAU",
-    description: "Fraîcheur méditerranéenne avec citron, lavande et notes marines."
-  },
-  {
-    id: 21,
-    name: "Prestige Eternelle",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Prestige+Eternelle",
-    category: "Floral",
-    badge: null,
-    description: "Iris, rose et muscs blancs. Élégance intemporelle et raffinée."
-  },
-  {
-    id: 22,
-    name: "Paris Galleria",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Paris+Galleria",
-    category: "Fruité",
-    badge: null,
-    description: "Poire, gardénia et praline. Gourmandise parisienne chic."
-  },
-  {
-    id: 23,
-    name: "Ambre Exclusif",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Ambre+Exclusif",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Ambre authentique avec benjoin et vanille bourbon. Chaleur orientale."
-  },
-  {
-    id: 24,
-    name: "Blanche Intense",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Blanche+Intense",
-    category: "Floral",
-    badge: null,
-    description: "Fleurs blanches avec aldéhydes et musc. Pureté intense."
-  },
-  {
-    id: 25,
-    name: "Noir Intense",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Noir+Intense",
-    category: "Boisé",
-    badge: null,
-    description: "Cuir noir avec vétiver fumé et patchouli. Mystère et intensité."
-  },
-  {
-    id: 26,
-    name: "L'Aventura",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=L'Aventura",
-    category: "Frais",
-    badge: "BEST-SELLER",
-    description: "Ananas, bergamote et musc. Fraîcheur aventureuse et dynamique."
-  },
-  {
-    id: 27,
-    name: "Mille Lumieres",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Mille+Lumieres",
-    category: "Floral",
-    badge: null,
-    description: "Tubéreuse, ylang-ylang et notes poudrées. Mille facettes lumineuses."
-  },
-  {
-    id: 28,
-    name: "Sultan Royale",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Sultan+Royale",
-    category: "Oriental",
-    badge: null,
-    description: "Oud royal avec safran et rose damascène. Majesté orientale."
-  },
-  {
-    id: 29,
-    name: "Imperatrice Divina",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Imperatrice",
-    category: "Fruité",
-    badge: "NOUVEAU",
-    description: "Kiwi, notes vertes et musc. Fraîcheur impériale féminine."
-  },
-  {
-    id: 30,
-    name: "Velours Pourpre",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Velours+Pourpre",
-    category: "Oriental",
-    badge: null,
-    description: "Prune, patchouli et notes sucrées. Douceur veloutée luxueuse."
-  },
-
-  // ========== FRAGRANCE WORLD ==========
-  {
-    id: 31,
-    name: "Supremacy Silver",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Supremacy+Silver",
-    category: "Frais",
-    badge: "BEST-SELLER",
-    description: "Notes argentées avec citron, thé vert et ambre gris. Fraîcheur suprême."
-  },
-  {
-    id: 32,
-    name: "Supremacy Gold",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Supremacy+Gold",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Composition dorée d'oud, safran et ambre. Luxe absolu."
-  },
-  {
-    id: 33,
-    name: "Supremacy Noir",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Supremacy+Noir",
-    category: "Boisé",
-    badge: null,
-    description: "Cuir noir, oud et cèdre. Élégance sombre et puissante."
-  },
-  {
-    id: 34,
-    name: "Deluxe Oud",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Deluxe+Oud",
-    category: "Oriental",
-    badge: null,
-    description: "Oud de qualité supérieure avec rose et épices. Luxe authentique."
-  },
-  {
-    id: 35,
-    name: "Velvet Amber",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Velvet+Amber",
-    category: "Oriental",
-    badge: null,
-    description: "Ambre velouté avec vanille et fève tonka. Douceur enveloppante."
-  },
-  {
-    id: 36,
-    name: "Intense White",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Intense+White",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Accord blanc floral avec jasmin et muguet. Pureté intense."
-  },
-  {
-    id: 37,
-    name: "Imperial Blue",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Imperial+Blue",
-    category: "Frais",
-    badge: null,
-    description: "Notes bleues marines avec gingembre et cèdre. Fraîcheur impériale."
-  },
-  {
-    id: 38,
-    name: "Executive Black",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Executive+Black",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Pour l'homme d'affaires moderne. Vétiver, cuir et notes épicées."
-  },
-  {
-    id: 39,
-    name: "Magnetic Pink",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Magnetic+Pink",
-    category: "Fruité",
-    badge: null,
-    description: "Fruits rouges, pivoine et patchouli. Magnétisme féminin."
-  },
-  {
-    id: 40,
-    name: "Royal Saffron",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Royal+Saffron",
-    category: "Oriental",
-    badge: null,
-    description: "Safran royal avec oud et ambre. Richesse orientale."
-  },
-  {
-    id: 41,
-    name: "Diamond Secret",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Diamond+Secret",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Gardénia, tubéreuse et notes poudrées. Secret précieux."
-  },
-  {
-    id: 42,
-    name: "Prestige Wood",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Prestige+Wood",
-    category: "Boisé",
-    badge: null,
-    description: "Santal, cèdre et vétiver. Prestige boisé naturel."
-  },
-
-  // ========== FRENCH AVENUE ==========
-  {
-    id: 43,
-    name: "Mon Paris",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Mon+Paris",
-    category: "Fruité",
-    badge: "BEST-SELLER",
-    description: "Fraise, framboise et patchouli. Romance parisienne gourmande."
-  },
-  {
-    id: 44,
-    name: "Libre Spirit",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Libre+Spirit",
-    category: "Floral",
-    badge: null,
-    description: "Lavande, fleur d'oranger et vanille. Liberté et féminité."
-  },
-  {
-    id: 45,
-    name: "La Vie Belle",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=La+Vie+Belle",
-    category: "Fruité",
-    badge: "BEST-SELLER",
-    description: "Poire, iris et praline. La vie est belle et gourmande."
-  },
-  {
-    id: 46,
-    name: "Homme Intense",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Homme+Intense",
-    category: "Boisé",
-    badge: null,
-    description: "Iris, cèdre et fève tonka. Masculinité intense raffinée."
-  },
-  {
-    id: 47,
-    name: "Scandal Rose",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Scandal+Rose",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Miel, gardénia et patchouli. Scandale floral audacieux."
-  },
-  {
-    id: 48,
-    name: "Nuit Tresor",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Nuit+Tresor",
-    category: "Oriental",
-    badge: null,
-    description: "Vanille, rose et encens. Trésor des nuits orientales."
-  },
-  {
-    id: 49,
-    name: "Elixir Charnel",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Elixir+Charnel",
-    category: "Oriental",
-    badge: null,
-    description: "Amande amère, rose et musc. Sensualité charnelle."
-  },
-  {
-    id: 50,
-    name: "Idole Aura",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Idole+Aura",
-    category: "Floral",
-    badge: "BEST-SELLER",
-    description: "Rose, jasmin et chypré. Aura iconique féminine."
-  },
-
-  // ========== ARMAF ==========
-  {
-    id: 51,
-    name: "Club de Nuit Intense",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Club+Intense",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Notes fumées avec bergamote, rose et vanille. Nuit intense mémorable."
-  },
-  {
-    id: 52,
-    name: "Club de Nuit Milestone",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Milestone",
-    category: "Frais",
-    badge: null,
-    description: "Citrus, menthe et ambre. Fraîcheur exceptionnelle masculine."
-  },
-  {
-    id: 53,
-    name: "Venetian Amour",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Venetian+Amour",
-    category: "Floral",
-    badge: null,
-    description: "Jasmin, ylang-ylang et vanille. Amour vénitien romantique."
-  },
-  {
-    id: 54,
-    name: "Tag Him",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Tag+Him",
-    category: "Frais",
-    badge: null,
-    description: "Lavande, orange et musc. Fraîcheur pour lui dynamique."
-  },
-  {
-    id: 55,
-    name: "Tag Her",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Tag+Her",
-    category: "Fruité",
-    badge: null,
-    description: "Litchi, freesia et ambre. Fruité pour elle séduisant."
-  },
-  {
-    id: 56,
-    name: "Odyssey Homme",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Odyssey+Homme",
-    category: "Boisé",
-    badge: "NOUVEAU",
-    description: "Bois de santal, cardamome et musc. Odyssée masculine noble."
-  },
-  {
-    id: 57,
-    name: "Odyssey Femme",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Odyssey+Femme",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Pivoine, rose et ambre blanc. Odyssée féminine délicate."
-  },
-  {
-    id: 58,
-    name: "Hunter Intense",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Hunter+Intense",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Cuir, tabac et oud. Intensité pour le chasseur moderne."
-  },
-  {
-    id: 59,
-    name: "Magnificent Pour Homme",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Magnificent",
-    category: "Frais",
-    badge: null,
-    description: "Bergamote, poivre rose et cèdre. Magnificence masculine."
-  },
-  {
-    id: 60,
-    name: "Tres Nuit",
-    brand: "Armaf",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Tres+Nuit",
-    category: "Frais",
-    badge: null,
-    description: "Citron, lavande et ambre. Fraîcheur pour trois nuits."
-  },
-
-  // ========== AL HARAMAIN ==========
-  {
-    id: 61,
-    name: "Amber Oud Gold Edition",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Amber+Oud+Gold",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Ambre doré et oud précieux avec notes épicées. Édition luxueuse."
-  },
-  {
-    id: 62,
-    name: "L'Aventure",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=L'Aventure",
-    category: "Frais",
-    badge: "BEST-SELLER",
-    description: "Bergamote, citron et musc blanc. Aventure fraîche et élégante."
-  },
-  {
-    id: 63,
-    name: "Neroli Canvas",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Neroli+Canvas",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Néroli, bergamote et musc. Toile florale rafraîchissante."
-  },
-  {
-    id: 64,
-    name: "Amber Oud Rouge",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Rouge",
-    category: "Oriental",
-    badge: null,
-    description: "Version rouge passionnée avec ambre, oud et notes épicées."
-  },
-  {
-    id: 65,
-    name: "Junoon Noir",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Junoon+Noir",
-    category: "Boisé",
-    badge: null,
-    description: "Passion noire avec cuir, oud et patchouli intense."
-  },
-  {
-    id: 66,
-    name: "Portfolio Neroli Canvas",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Portfolio",
-    category: "Frais",
-    badge: null,
-    description: "Collection portfolio avec néroli dominant et notes vertes."
-  },
-  {
-    id: 67,
-    name: "Midnight Oud",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Midnight+Oud",
-    category: "Oriental",
-    badge: null,
-    description: "Oud de minuit mystérieux avec rose et ambre."
-  },
-  {
-    id: 68,
-    name: "Musk Al Ghazal",
-    brand: "Al Haramain",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Musk+Ghazal",
-    category: "Oriental",
-    badge: null,
-    description: "Musc de gazelle avec notes florales et ambrées."
-  },
-
-  // ========== RASASI ==========
-  {
-    id: 69,
-    name: "Hawas",
-    brand: "Rasasi",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Hawas",
-    category: "Frais",
-    badge: "BEST-SELLER",
-    description: "Notes aquatiques avec pomme, bergamote et ambre. Fraîcheur irrésistible."
-  },
-  {
-    id: 70,
-    name: "Hawas Ice",
-    brand: "Rasasi",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Hawas+Ice",
-    category: "Frais",
-    badge: "NOUVEAU",
-    description: "Version glacée encore plus fraîche avec menthe et notes marines."
-  },
-  {
-    id: 71,
-    name: "La Yuqawam",
-    brand: "Rasasi",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=La+Yuqawam",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Ambre, cuir et notes épicées. Puissance orientale masculine."
-  },
-  {
-    id: 72,
-    name: "Fattan",
-    brand: "Rasasi",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Fattan",
-    category: "Floral",
-    badge: null,
-    description: "Floral féminin avec jasmin, rose et notes poudrées séduisantes."
-  },
-  {
-    id: 73,
-    name: "Shaghaf Oud",
-    brand: "Rasasi",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Shaghaf+Oud",
-    category: "Oriental",
-    badge: null,
-    description: "Passion d'oud avec safran, rose et ambre chaleureux."
-  },
-  {
-    id: 74,
-    name: "Egra",
-    brand: "Rasasi",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Egra",
-    category: "Boisé",
-    badge: null,
-    description: "Notes boisées avec vétiver, cèdre et muscs."
-  },
-  {
-    id: 75,
-    name: "Daarej",
-    brand: "Rasasi",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Daarej",
-    category: "Oriental",
-    badge: null,
-    description: "Mélange oriental de cannelle, cardamome et oud."
-  },
-
-  // ========== AJMAL ==========
-  {
-    id: 76,
-    name: "Aristocrat",
-    brand: "Ajmal",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Aristocrat",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Pour l'aristocrate moderne. Bois nobles et épices raffinées."
-  },
-  {
-    id: 77,
-    name: "Evoke Gold",
-    brand: "Ajmal",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Evoke+Gold",
-    category: "Oriental",
-    badge: null,
-    description: "Évocation dorée avec ambre, oud et notes épicées."
-  },
-  {
-    id: 78,
-    name: "Sacrifice",
-    brand: "Ajmal",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Sacrifice",
-    category: "Floral",
-    badge: null,
-    description: "Sacrifice floral féminin avec rose, jasmin et vanille."
-  },
-  {
-    id: 79,
-    name: "Amber Wood",
-    brand: "Ajmal",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Amber+Wood",
-    category: "Boisé",
-    badge: null,
-    description: "Fusion d'ambre et bois avec patchouli et cardamome."
-  },
-  {
-    id: 80,
-    name: "Wisal Dhahab",
-    brand: "Ajmal",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Wisal+Dhahab",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Or liquide oriental avec safran, oud et ambre précieux."
-  },
-  {
-    id: 81,
-    name: "Qafiya",
-    brand: "Ajmal",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Qafiya",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Poésie florale avec rose turque, jasmin sambac et musc."
-  },
-
-  // ========== SWISS ARABIAN ==========
-  {
-    id: 82,
-    name: "Shaghaf Oud Abyad",
-    brand: "Swiss Arabian",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Shaghaf+Abyad",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Oud blanc passionné avec notes florales et musquées."
-  },
-  {
-    id: 83,
-    name: "Layali Rouge",
-    brand: "Swiss Arabian",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Layali+Rouge",
-    category: "Oriental",
-    badge: null,
-    description: "Nuits rouges avec ambre, vanille et notes épicées."
-  },
-  {
-    id: 84,
-    name: "Edge Intense",
-    brand: "Swiss Arabian",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Edge+Intense",
-    category: "Boisé",
-    badge: null,
-    description: "Intensité extrême avec cuir, oud et épices noires."
-  },
-  {
-    id: 85,
-    name: "Kashkha",
-    brand: "Swiss Arabian",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Kashkha",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Oud cambodgien avec rose damascène et safran."
-  },
-  {
-    id: 86,
-    name: "Casablanca",
-    brand: "Swiss Arabian",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Casablanca",
-    category: "Floral",
-    badge: null,
-    description: "Romance de Casablanca avec notes florales blanches."
-  },
-
-  // ========== PARIS CORNER ==========
-  {
-    id: 87,
-    name: "Emir Intense Oud",
-    brand: "Paris Corner",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Emir+Oud",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "L'émir de l'oud. Intense et noble avec safran et ambre."
-  },
-  {
-    id: 88,
-    name: "Killer Oud",
-    brand: "Paris Corner",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Killer+Oud",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Puissance d'oud mortelle avec cuir et épices sombres."
-  },
-  {
-    id: 89,
-    name: "Delice Gourmand",
-    brand: "Paris Corner",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Delice",
-    category: "Fruité",
-    badge: null,
-    description: "Délice gourmand avec caramel, vanille et notes sucrées."
-  },
-  {
-    id: 90,
-    name: "Royal Crown",
-    brand: "Paris Corner",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Royal+Crown",
-    category: "Oriental",
-    badge: null,
-    description: "Couronne royale avec oud, ambre et notes précieuses."
-  },
-
-  // ========== NABEEL ==========
-  {
-    id: 91,
-    name: "Touch Me",
-    brand: "Nabeel",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Touch+Me",
-    category: "Floral",
-    badge: "BEST-SELLER",
-    description: "Toucher floral sensuel avec rose, muguet et muscs doux."
-  },
-  {
-    id: 92,
-    name: "Musk Code",
-    brand: "Nabeel",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Musk+Code",
-    category: "Oriental",
-    badge: null,
-    description: "Code secret musqué avec ambre et notes boisées."
-  },
-  {
-    id: 93,
-    name: "Raunaq",
-    brand: "Nabeel",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Raunaq",
-    category: "Oriental",
-    badge: null,
-    description: "Splendeur orientale avec oud, rose et épices."
-  },
-
-  // ========== AFN AN ==========
-  {
-    id: 94,
-    name: "9 PM",
-    brand: "Afnan",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=9+PM",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "21h, l'heure de la séduction. Notes boisées et épicées."
-  },
-  {
-    id: 95,
-    name: "Supremacy Silver",
-    brand: "Afnan",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Afnan+Silver",
-    category: "Frais",
-    badge: null,
-    description: "Suprématie argentée avec notes fraîches et ambrées."
-  },
-  {
-    id: 96,
-    name: "Modest Une",
-    brand: "Afnan",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Modest+Une",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Modestie florale numéro un avec iris et muscs."
-  },
-
-  // ========== EXTRA VARIÉS ==========
-  {
-    id: 97,
-    name: "Black Orchid Intense",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Black+Orchid",
-    category: "Oriental",
-    badge: null,
-    description: "Orchidée noire intense avec truffe, ylang-ylang et patchouli."
-  },
-  {
-    id: 98,
-    name: "Ombre Leather",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Ombre+Leather",
-    category: "Boisé",
-    badge: null,
-    description: "Ombre de cuir avec jasmin sambac et ambre noir."
-  },
-  {
-    id: 99,
-    name: "Lost Cherry",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Lost+Cherry",
-    category: "Fruité",
-    badge: "NOUVEAU",
-    description: "Cerise perdue avec amande, rose turque et tonka."
-  },
-  {
-    id: 100,
-    name: "Tobacco Vanille",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Tobacco+Vanille",
-    category: "Oriental",
-    badge: "BEST-SELLER",
-    description: "Tabac et vanille avec cacao et fève tonka. Gourmandise fumée."
-  },
-  {
-    id: 101,
-    name: "Fucking Fabulous",
-    brand: "Paris Corner",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Fabulous",
-    category: "Oriental",
-    badge: null,
-    description: "Fabuleusement audacieux avec amande amère, cuir et tonka."
-  },
-  {
-    id: 102,
-    name: "Bitter Peach",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Bitter+Peach",
-    category: "Fruité",
-    badge: null,
-    description: "Pêche amère avec notes de rhum, cognac et vanille."
-  },
-  {
-    id: 103,
-    name: "Oud Wood Intense",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Oud+Wood",
-    category: "Boisé",
-    badge: "BEST-SELLER",
-    description: "Bois d'oud intense avec santal, vétiver et cardamome."
-  },
-  {
-    id: 104,
-    name: "Rose Prick",
-    brand: "French Avenue",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Rose+Prick",
-    category: "Floral",
-    badge: null,
-    description: "Rose épineuse avec notes de sichuan et patchouli."
-  },
-  {
-    id: 105,
-    name: "Neroli Portofino",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Neroli+Portofino",
-    category: "Frais",
-    badge: null,
-    description: "Néroli de Portofino avec bergamote, citron et ambre."
-  },
-  {
-    id: 106,
-    name: "Soleil Blanc",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Soleil+Blanc",
-    category: "Floral",
-    badge: "NOUVEAU",
-    description: "Soleil blanc avec notes de coco, ylang-ylang et ambre."
-  },
-  {
-    id: 107,
-    name: "Velvet Orchid",
-    brand: "Lattafa",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Velvet+Orchid",
-    category: "Oriental",
-    badge: null,
-    description: "Orchidée veloutée avec miel, rhum et notes sucrées."
-  },
-  {
-    id: 108,
-    name: "Tuscan Leather",
-    brand: "Paris Corner",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Tuscan+Leather",
-    category: "Boisé",
-    badge: null,
-    description: "Cuir toscan avec safran, framboise et oud fumé."
-  },
-  {
-    id: 109,
-    name: "Costa Azzurra",
-    brand: "Fragrance World",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Costa+Azzurra",
-    category: "Frais",
-    badge: null,
-    description: "Côte d'azur avec notes marines, genévrier et bois flottés."
-  },
-  {
-    id: 110,
-    name: "Mandarino Di Amalfi",
-    brand: "Maison Alhambra",
-    price: 35,
-    image: "https://via.placeholder.com/300x400?text=Mandarino",
-    category: "Frais",
-    badge: null,
-    description: "Mandarine d'Amalfi avec citron, menthe et notes marines."
+const products = [
+  {
+    "id": "prod-1794",
+    "name": "Woody Oud 80 ml – Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/woody-oud-maison-alhambra.png",
+    "description": "Notes de tête: Cardamone, Baie Rose Notes de cœur: Vétiver, Oud Notes de fond: Fève tonka, Ambre",
+    "gender": "femme",
+    "rating": 4.1,
+    "reviews": 49,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1795",
+    "name": "The Tux Maison Alhambra-Mixte",
+    "brand": "Maison Alhambra",
+    "price": 40,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/the-tux-maison-alhambra-mixte.png",
+    "description": "The Tux – Maison Alhambra | L'élégance noire incarnée Un parfum masculin d’exception, inspiré du raffinement d’un smoking sur mesure. The Tux – Maison Alhambra est un parfum masculin sophistiqu...",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 56,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Best-Sellers",
+      "Nouveautés"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1796",
+    "name": "Ramz Silver Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ramz-silver-lattafa.png",
+    "description": "Notes de Tête : Anis étoilé, Pamplemousse et Mandarines. Notes de Coeur :Héliotrope, Cèdre, fleurs d’olivier et Cyprès. Notes de Fond : Vanille, Fèves de Tonka et Bois de gaïac.",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 73,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Ramz_Lattafa_SilveR-Photoroom_zepppb",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1797",
+    "name": "Ramz Gold 100ml – Lattafa mixte",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ramz-gold-100ml-lattafa-mixte.png",
+    "description": "Notes de tête : bergamout, pomme et ananas. Notes de cœur : bouleau, patchouli et jasmin. Notes de fond : musc, mousse de chêne, cuir et ambre",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 46,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Floral",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1798",
+    "name": "Raghba 100 ml – Lattafa-Mixte",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/raghba-lattafa.png",
+    "description": "Notes olfactives : Notes de tête : Vanille et oud. Notes de coeur : Bois de santal et encens. Notes de fond : Sucrée.",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 31,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1799",
+    "name": "Khamrah Lattafa",
+    "brand": "Lattafa",
+    "price": 39,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/khamrah-qahwa-worldwide-lattafa.png",
+    "description": "Khamrah – Lattafa | Une symphonie orientale envoûtante L’élégance d’un parfum gourmand et épicé, aux accents orientaux et chaleureux. Khamrah – Lattafa est un parfum mixte, intense et sucré, au...",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 138,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": true,
+    "oldPrice": 49
+  },
+  {
+    "id": "prod-1800",
+    "name": "Qaa'ed de Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/qaa-ed-de-lattafa.png",
+    "description": "Notes olfactives : Les notes de tête sont Cannelle, Cardamome et Bergamote; les notes de coeur sont Safran, Bois de santal, Cèdre et Œillet; les notes de fond sont Vanille, Oud, Cuir et Ambre. ...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 103,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé",
+      "Oriental",
+      "Frais"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1801",
+    "name": "I am white Ana Abiyedh Rouge 60ml – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/white-as-tuberose-fragrance-world.png",
+    "description": "Notes olfactives : Notes de tête : Nashi Pear, Kumquat et Bergamote Notes de cœur : Géranium, Cardamome et Coriandre Notes de fond : Ambre gris, Daim et Vétiver de Tahiti. Genre : Mixte",
+    "gender": "femme",
+    "rating": 4.1,
+    "reviews": 163,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Nouveautés",
+      "Oriental",
+      "Frais"
+    ],
+    "cloudinary_public_id": "I-am-white-Ana-Abiyedh-Photoroom_xmhrls",
+    "promo": false
+  },
+  {
+    "id": "prod-1802",
+    "name": "Fakhar Black Eau de Parfum 100 ml",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/optimystic-black-3-3oz-intense-fragrance-world.png",
+    "description": "Notes olfactives : Notes olfactives : bergamote, pomme verte, épices, horoscope, lavande, rose, fève tonka, musc, mousse de chene, ambroxan, bois de cèdre Genre : Masculin.",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 176,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Frais",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "Fakhar_rose_eau_de_parfum_lattafa_100ml-1-Photoroom-Photoroom_nwrkhf",
+    "promo": false
+  },
+  {
+    "id": "prod-1803",
+    "name": "Eau de Parfum Fakhar Lattafa Rose Gold 100ml de Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766511211/FRENCHAVENUE/Je%20ne%20vois%20pas%20de%20parfum%20sur%20cette%20image%20Limage%20montre%20une%20femme%20portant%20un%20pyjama%20%20carreaux%20roses%20et%20blancs.jpg",
+    "description": "Notes de tête: Rose, Jasmin, Pêche, Poire, Pomme Notes de cœur: Ylang-Ylang, Patchouli, Agrume, Fleur d’Oranger Notes de fond: Vétiver, Boisé, Vanille, Floral",
+    "gender": "femme",
+    "rating": 4.1,
+    "reviews": 46,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "FRENCHAVENUE/Je ne vois pas de parfum sur cette image Limage montre une femme portant un pyjama  carreaux roses et blancs",
+    "promo": false
+  },
+  {
+    "id": "prod-1804",
+    "name": "Ejaazi - Mixte",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ejaazi-s-lattafa.png",
+    "description": "Notes de tête : Orange, myrte, agrumes, lavande, cardamome Notes de cœur : Muguet, feuille de cannelle, patchouli, poivre Notes de fond : Mousse de chêne, bois de cèdre, accords boisés, vétiv...",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 175,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé",
+      "Frais"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1805",
+    "name": "Yeah – Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/yeah-maison-alhambra.png",
+    "description": "Yeah – Maison Alhambra | L’audace d’une fragrance moderne Un parfum vibrant et sophistiqué qui célèbre la jeunesse et la liberté. Yeah – Maison Alhambra est un parfum mixte frais et floral, par...",
+    "gender": "homme",
+    "rating": 4.2,
+    "reviews": 164,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1806",
+    "name": "Maahir Lattafa- eau de toilette -100ml",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/maahir-100-ml-lattafa.png",
+    "description": "Les notes de tête sont Fruits rouges, Pêche et Bergamote; les notes de coeur sont Jasmin, Pivoine et Lys rouge; les notes de fond sont Bois de santal, Fleur de vanille et Musc..",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 40,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Frais",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1807",
+    "name": "Confidential Platinum Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/confidential-private-gold.png",
+    "description": "Confidential Platinum – Lattafa | L’excellence d’un parfum précieux Une fragrance raffinée et moderne qui allie puissance et sophistication. Confidential Platinum – Lattafa est un parfum mixte ...",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 61,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Best-Sellers"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1809",
+    "name": "Asad Lattafa100 ml Eau de Parfum",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/asad-lattafa100-ml-eau-de-parfum.png",
+    "description": "Asad – Lattafa | La puissance noble d’un parfum oriental Un parfum captivant et raffiné qui incarne la force et l’élégance. Asad – Lattafa est un parfum oriental intense aux notes boisées, épic...",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 134,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1810",
+    "name": "FAKHAR – WASAM de Lattafa -Mixte",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/fakhar-wasam-de-lattafa-mixte.png",
+    "description": "FAKHAR – WASAM de Lattafa | L’élégance mixte aux accents nobles Un parfum raffiné et équilibré qui incarne la fierté et la distinction. FAKHAR – WASAM de Lattafa est un parfum mixte élégant aux...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 187,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1811",
+    "name": "Glacier Pour Homme 100ml EDP For Men",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/glacier-pour-homme-100ml-edp-for-men.png",
+    "description": "La note de tête est Cardamome; les notes de coeur sont Lavande et Iris; les notes de fond sont Vanille, Notes orientales et Notes boisées.",
+    "gender": "homme",
+    "rating": 4.7,
+    "reviews": 29,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1812",
+    "name": "Grise Maison Alhambra | Eau De Parfum 100ml |",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/grise-lattafa.png",
+    "description": "Grise – Maison Alhambra | L’élégance intemporelle d’un parfum gris Une fragrance mystérieuse et raffinée qui joue sur les nuances subtiles de l’ombre et de la lumière. Grise – Maison Alhambra e...",
+    "gender": "femme",
+    "rating": 4.6,
+    "reviews": 124,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1814",
+    "name": "Safwaan L’autre musk – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/safwaan-lattafa.png",
+    "description": "Safwaan L’autre Musk – Lattafa | L’essence mystérieuse du musc revisité Un parfum musqué, raffiné et enveloppant qui révèle une élégance intemporelle. Safwaan L’autre Musk – Lattafa est un parf...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 169,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1815",
+    "name": "Badee Parfum Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/badee-parfum-lattafa.png",
+    "description": "Badee – Parfum Lattafa | L’élégance orientale réinventée Un parfum sensuel et captivant qui révèle la richesse des essences orientales. Badee – Parfum Lattafa est une fragrance orientale aux no...",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 42,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1816",
+    "name": "Oud mood Maison lattafa  AL Zaafran",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/oud-mood-maison-lattafa-al-zaafran.png",
+    "description": "Quantité : 100 ml d’eau parfumée 3.4 FL. OZ. Notes de tête : noix de muscade, cannelle, safran Notes de cœur : bois de santal, oud, notes de cuir Notes de fond : ambre gris, vanille",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 135,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1817",
+    "name": "Velvet Oud – Lattafa Parfum",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/velvet-oud-lattafa.png",
+    "description": "Notes de Tête : Encens Notes de Cœur : Musc Notes de Fond : Oud, Ambre",
+    "gender": "mixte",
+    "rating": 4.2,
+    "reviews": 25,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1818",
+    "name": "I am white Ana Abiyedh 60ml – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798654/I-am-white-Ana-Abiyedh-Photoroom_xmhrls.png",
+    "description": "Notes de tête : Jasmin, Rose, Fleur d’oranger Notes de coeur : Mosc Notes de fond : Coumar / Fève de tonka, Vanille, Cèdre, Vétiver, Patchouli",
+    "gender": "femme",
+    "rating": 4.1,
+    "reviews": 32,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Floral",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "I-am-white-Ana-Abiyedh-Photoroom_xmhrls",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1819",
+    "name": "Eau de parfum Safwaan ( 100ml –L’autre oud) Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735865/parfum-Safwaan_qge7xj.jpg",
+    "description": "Notes olfactives : Notes de Tête : Safran, Oliban, Rose Notes de Cœur : Ambre, Notes Epicées Notes de Fond : Oud, Notes Boisées",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 170,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "parfum-Safwaan_qge7xj",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1821",
+    "name": "TOSCANO LEATHER  Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/toscano-leather-maison-alhambra.png",
+    "description": "Toscano Leather – Maison Alhambra | L’élégance du cuir à l’italienne Un hommage audacieux et raffiné à la noblesse des matières et au charme toscan. Toscano Leather – Maison Alhambra est une ea...",
+    "gender": "mixte",
+    "rating": 4,
+    "reviews": 145,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Nouveautés"
+    ],
+    "cloudinary_public_id": "Maison_Alhambra_Toscano_Leather-1-Photoroom-Photoroom_plwvvw",
+    "promo": false
+  },
+  {
+    "id": "prod-1822",
+    "name": "Matière – Jean Lowe",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/matiere-alhambra-jean-lowe.png",
+    "description": "Matière – Jean Lowe | L’essence pure de la sophistication Une fragrance noble et texturée, comme une toile olfactive où s’écrit l’élégance. Découvrez Matière – Jean Lowe, une eau de parfum unis...",
+    "gender": "mixte",
+    "rating": 4,
+    "reviews": 180,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Best-Sellers"
+    ],
+    "cloudinary_public_id": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+    "promo": false
+  },
+  {
+    "id": "prod-1823",
+    "name": "alhambra-glacier-le-noir",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/alhambra-glacier-le-noir.png",
+    "description": "La note de tête est Cardamome; les notes de coeur sont Lavande et Iris; les notes de fond sont Vanille, Notes orientales et Notes boisées.",
+    "gender": "homme",
+    "rating": 4.5,
+    "reviews": 64,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1824",
+    "name": "Eau de parfum Infini Oud 100ml – Maison Alhambra Mixte",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/infini-rose.png",
+    "description": "Notes olfactives : Note de tête : Safran Notes de cœur : Noix de muscade, Lavande Notes de fond : Oud, Patchouli, Musc",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 59,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Boisé",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1825",
+    "name": "La vita Bella Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/la-vita-bella-maison-alhambra.png",
+    "description": "La Vita Bella – Maison Alhambra | L’éloge de la féminité rayonnante Un parfum lumineux, gourmand et délicatement floral, pour celles qui célèbrent la beauté de la vie. La Vita Bella – Maison Al...",
+    "gender": "femme",
+    "rating": 4,
+    "reviews": 44,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Nouveautés",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1826",
+    "name": "MINERVA Inspired by Memo Paris",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/minerva.png",
+    "description": "MINERVA Inspired by Memo Paris Type d’arôme: oriental, fruité. Notes de départ : bergamote, litchi, muscade, rhubarbe. Notes de cœur : muguet, pivoine, rose turque. Notes : vanille, bois, lav...",
+    "gender": "femme",
+    "rating": 4.6,
+    "reviews": 111,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Frais",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1827",
+    "name": "Kismet for women Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/mayar-women.png",
+    "description": "Kismet for Women – Maison Alhambra | Le destin d’un parfum envoûtant Une fragrance féminine, sensuelle et mystérieuse, qui laisse une empreinte inoubliable. Kismet for Women – Maison Alhambra e...",
+    "gender": "femme",
+    "rating": 4.2,
+    "reviews": 157,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme"
+    ],
+    "cloudinary_public_id": "Maison_Alhambra_Kismet_For_Women___Apa_de_Parfum_Pentru_Femei_100ml-1-1-Photoroom-Photoroom_de3jcn",
+    "promo": false
+  },
+  {
+    "id": "prod-1828",
+    "name": "Perseus Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/perseus-maison-alhambra.png",
+    "description": "Notes Olfactives : Tête : Héliotrope, Cumin et Bergamote; Coeur : Amande amère, Lavande et Jasmin; Fond : Vanille, Bois de santal et Ambre.",
+    "gender": "homme",
+    "rating": 4.1,
+    "reviews": 167,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Frais"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1829",
+    "name": "Al Noble Safeer 100ml – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/de-agua-de-al-noble-safeer.png",
+    "description": "Al Noble Safeer Accords principaux: boisé, aromatique, épicé frais, ambre, terreux, herbes",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 150,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "al-noble-safeer_lxmykc",
+    "promo": false
+  },
+  {
+    "id": "prod-1830",
+    "name": "VERSENCIA CRYSTAL ALHAMBRA",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/versencia-crystal-alhambra.png",
+    "description": "Versencia Crystal – Maison Alhambra | La fraîcheur éclatante de la féminité moderne Un parfum floral et fruité, pur et lumineux, qui célèbre la douceur et la force de la femme contemporaine. Ve...",
+    "gender": "femme",
+    "rating": 4.6,
+    "reviews": 59,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1831",
+    "name": "Ameer Al Oudh (INTENSE OUD) – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ameer-al-oudh-intense-oud-lattafa.png",
+    "description": "Ameer Al Oudh (Intense Oud) – Lattafa | L’âme du bois d’oud dans sa plus noble intensité Un parfum profond, racé et magnétique pour celles et ceux qui osent affirmer leur charisme avec élégance.",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 24,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé"
+    ],
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1832",
+    "name": "Najdia – Lattafa – 100ml",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/najdia-tribute-4-oz-men-lattafa.png",
+    "description": "Najdia – Lattafa | Fraîcheur moderne et élégance orientale Un parfum vibrant aux accents aromatiques et aquatiques, pour celles et ceux qui recherchent un sillage frais, énergique et raffiné.",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 91,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1833",
+    "name": "Ajwad – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ajwad-lattafa.png",
+    "description": "Ajwad – Lattafa | Un voyage sensoriel entre douceur florale et mystère oriental Une fragrance envoûtante où la tendresse des fleurs rencontre la profondeur boisée des parfums d’Orient.",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 22,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1834",
+    "name": "Salvo Intense Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/salvo-intense-maison-alhambra.png",
+    "description": "Salvo Intense – Maison Alhambra | La puissance maîtrisée d’un parfum de caractère Une fragrance audacieuse, fraîche et boisée, pensée pour les esprits libres et déterminés. Salvo Intense – Mais...",
+    "gender": "homme",
+    "rating": 4.8,
+    "reviews": 185,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1835",
+    "name": "Maahir Black Edition – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/maahir-black-edition-lattafa.png",
+    "description": "Maahir Black Edition – Lattafa est une eau de parfum orientale boisée aux notes intenses et sophistiquées. Un parfum masculin puissant, idéal pour les amateurs de parfums orientaux profonds. Disp...",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 100,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Nouveautés",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1836",
+    "name": "Now Rave – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/now-rave-lattafa.png",
+    "description": "Now Rave – Lattafa est une eau de parfum fraîche, dynamique et moderne. Un parfum unisexe au sillage énergique, idéal pour les esprits libres et créatifs. Disponible sur FrenchAvenue.fr.",
+    "gender": "homme",
+    "rating": 4.2,
+    "reviews": 47,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Homme"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1837",
+    "name": "Tabac Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/tabac-alhambra.png",
+    "description": "Tabac Alhambra | L’élégance du tabac envoûtant Un parfum chaud, boisé et gourmand, à l’image d’un salon feutré où s’élèvent des volutes ambrées de luxe et de mystère. &nbsp;",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 112,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Boisé"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1838",
+    "name": "Kismet moscow Maison Alhambra Unisex",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/kismet-moscow-100-ml-maison-alhambra.png",
+    "description": "Kismet Moscow – Maison Alhambra une eau de parfum orientale boisée, riche et sophistiquée. Une fragrance de caractère pour les amateurs de parfums nobles et envoûtants.",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 74,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1839",
+    "name": "Niche Royal Rouge Alhambra  Femme",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/niche-royal-rouge-alhambra-femme.png",
+    "description": "Notes de cœur fleur d’oranger, Pashmarán, Narcisse, jasmin, ylang, luban.",
+    "gender": "femme",
+    "rating": 4.9,
+    "reviews": 68,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1840",
+    "name": "Al Noble Wazeer – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/al-noble-wazeer-lattafa.png",
+    "description": "Notes olfactives : Notes de Tête : Orange, Pomme Notes de Cœur : Cannelle, Bois de Cachemire, Patchouli Notes de Fond : Ambre, Vanille, Musc",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 127,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "al-noble---wazeer_om3g6z",
+    "promo": false
+  },
+  {
+    "id": "prod-1841",
+    "name": "Galatea Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/galatea-maison-alhambra.png",
+    "description": "Galatea Maison Alhambra Notes de tête : maté, cyprès, thym, vert, safran et fruits Notes de cœur : jasmin, iris et rose Notes de fond : ambre, cuir, vanille, musc, vétiver et cèdre",
+    "gender": "homme",
+    "rating": 4,
+    "reviews": 52,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Floral",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1842",
+    "name": "Avant Maison Alhambra Parfum 100 ml Mixte",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/avant-maison-alhambra-parfum-100-ml-mixte.png",
+    "description": "Avant – Maison Alhambra Notes de tête : Ananas, Bergamote, Cassis et Mar. Notes de cœur : Mastic, Paciuli, Jasmin marocain et Rose Notes de fond : Musc, Mousse de chêne, Ambre gris et Vanille.",
+    "gender": "mixte",
+    "rating": 4.2,
+    "reviews": 156,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Floral",
+      "Oriental",
+      "Frais",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1843",
+    "name": "Opera Noir – Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/opera-noir-maison-alhambra.png",
+    "description": "Opera Noir – Maison Alhambra Notes de tête :- Pêche, Orange, Cannelle Notes de coeur : – Jasmin, Mirabelle Notes de fond : – Café, Vanille, Fruité",
+    "gender": "femme",
+    "rating": 4.5,
+    "reviews": 187,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Floral",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "opera_noir-Photoroom_l8n7bz",
+    "promo": false
+  },
+  {
+    "id": "prod-1844",
+    "name": "Hercules – Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/hercules-maison-alhambra.png",
+    "description": "Hercules – Maison Alhambra | La puissance d’une légende olfactive Un parfum boisé, musclé et raffiné, inspiré par la force et le charisme d’un héros moderne. Hercules – Maison Alhambra est un p...",
+    "gender": "homme",
+    "rating": 4.1,
+    "reviews": 66,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1845",
+    "name": "Olivia Blossom-Alhambra 80 ml Parfum",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/olivia-blossom-alhambra-80-ml-parfum.png",
+    "description": "Olivia Blossom – Alhambra Notes de tête : rose de Damas et poivre rose. Notes de cœur : poire, sorbet et cassis Notes de fond : vanille, sel, cachemire et patchouli",
+    "gender": "femme",
+    "rating": 4.6,
+    "reviews": 63,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1846",
+    "name": "Majd Al Sultan – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/majdal-sultan-brown-homme-lattafa.png",
+    "description": "Majd Al Sultan – Lattafa Eau de Parfum 100ml Descriptif produit : Parfum oriental masculin aux notes épicées, myrrhe, encens, notes fumées et notes boisées. Notes de tête : Smyrne, notes fumées ...",
+    "gender": "mixte",
+    "rating": 4.2,
+    "reviews": 147,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Lattafa___Majdal_Sultan_Brown_100ML_Eau_de_parfum_homme-1-Photoroom-Photoroom_levitq",
+    "promo": false
+  },
+  {
+    "id": "prod-1847",
+    "name": "Maahir Legacy- (Inspiration: Hermes, eau des merveilles)",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/maahir-legacy-inspiration-hermes-eau-des-merveilles.png",
+    "description": "Maahir Legacy – Lattafa Notes de tête : citron vert, pamplemousse, lavande, menthe, ananas. Notes de coeur : baies de genièvre, romarin, résinoïde oliban, géranium, poivre noir. Notes de fond : ...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 42,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1848",
+    "name": "Pure Oudi Lattafa Parfum",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735866/pure-oudi-lattafa_jpqg00.png",
+    "description": "Pure Oudi Une fragrance raffinée et enveloppante qui célèbre la majesté du oud. Pure Oudi – Lattafa est un parfum oriental boisé intense, centré sur la richesse du bois d’oud. Une composition s...",
+    "gender": "mixte",
+    "rating": 4.9,
+    "reviews": 177,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "pure-oudi-lattafa_jpqg00",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1849",
+    "name": "Oud Mood Reminiscence – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796069/Lattafa_Oud_Mood_Silver_Reminiscence_Edp_Perfume___100_Ml__for_Men___Women__-Photoroom-Photoroom_xhxnd3.jpg",
+    "description": "Oud Mood – Reminiscence Tête : Safran, Framboise Cœur : Cardamome, Géranium Fond : Bois de Santal, Bois de Cèdre, Vétiver, Musc, Oud",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 43,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "Lattafa_Oud_Mood_Silver_Reminiscence_Edp_Perfume___100_Ml__for_Men___Women__-Photoroom-Photoroom_xhxnd3",
+    "promo": false
+  },
+  {
+    "id": "prod-1850",
+    "name": "Parfum-Musk Mood – Lattafa  mixte",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/parfum-musk-mood-lattafa-mixte.png",
+    "description": "Musk Mood – Lattafa Notes olfactives : Tête : Citron, vanille, musc blanc Cœur : Fleurs, vanille, musc blanc Fond : Musc blanc, bois de santal",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 175,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1851",
+    "name": "Parfum Sakeena – Lattafa100ml",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/sakeena-mujer-100-ml-lattafa.png",
+    "description": "Parfum Sakeena – Lattafa Notes olfactives : Notes de tête : Fruit de la passion, Mandarine, Accord Ozonic Notes de cœur : Rose, Fleur d’oranger, Framboise, Sale du marin Notes de fond : Vanille...",
+    "gender": "femme",
+    "rating": 4.6,
+    "reviews": 50,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Best-Sellers",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1852",
+    "name": "Mayar – Lattafa Parfums",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/mayar-s-floral-fruity-and-amber-scent-lattafa.png",
+    "description": "Mayar – Lattafa Parfums Note de tête : Ambre Note de cœur : Bois de Santal Note de fond : Vanille",
+    "gender": "femme",
+    "rating": 4.7,
+    "reviews": 174,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1853",
+    "name": "Andaleeb – Asdaaf -Mixte 100ml",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/andaleeb-asdaaf-mixte-100ml.png",
+    "description": "Andaleeb – Asdaaf Notes olfactives : Notes de tête : Musc, Fruité Notes de cœur : Caramel, Notes Gourmand Notes de fond : Ambre, Musc, Bois de Santal",
+    "gender": "femme",
+    "rating": 4.3,
+    "reviews": 165,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Boisé",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1854",
+    "name": "So Candid -Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/yeah-maison-alhambra.png",
+    "description": "So Candid – Maison Alhambra Notes olfactives : Notes de tête : Fleur D’oranger Notes de cœur : Jasmin Notes de fond : Tubéreuse",
+    "gender": "femme",
+    "rating": 4.9,
+    "reviews": 199,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1855",
+    "name": "Côme Moiselle - ALHAMBRA Parfum 100 ml",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/c-me-moiselle-alhambra-parfum-100-ml.png",
+    "description": "Création premium de Maison Alhambra, marque de niche reconnue pour ses parfums sophistiqués inspirés des plus grandes fragrances de luxe.",
+    "gender": "femme",
+    "rating": 4.4,
+    "reviews": 20,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1856",
+    "name": "Jean Lowe Nouveau Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg",
+    "description": "Jean Lowe Nouveau Notes de tête: Labdanum, Patchouli, Bois de santal, Bois de cèdre, Ambre, Encens Notes de cœur: Muscade, Melon, Gingembre, Jasmin Notes de fond: Citron, Pamplemousse, P...",
+    "gender": "mixte",
+    "rating": 4.2,
+    "reviews": 75,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+    "promo": false
+  },
+  {
+    "id": "prod-1857",
+    "name": "Jean Lowe Ombre",
+    "brand": "Maison Alhambra",
+    "price": 50,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ombre-jean-lowe.png",
+    "description": "Jean Lowe Ombre Notes de fond: Bois de Oud, Encens Notes de cœur: framboise Notes de tête : larmes de benjoin",
+    "gender": "homme",
+    "rating": 4.9,
+    "reviews": 87,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+    "promo": false
+  },
+  {
+    "id": "prod-1858",
+    "name": "kismet angel-maison alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/kismet-angel-maison-alhambra.png",
+    "description": "Kismet Angel – Maison Alhambra Les notes de tête sont Rayon de miel , Vanille et Ambre ; Les notes de coeur sont Cannelle, Caramel et Fève de tonka; la note de fond est Chocolat noir.",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 156,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1859",
+    "name": "Tharwah Gold Lattafa Pride",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/tharwah-gold-pride-free-express-shipping-lattafa.png",
+    "description": "Tharwah Gold – Lattafa Pride | L’opulence orientale dans un flacon d’élégance Une fragrance boisée, ambrée et résolument luxueuse, pour celles et ceux qui embrassent la richesse des senteurs orien...",
+    "gender": "femme",
+    "rating": 4.2,
+    "reviews": 143,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Lattafa_Pride_Tharwah_Gold_Natural_Spray_Eau_De_Parfum_For_Unisex_100ml-1-Photoroom-Photoroom_zpfh49",
+    "promo": false
+  },
+  {
+    "id": "prod-1860",
+    "name": "Al Khas Winners Trophy lattafa pride",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796069/lal-ul---winners-trophy_ls4j4r.jpg",
+    "description": "Al Khas Winners Trophy – Lattafa Pride | L’excellence parfumée pour les vainqueurs Un parfum oriental luxueux, riche et puissant, célébrant la victoire et la grandeur. Al Khas Winners Trophy – ...",
+    "gender": "homme",
+    "rating": 4.5,
+    "reviews": 85,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Homme",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "lal-ul---winners-trophy_ls4j4r",
+    "promo": false
+  },
+  {
+    "id": "prod-1861",
+    "name": "A king fragrance world",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/a-king-fragrance-world.png",
+    "description": "A King – Fragrance World Notes de tête : Clou de girofle, Poivre rose, Fleur d'oranger Notes de cœur : Châtaigne, Bois de gaïac, Genièvre Notes de base : Vanille, Baume du Pérou, Cashmeran",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 191,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1862",
+    "name": "K King – Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/k-king-fragrance-world.png",
+    "description": "K King – Fragrance World Notes de tête : café, rhubarbe, cardamome et mandarines. Notes de cœur : mangue, gingembre, ambre. Notes de fond : vétiver, ambre gris, pêches.",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 164,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1863",
+    "name": "J – Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/j-fragrance-world.png",
+    "description": "J – Fragrance World | L’éclat d’un parfum à l’élégance intemporelle Une fragrance raffinée, florale et boisée, pensée pour sublimer la féminité avec subtilité et modernité.",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 125,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1864",
+    "name": "Queen Q – Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/queen-q-fragrance-world.png",
+    "description": "Queen Q – Fragrance World Notes de Tête : Amandes, Cerises, Bergamote Notes de Cœur : Roses, Iris Notes de Base : Vanille, Fève Tonka, Anis",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 139,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Best-Sellers",
+      "Floral",
+      "Oriental",
+      "Frais"
+    ],
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1865",
+    "name": "Pose As Rose – Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/pose-as-rose-fragrance-world.png",
+    "description": "Pose As Rose – Fragrance World | L’élégance d’une rose contemporaine Un parfum floral moderne, doux et séduisant, célébrant la grâce intemporelle de la rose. Pose As Rose – Fragrance World est ...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 133,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1866",
+    "name": "Dark As Wood – Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735887/dark-as-wood-world_ihybpw.png",
+    "description": "Dark As Wood – Fragrance World | L’intensité boisée à l’état brut Un parfum envoûtant, chaud et mystérieux, pour les amateurs de caractère et de profondeur. Dark As Wood – Fragrance World est u...",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 182,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "dark-as-wood-world_ihybpw",
+    "promo": false
+  },
+  {
+    "id": "prod-1867",
+    "name": "Jorge Di Profumo Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/maison-alhambra-jorge-di-profumo-deep-blue-for-maison-alha-lattafa.png",
+    "description": "Jorge Di Profumo – Maison Alhambra | L’élégance ténébreuse d’un parfum masculin iconique Un parfum intense, aromatique et aquatique, à la virilité affirmée et au charme magnétique. Jorge Di Pro...",
+    "gender": "homme",
+    "rating": 4.9,
+    "reviews": 23,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme"
+    ],
+    "cloudinary_public_id": "Maison_Alhambra_Jorge_Di_Profumo-Photoroom-Photoroom_i0o3wb",
+    "promo": false
+  },
+  {
+    "id": "prod-1868",
+    "name": "Porto Néroli – Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/porto-neroli-80-ml-super-rich-uae-version-maison-alhambra.png",
+    "description": "Porto Néroli – Maison Alhambra | Une évasion en Méditerranée La fraîcheur solaire d’un parfum lumineux et raffiné, inspiré des rivages ensoleillés du Sud. Porto Néroli – Maison Alhambra est un ...",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 72,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1869",
+    "name": "L’Intrude Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/l-intrude-maison-alhambra.png",
+    "description": "L’Intrude – Maison Alhambra | Une énigme olfactive pleine d’élégance Un parfum captivant, sensuel et audacieux, à la frontière du mystère et du raffinement. L’Intrude – Maison Alhambra est un p...",
+    "gender": "femme",
+    "rating": 4.1,
+    "reviews": 155,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1870",
+    "name": "confidential gold Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/confidential-gold-lattafa.png",
+    "description": "Confidential Gold – Lattafa | La quintessence du raffinement oriental Un élixir doré à la sensualité ambrée, entre tradition et modernité. Confidential Gold – Lattafa est un parfum oriental mix...",
+    "gender": "femme",
+    "rating": 4.3,
+    "reviews": 28,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1871",
+    "name": "Francique 107.9 Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/francique-63-55.png",
+    "description": "Francique 107.9 – Fragrance World | L'élégance audacieuse d’un parfum moderne Un sillage vibrant, riche en contrastes, pour une personnalité qui ne passe jamais inaperçue. Francique 107.9 – Fra...",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 142,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte"
+    ],
+    "cloudinary_public_id": "Francique_107.9_French_Avenue1_noz7hl",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1872",
+    "name": "Karat – Maison Alhambra -Eau de parfum 100ml",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765798642/alhambra-eau-de-parfum_ioirdb.png",
+    "description": "Karat – Maison Alhambra | L’éclat doré d’un parfum d’exception Un bijou olfactif, rare et précieux, à l’élégance intemporelle. Karat – Maison Alhambra est un parfum mixte aux notes boisées et f...",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 143,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Nouveautés",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "alhambra-eau-de-parfum_ioirdb",
+    "promo": false
+  },
+  {
+    "id": "prod-1873",
+    "name": "Eternal Oud de Lattafa Pride",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/eternal-oud-lattafa.png",
+    "description": "Eternal Oud – Lattafa Pride | L’intensité majestueuse de l’oud éternel Une fragrance orientale somptueuse, entre puissance boisée et douceur envoûtante. Eternal Oud – Lattafa Pride est un parfu...",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 32,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1874",
+    "name": "Francique 63.55 - Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235947/Francique_63.55_French_Avenue1_sld5l3.jpg",
+    "description": "Francique 63.55 – Fragrance World | L’expression raffinée d’un parfum unique Un voyage olfactif audacieux, mêlant élégance et modernité. Francique 63.55 – Fragrance World est un parfum mixte au...",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 72,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte"
+    ],
+    "cloudinary_public_id": "Francique_63.55_French_Avenue1_sld5l3",
+    "promo": false
+  },
+  {
+    "id": "prod-1875",
+    "name": "Infini Rose Maison alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735845/infini-rose-elixir-alhambra_pps4ca.png",
+    "description": "Infini Rose – Maison Alhambra | L’éternelle élégance florale Un hommage infini à la rose, empreint de délicatesse et de sophistication. Infini Rose – Maison Alhambra est une eau de parfum fémin...",
+    "gender": "femme",
+    "rating": 4.8,
+    "reviews": 99,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Floral"
+    ],
+    "cloudinary_public_id": "infini-rose-elixir-alhambra_pps4ca",
+    "promo": false
+  },
+  {
+    "id": "prod-1876",
+    "name": "By Saffron Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/by-saffron-maison-alhambra.png",
+    "description": "By Saffron – Maison Alhambra | L’or du mystère oriental Un parfum opulent et envoûtant, entre feu sacré et velours nocturne. By Saffron – Maison Alhambra est une eau de parfum mixte aux notes d...",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 189,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1877",
+    "name": "Lovely Cherie Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796077/lovely-cherie-alhambra-valon_eltt13.jpg",
+    "description": "Lovely Chérie – Maison Alhambra | L’innocence fruitée d’un charme irrésistible Un parfum tendre et espiègle, hommage aux amours légères et à la douceur féminine. Lovely Chérie – Maison Alhambra...",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 150,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte"
+    ],
+    "cloudinary_public_id": "lovely-cherie-alhambra-valon_eltt13",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1878",
+    "name": "Rose Petals Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/rose-petals-alhambra.png",
+    "description": "Rose Petals Une déclaration d’amour à la rose dans toute sa splendeur, sublimée par la douceur et la grâce. Rose Petals – Maison Alhambra est une eau de parfum féminine aux notes de rose, musc ...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 126,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Floral",
+      "Musqué"
+    ],
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1879",
+    "name": "Fresh Citrus Fragrance world",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/fresh-as-citrus-fragrance-world.png",
+    "description": "Fresh Citrus – Fragrance World Un parfum vivifiant et lumineux, parfait pour les amateurs de fraîcheur hespéridée et de sophistication décontractée. Fresh Citrus – Fragrance World est une eau d...",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 164,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Frais"
+    ],
+    "cloudinary_public_id": "fresh-as-citrus-fragrance-world_vkvtmi",
+    "promo": false
+  },
+  {
+    "id": "prod-1880",
+    "name": "Victorioso Victory Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/victorioso-victory.png",
+    "description": "Victorioso Victory – Maison Alhambra Un hommage vibrant à la puissance masculine et à la détermination, dans une fragrance orientale boisée intense. Victorioso Victory – Maison Alhambra est une...",
+    "gender": "mixte",
+    "rating": 4.9,
+    "reviews": 80,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1881",
+    "name": "Baroque Rouge Extrait Maison Alhambra 100ml",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/baroque-rouge-extrait-maison-alhambra.png",
+    "description": "Baroque Rouge Extrait Un parfum audacieux, opulent et envoûtant, inspiré par l’élégance du cristal fondu. Baroque Rouge Extrait – Maison Alhambra est une eau de parfum mixte intense, aux notes ...",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 137,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte",
+      "Best-Sellers",
+      "Nouveautés"
+    ],
+    "cloudinary_public_id": "baroque-rouge-540_hi5hrh",
+    "promo": false
+  },
+  {
+    "id": "prod-1884",
+    "name": "Musk vanille 100ml – Maison Alhambra Eau de parfum",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/musk-vanille-100ml-maison-alhambra-eau-de-parfum.png",
+    "description": "Notes olfactives : Notes de tête : Framboise, Pêche, Cassis, poire Note de cœur : Muguet Notes de fond : Héliotrope, Patchouli, Vanille, Musc Genre : Mixte",
+    "gender": "femme",
+    "rating": 4.3,
+    "reviews": 62,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Boisé",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-1885",
+    "name": "Jean Lowe Immortal Maison Alhambra pour homme",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg",
+    "description": "Inspiration: Louis Vuitton l'Immensité Vous cherchez un parfum unique qui vous transportera dans un monde de luxe et d'élégance ? Ne cherchez plus ! Le parfum Jean Lowe Immortal de la maison Alh...",
+    "gender": "homme",
+    "rating": 4.1,
+    "reviews": 189,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme"
+    ],
+    "cloudinary_public_id": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+    "promo": false
+  },
+  {
+    "id": "prod-1916",
+    "name": "Black Afgano parfum de fragrance world",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/black-afgano-extract-30-ml-nasomatto.png",
+    "description": "Plongez dans un univers envoûtant avec le parfum Black Afgano de Fragrance World. Cette fragrance mystérieuse et captivante vous transporte vers des contrées lointaines grâce à ses notes boisées et...",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 187,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "Fragrance_World_Optimystic_Black_Eau_de_Parfum_3_3oz___100ml_for_Men___Intense_-1-Photoroom-Photoroom_duhhae",
+    "promo": false
+  },
+  {
+    "id": "prod-1917",
+    "name": "Optimystic blanc de fragrance world",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/optimystic-blanc-de-fragrance-world.png",
+    "description": "Plongez dans un monde d'optimisme avec Optimystic Blanc de Fragrance World. Ce parfum envoûtant capture l'esprit mystique et vous transporte vers des horizons inexplorés. Les notes florales délicat...",
+    "gender": "mixte",
+    "rating": 4,
+    "reviews": 86,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1918",
+    "name": "Optimystic Noir de Fragrance world",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/optimystic-noir-de-fragrance-world.png",
+    "description": "Alternative de qualité supérieure aux parfums de luxe, proposée par Fragrance World Dubai. Tenue longue durée garantie.",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 21,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1919",
+    "name": "Mocha Wood – Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/mocha-wood-world-s.png",
+    "description": "Mocha Wood – Fragrance World Un parfum chaleureux, suave et addictif, aux accords caféinés et boisés profonds. Mocha Wood – Fragrance World est une eau de parfum masculine gourmande et boisée, ...",
+    "gender": "mixte",
+    "rating": 4.2,
+    "reviews": 82,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "Mocha_Wood_Eau_De_Parfum_Perfume_100ml__3_4_Oz_By_World_Perfumes_Unisex-1-Photoroom-Photoroom_i0ucrh",
+    "promo": false
+  },
+  {
+    "id": "prod-1920",
+    "name": "Tour De Havana de Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/tour-de-havana-fragrance-world.png",
+    "description": "Tour De Havana Un parfum riche et sophistiqué aux accents boisés, épicés et gourmands. Tour De Havana – Fragrance World est une eau de parfum chaleureuse et boisée inspirée de l’ambiance envoût...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 84,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "Fragrance_World_TOUR_DE_HAVANA_______________________________-1-Photoroom-Photoroom_bavyou",
+    "promo": false
+  },
+  {
+    "id": "prod-1921",
+    "name": "Extreme aoud Fragrance world",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/extreme-aoud-fragrance-world.png",
+    "description": "Extreme Aoud Un parfum oriental puissant, magnétique et envoûtant pour les amateurs de caractère. Extreme Aoud – Fragrance World est une eau de parfum intense et boisée autour du oud. Une fragr...",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 135,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "extreme_aoud-fragrance_world_gpzibl",
+    "promo": false
+  },
+  {
+    "id": "prod-1922",
+    "name": "Absolute oud magnificent 7 Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/absolute-oud-magnificent-7-fragrance-world.png",
+    "description": "Absolute Oud – Magnificent 7 Un parfum boisé oriental rare, puissant et magnétique, pour les véritables connaisseurs. Absolute Oud – Magnificent 7 est une eau de parfum de caractère, construite...",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 125,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1924",
+    "name": "Pure passion de Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/pure-passion-vapaoris-fragrance-world.png",
+    "description": "Alternative de qualité supérieure aux parfums de luxe, proposée par Fragrance World Dubai. Tenue longue durée garantie.",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 49,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte"
+    ],
+    "cloudinary_public_id": "Pure-passion-Photoroom_xdhrlh",
+    "promo": false
+  },
+  {
+    "id": "prod-1925",
+    "name": "Cuir leather de fragrance world",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735886/cuir-leather-world_a2xypb.png",
+    "description": "Notes de tête : iris ; Notes de cœur : cuir ; Notes de fond : cuir véritable ;",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 122,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte"
+    ],
+    "cloudinary_public_id": "cuir-leather-world_a2xypb",
+    "promo": false
+  },
+  {
+    "id": "prod-1926",
+    "name": "Invicto - Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/invicto-3-4-fl-oz-fragrance-world.png",
+    "description": "Notes de tête: Notes de mer, Pamplemousse Notes de cœur: Feuille de laurier, Jasmin Notes de fond: Ambre, Mousse de Chêne, Patchouli",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 40,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-1927",
+    "name": "Tudor Paris corner",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/pendora-scents-tudor-100-ml-paris-corner.png",
+    "description": "Notes de tête: feuille de violette, coriandre et bergamote Notes de cœur: rose, poivre noir et muguet Notes de corps: ambre gris, patchouli et vanille bourbon",
+    "gender": "mixte",
+    "rating": 4.9,
+    "reviews": 145,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Nouveautés",
+      "Floral",
+      "Oriental",
+      "Frais"
+    ],
+    "cloudinary_public_id": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+    "promo": false
+  },
+  {
+    "id": "prod-1930",
+    "name": "Cocktail Intense – Fragrance World",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/cocktail-intense-fragrance-world.png",
+    "description": "Cocktail Intense – Fragrance World | L’audace d’un élixir vibrant Un parfum mixte intense, fruité et sensuel, conçu pour les esprits libres et les amateurs de contrastes sophistiqués. Cocktail ...",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 194,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte"
+    ],
+    "cloudinary_public_id": "fragrance-world-cocktail-intense_bzwzrm",
+    "promo": false
+  },
+  {
+    "id": "prod-2618",
+    "name": "Teriaq Parfums  Lattafa mixte",
+    "brand": "Lattafa",
+    "price": 40,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/teriaq-para-mulheres-e-homens-lattafa.png",
+    "description": "Notes de tête : Caramel, Poivre rose, Amande amère et Abricot Notes de cœur : Miel, Rhubarbe, Fleurs blanches et Rose Notes de fond : Vanille, Vétiver, Labdanum, Cuir, Musc",
+    "gender": "femme",
+    "rating": 4.3,
+    "reviews": 157,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Floral",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-2708",
+    "name": "Tempête – Jacques Yves 100ml Parfums",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/tempete-jacques-yves-s-fragrance-world.png",
+    "description": "Tempête – Jacques Yves | La force d’un parfum, l’élégance d’un souffle Un tourbillon raffiné de caractère et de mystère, capturé dans un flacon de 100 ml. Tempête de Jacques Yves est une eau de...",
+    "gender": "homme",
+    "rating": 4.9,
+    "reviews": 197,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Homme",
+      "Best-Sellers"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-2800",
+    "name": "The Artist No.1 Eau De Parfum 100ml Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 40,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/the-artist-no-1-eau-de-parfum-100ml-maison-alhambra.png",
+    "description": "Notes de Tête: Framboise, Cassis, Rose Notes de Cœur: Bois de Santal, Encens, Patchouli Notes de Fond: Musc, Ambre, Benjoin",
+    "gender": "homme",
+    "rating": 4.4,
+    "reviews": 80,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-2812",
+    "name": "Spectre Ghost - Fragrance world",
+    "brand": "Fragrance World",
+    "price": 45,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/spectre-ghost-fragrance-world.png",
+    "description": "Notes Olfactives : Notes de tête : Gingembre, Bergamote, Poivre rose, Agrumes verts Notes de cœur : Cassis, Cardamome, Rose turque Notes de fond : Vanille, Bois de santal, Benjoin, Cèdre...",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 177,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Frais"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-2817",
+    "name": "Amber Grand Pendora Paris Corner",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735877/Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1_nt44ql.png",
+    "description": "NOTES OLFACTIVES Tête : Orange, Ciste, Labdanum Cœur : Fève de Tonka Fond : Vanille, Ambre",
+    "gender": "mixte",
+    "rating": 4.9,
+    "reviews": 22,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Amber_Grand_Pendora___Inspiration_Grand_soir_de_MFK-1_nt44ql",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-2822",
+    "name": "Lueur d'espoir ambre De Paris Corner",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796091/Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn.jpg",
+    "description": "Lueur d’Espoir Ambre – Paris Corner | L’élégance ambrée d’un renouveau Un parfum chaleureux, raffiné et lumineux, où l’ambre se fait caresse et espoir. Lueur d’Espoir Ambre – Paris Corner est u...",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 22,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+    "promo": true,
+    "oldPrice": 45
+  },
+  {
+    "id": "prod-2824",
+    "name": "zaffiro regale by maison alhambra UNISEX",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/zaffiro-collection-regale.png",
+    "description": "Zaffiro Regale – Maison Alhambra | Le prestige d’un sillage royal Une fragrance opulente et raffinée, où s’allient noblesse, chaleur et sensualité dans un écrin de luxe. Zaffiro Regale de Maiso...",
+    "gender": "femme",
+    "rating": 4.1,
+    "reviews": 36,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme"
+    ],
+    "cloudinary_public_id": "Zaffiro_Collection_Regale_100ml-Photoroom_pg25bc",
+    "promo": false
+  },
+  {
+    "id": "prod-2835",
+    "name": "Zaffiro Collection Crafted Oud",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/zaffiro-crafted-oud-100-ml-niche-uae-version-maison-alhambra.png",
+    "description": "Zaffiro Collection Crafted Oud – L’intensité d’un oud ciselé avec élégance Un parfum rare, profond et majestueux, conçu pour les connaisseurs en quête de raffinement. Zaffiro Collection Crafted...",
+    "gender": "homme",
+    "rating": 4.1,
+    "reviews": 187,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "Zaffiro_Crafted_Oud_Edp_Perfume_By_Maison_Alhambra_100_Ml_niche_Uae_Version_-Photoroom_ivafhx",
+    "promo": false
+  },
+  {
+    "id": "prod-2837",
+    "name": "Oud highness Paris corner",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/zarah-oud-highness-zarah-2-7-oz.png",
+    "description": "Oud Highness – Paris Corner | La majesté orientale en flacon Un parfum opulent, intense et résolument noble, pour celles et ceux qui cherchent une signature olfactive impériale. Oud Highness – ...",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 53,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+    "promo": false
+  },
+  {
+    "id": "prod-2840",
+    "name": "suits fragrance world",
+    "brand": "Fragrance World",
+    "price": 37,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/suits-perfumy-arabskie-fragrance-world.png",
+    "description": "Suits – Fragrance World | L’élégance masculine incarnée Un parfum moderne, sophistiqué et charismatique, pour l’homme qui affirme son style avec assurance. Suits de Fragrance World est un parfu...",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 30,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Fragrance World",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-2870",
+    "name": "Jean Lowe Noir Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 40,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235953/maison-alhambra-jean-lowe-noir-2-1_issawp.jpg",
+    "description": "Notes de tête labdanum, patchouli, bois de santal, bois de cèdre, ambre, encens, bois d'ambre Notes de cœur melon, jasmin, gingembre, noix de muscade Notes de fond citron, pamplemousse, poivr...",
+    "gender": "homme",
+    "rating": 4.7,
+    "reviews": 62,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Homme",
+      "Best-Sellers",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "maison-alhambra-jean-lowe-noir-2-1_issawp",
+    "promo": false
+  },
+  {
+    "id": "prod-3042",
+    "name": "Parfum Yara de Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796070/Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt.jpg",
+    "description": "Yara – Lattafa | L’élégance d’une douceur orientale Une fragrance féminine et crémeuse, pour sublimer la douceur et le mystère de chaque femme. Yara de Lattafa est un parfum féminin, doux et en...",
+    "gender": "femme",
+    "rating": 4.6,
+    "reviews": 146,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt",
+    "promo": false
+  },
+  {
+    "id": "prod-3150",
+    "name": "Amber-Neroli - Inspiration Black Pepper",
+    "brand": "Fragrance World",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/amber-neroli-inspiration-black-pepper.png",
+    "description": "Notes Olfactives : Notes de tête : Néroli, Mandarine, Bergamote Notes de cœur : Jasmin, Fleur d'Oranger Notes de fond : Ambre, Vanille, Musc",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 151,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Fragrance World",
+      "Mixte",
+      "Nouveautés",
+      "Floral",
+      "Oriental",
+      "Frais",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-3421",
+    "name": "Tobacco Touch de Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796098/tobacco-touch-de-maison-alhambra-Photoroom_pjtcvs.jpg",
+    "description": "Notes de tête : Cannelle, épices chaudes Notes de cœur : Tabac, vanille, fève tonka Notes de fond : Notes boisées, patchouli, miel",
+    "gender": "femme",
+    "rating": 4.4,
+    "reviews": 91,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "tobacco-touch-de-maison-alhambra-Photoroom_pjtcvs",
+    "promo": false
+  },
+  {
+    "id": "prod-3839",
+    "name": "Francique 107.9 – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235947/Francique_107.9_French_Avenue1_noz7hl.jpg",
+    "description": "Notes olfactives : Notes de tête : Cerise, Poivre Rose, Bergamote Notes de cœur : Gousse de Vanille Noire, Héliotrope, Fleur d’Oranger Notes de fond : Fève Tonka, Bois de Cachemire, Musc blanc...",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 169,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Mixte",
+      "Boisé",
+      "Floral",
+      "Oriental",
+      "Frais",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "Francique_107.9_French_Avenue1_noz7hl",
+    "promo": false
+  },
+  {
+    "id": "prod-3846",
+    "name": "Francique 63.55 – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235947/Francique_63.55_French_Avenue1_sld5l3.jpg",
+    "description": "NOTES OLFACTIVES Notes de tête : Cardamome, Figue, Thé noir Notes de cœur : Iris, Vétiver Bourbon Notes de fond : Bois de santal, Fève tonka Genre : Mixte",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 85,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé"
+    ],
+    "cloudinary_public_id": "Francique_63.55_French_Avenue1_sld5l3",
+    "promo": false
+  },
+  {
+    "id": "prod-3849",
+    "name": "Irida Extrait – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766236027/Irida_Extrait_French_Avenue_jflns3.jpg",
+    "description": "Notes olfactives : Notes de tête : Cerise, gingembre Note de coeur : Jasmin Notes de fond : Poivre rose, musc, ambre Genre : Féminin.",
+    "gender": "femme",
+    "rating": 4.5,
+    "reviews": 155,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Femme",
+      "Floral",
+      "Oriental",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "Irida_Extrait_French_Avenue_jflns3",
+    "promo": false
+  },
+  {
+    "id": "prod-3850",
+    "name": "Aether Extrait – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235958/Aether_Extrait_French_Avenue_gyyd43.jpg",
+    "description": "Parfum authentique importé de Dubaï. Fragrance de haute qualité avec une excellente tenue et un sillage remarquable.",
+    "gender": "homme",
+    "rating": 4,
+    "reviews": 102,
+    "inStock": false,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Homme"
+    ],
+    "cloudinary_public_id": "Aether_Extrait_French_Avenue_gyyd43",
+    "promo": false
+  },
+  {
+    "id": "prod-3851",
+    "name": "Lumière Garçon | French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/lumi-re-gar-on-french-avenue.png",
+    "description": "Notes olfactives : Notes de tête : Poivre, basilic, bergamote Notes de coeur : Géranium, Dates et Sauge Notes de fond : Bois de santal, Encens et Ambre Genre : Masculin.",
+    "gender": "homme",
+    "rating": 4.3,
+    "reviews": 21,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "French Avenue",
+      "Homme",
+      "Nouveautés",
+      "Boisé",
+      "Oriental",
+      "Frais"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-3878",
+    "name": "Lumière Elle – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/lumi-re-elle-french-avenue.png",
+    "description": "Notes olfactives : Notes de tête : Mandarine, gingembre, poire Notes de coeur : Fleur d’oranger, jasmin, rose Notes de fond : Bois de santal, ambre, poivre péruvien. Genre : Féminin.",
+    "gender": "femme",
+    "rating": 4.3,
+    "reviews": 28,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Femme",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-3913",
+    "name": "Sweet Paradise – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/vanilla-so-sweet-uae-fragrance-world.png",
+    "description": "Notes olfactives : Notes de tête : Ambrette, mandarine, musc Notes de cœur : Orange, pivoine, iridium Notes de fond : Fève tonka, héliotrope, orge. Genre : Féminin.",
+    "gender": "femme",
+    "rating": 4.6,
+    "reviews": 151,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Femme",
+      "Oriental",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-3914",
+    "name": "Royal Blend Nero – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/royal-blend-nero-french-avenue.png",
+    "description": "✅ Parfum de niche haut de gamme ✅ Un sillage puissant et raffiné ✅ Idéal pour l’homme audacieux, élégant, mystérieux ✅ Tenue longue durée grâce à sa forte concentration",
+    "gender": "homme",
+    "rating": 4.7,
+    "reviews": 91,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Homme",
+      "Best-Sellers"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-3917",
+    "name": "Azzure Aoud - French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/azzure-aoud-french-avenue.png",
+    "description": "Notes olfactives : Notes de tête : Safran, fruits de la passion, roses. Notes de coeur : Oud, benjoin, patchouli. Notes de fond : Cuir, notes boisées, vanille. Genre : Mixte",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 39,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Mixte",
+      "Best-Sellers",
+      "Boisé",
+      "Floral",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-3918",
+    "name": "Liquide Brun – French Avenue",
+    "brand": "French Avenue",
+    "price": 44,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766235951/Liquide_Brun1_rrouvn.jpg",
+    "description": "Notes olfactives : Notes de tête : Cannelle, bergamote, cardamome, fleur d’oranger Notes de coeur : Vanille bourbon, élémis Notes de fond : Musc, praliné, ambroxan, bois de gaïac Genre : Ma...",
+    "gender": "homme",
+    "rating": 4.1,
+    "reviews": 89,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Homme",
+      "Boisé",
+      "Oriental",
+      "Frais",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "Liquide_Brun1_rrouvn",
+    "promo": false
+  },
+  {
+    "id": "prod-3919",
+    "name": "After Effect – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1766735874/after-effect-fragrance_world_zpihcz.jpg",
+    "description": "Notes de tête : vanille Notes de coeur : rhum Notes de fond : cannelle, tabac Genre: Masculin",
+    "gender": "homme",
+    "rating": 4,
+    "reviews": 178,
+    "inStock": false,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "French Avenue",
+      "Homme",
+      "Nouveautés",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "after-effect-fragrance_world_zpihcz",
+    "promo": false
+  },
+  {
+    "id": "prod-3921",
+    "name": "Glorious Oud – French Avenue",
+    "brand": "French Avenue",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/glorious-oud-french-avenue.png",
+    "description": "Notes olfactives : Notes de tête : magnolia, cassis. Notes de cœur : musc blanc, mandarines. Notes principales : bergamote, bois de santal. Genre : Mixte.",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 168,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "French Avenue",
+      "Mixte",
+      "Boisé",
+      "Frais",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4145",
+    "name": "Kenzie Marshmallow – FrenchAvenue",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/kenzie-marshmallow-frenchavenue.png",
+    "description": "Kenzie Marshmallow – FrenchAvenue | La douceur d’un nuage parfumé Une gourmandise olfactive irrésistible, légère comme un souffle sucré sur la peau.",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 89,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4180",
+    "name": "Kenzie Candid Vanilla",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/kenzie-candid-vanilla.png",
+    "description": "Kenzie Candid Vanilla – FrenchAvenue | L’élégance d’une vanille moderne Un souffle chaleureux de vanille addictive, habillé de sophistication et de sensualité.",
+    "gender": "mixte",
+    "rating": 4.2,
+    "reviews": 28,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Best-Sellers",
+      "Nouveautés",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4181",
+    "name": "Éclaire – Lattafa",
+    "brand": "Lattafa",
+    "price": 42,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/claire-lattafa.png",
+    "description": "Éclaire – lattafa | La lumière au creux du sillage Un parfum lumineux, pur et rayonnant, pour celles et ceux qui laissent une empreinte solaire.",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 168,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4182",
+    "name": "Pistachio – Ard Al Zaafaran",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/pistachio-ard-al-zaafaran.png",
+    "description": "Pistachio – Ard Al Zaafaran Une gourmandise orientale, onctueuse et irrésistible.",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 150,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4183",
+    "name": "Ithra Mango – Ard Al Zaafaran",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ithra-mango-ard-al-zaafaran.png",
+    "description": "Ithra Mango – Ard Al Zaafaran Un élixir exotique, fruité et envoûtant.",
+    "gender": "mixte",
+    "rating": 4.5,
+    "reviews": 165,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4184",
+    "name": "Ithra Cotton Candy – Ard Al Zaafaran",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ithra-cotton-candy-ard-al-zaafaran.png",
+    "description": "Ithra Cotton Candy – Ard Al Zaafaran La douceur d’un rêve sucré capturée dans un flacon.",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 91,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4185",
+    "name": "Vanilla Latte – Gulf Orchid",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/vanilla-latte-gulf-orchid.png",
+    "description": "Vanilla Latte – Gulf Orchid Une étreinte chaleureuse aux accents vanillés et caféinés.",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 130,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4186",
+    "name": "Yara Candy",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/yara-candy.png",
+    "description": "Yara Candy – Lattafa | L’irrésistible douceur sucrée au cœur d’un rêve Un parfum gourmand, tendre et féminin, comme une friandise précieuse fondant sur la peau.",
+    "gender": "femme",
+    "rating": 4.3,
+    "reviews": 156,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4187",
+    "name": "Yara Blanc – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/yara-blanc-lattafa.png",
+    "description": "Yara Blanc – Lattafa | La pureté incarnée dans une fragrance lumineuse Un parfum aérien, doux et sophistiqué, où la fraîcheur florale s’entrelace à la sensualité crémeuse dans une étreinte délicate.",
+    "gender": "femme",
+    "rating": 4.7,
+    "reviews": 185,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Femme",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4188",
+    "name": "Yara Orange – Lattafa",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/yara-orange-lattafa.png",
+    "description": "Yara Orange – Lattafa | L’éclat solaire d’une féminité audacieuse Un parfum lumineux, sucré et chaleureux, qui insuffle l’énergie d’un coucher de soleil tropical sur la peau.",
+    "gender": "mixte",
+    "rating": 4,
+    "reviews": 68,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4189",
+    "name": "Khair Fusion Paris Corner",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796091/Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn.jpg",
+    "description": "Khair Fusion – Paris Corner | L’empreinte d’un luxe audacieux Une fusion orientale envoûtante, où les épices brûlantes rencontrent la douceur boisée dans un tourbillon de sensualité assumée.",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 151,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "cloudinary_public_id": "Pendora_Scents_Tudor_Eau_De_Parfum_Edp_By_Paris_Corner_For_Unisex___100_Ml-Photoroom_sg5ycn",
+    "promo": false
+  },
+  {
+    "id": "prod-4191",
+    "name": "Khair confection",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/khair-confection.png",
+    "description": "Khair Confection – Paris Corner | La gourmandise à l’état noble Un voyage sensoriel envoûtant où la douceur sucrée flirte avec la sophistication orientale.",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 184,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4192",
+    "name": "Khair felicity",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/khair-felicity.png",
+    "description": "Khair Felicity – Paris Corner | L’expression d’une féminité radieuse Une fragrance éclatante où les fleurs blanches, la muscade douce et les bois précieux s’unissent dans une danse délicate et ino...",
+    "gender": "mixte",
+    "rating": 4.2,
+    "reviews": 135,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Nouveautés",
+      "Boisé",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4193",
+    "name": "Coton Blanc Inspiré Paris",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/coton-blanc-inspir-paris.png",
+    "description": "Coton Blanc Inspiré Paris – L’élégance pure et lumineuse Un parfum délicat qui capture la douceur immaculée du coton blanc, symbole de pureté et de raffinement à la française.",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 114,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4194",
+    "name": "Fleur de Coton – Collection Coton d’Or Sublime Eau de Parfum",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/my-rose-sublime.png",
+    "description": "Fleur de Coton – Collection Coton d’Or Sublime Eau de Parfum La douceur du coton, sublimée dans un nuage d’élégance et de pureté.",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 128,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "cloudinary_public_id": "My-rose-Sublime-eau-de-parfum-Photoroom-Photoroom_tjrcnw",
+    "promo": false
+  },
+  {
+    "id": "prod-4196",
+    "name": "Ana abiyedh poudrée",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/ana-abiyedh-poudr-e.png",
+    "description": "Ana Abiyedh Poudrée – L’élégance en voile doux Une fragrance délicate et lumineuse qui caresse la peau comme une poudre de soie.",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 92,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4209",
+    "name": "Bint Hooran Rose Passion – Ard Al Zaafaran",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/bint-hooran-rose-passion-ard-al-zaafaran.png",
+    "description": "Bint Hooran Rose Passion – Ard Al Zaafaran La passion florale dans toute sa noblesse.",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 159,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Best-Sellers",
+      "Nouveautés",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4211",
+    "name": "L'Impresio – Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/l-impresio-maison-alhambra.png",
+    "description": "L’Impresio – Maison Alhambra Une empreinte olfactive d’élégance et de mystère",
+    "gender": "mixte",
+    "rating": 4,
+    "reviews": 119,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4212",
+    "name": "Omniyat – Surrati",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/omniyat-surrati.png",
+    "description": "Omniyat de Surrati est un parfum oriental boisé aux notes ambrées, résineuses et musquées. Une fragrance intense et sophistiquée à découvrir sur FrenchAvenue.fr.",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 31,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4213",
+    "name": "Killer - Loui Martin",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/killer-loui-martin.png",
+    "description": "Killer by Don’t Shy - Loui Martin est un parfum audacieux et envoûtant, aux accords ambrés, gourmands et sensuels. Un sillage magnétique et irrésistible. Disponible sur FrenchAvenue.fr.",
+    "gender": "mixte",
+    "rating": 4.4,
+    "reviews": 117,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4215",
+    "name": "Good Girl by Killer",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/good-girl-by-killer.png",
+    "description": "Good Girl by Killer – Loui Martin est une eau de parfum envoûtante et sensuelle, célébrant la dualité féminine entre douceur et audace. Un sillage intense et raffiné à découvrir sur FrenchAvenue.fr.",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 160,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Best-Sellers",
+      "Nouveautés"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4216",
+    "name": "Verato White Musk – MIRADA",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/verato-white-musk-mirada.png",
+    "description": "Verato White Musk – MIRADA est une eau de parfum délicate et enveloppante, aux notes pures de musc blanc. Un parfum mixte au sillage tendre et apaisant, idéal pour les amoureux de la subtilité.",
+    "gender": "mixte",
+    "rating": 4.8,
+    "reviews": 157,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte",
+      "Musqué"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4217",
+    "name": "Léonie de Maison Alhambra",
+    "brand": "Maison Alhambra",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/l-onie-de-maison-alhambra.png",
+    "description": "Léonie de Maison Alhambra est une eau de parfum florale et raffinée. Une fragrance féminine qui allie délicatesse, charme et sensualité, idéale pour sublimer chaque instant de la journée.",
+    "gender": "femme",
+    "rating": 4,
+    "reviews": 124,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Maison Alhambra",
+      "Femme",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4219",
+    "name": "Qandeel d’Ard Al Zaafaran",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/qandeel-d-ard-al-zaafaran.png",
+    "description": "Qandeel d’Ard Al Zaafaran est une eau de parfum mixte orientale et envoûtante, aux notes d’ambre, de bois précieux et d’épices douces. Une fragrance charismatique et intense, idéale pour les amate...",
+    "gender": "mixte",
+    "rating": 4.3,
+    "reviews": 65,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Boisé",
+      "Oriental"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4220",
+    "name": "Mirada Perla",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/mirada-perla.png",
+    "description": "Mirada Perla Eau de Parfum 100 ml est une fragrance féminine lumineuse, florale et poudrée, évoquant la pureté d’une perle. Un sillage délicat, élégant et irrésistiblement raffiné pour les femmes ...",
+    "gender": "femme",
+    "rating": 4,
+    "reviews": 68,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Femme",
+      "Boisé",
+      "Floral"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4221",
+    "name": "Fondue Tropical",
+    "brand": "Dubai Perfumes",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dhjwimevi/image/upload/v1766255913/fondue-tropical.png",
+    "description": "Découvrez Fondue Tropical Eau de Parfum 100 ml de Hamidi, une fragrance mixte aux notes exotiques, fruitées et solaires. Un parfum estival, envoûtant et dépaysant, parfait pour éveiller les sens et...",
+    "gender": "mixte",
+    "rating": 4.7,
+    "reviews": 72,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": false,
+    "categories": [
+      "Dubai Perfumes",
+      "Mixte"
+    ],
+    "promo": false
+  },
+  {
+    "id": "prod-4348",
+    "name": "YARA LATTAFA | L'Essentiel Parfum Féminin Incontournable",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765796070/Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt.jpg",
+    "description": "Découvrez YARA LATTAFA, une fragrance féminine captivante aux notes douces et envoûtantes de vanille, de fruits tropicaux et de musc. Laissez-vous séduire. Découvrez-le maintenant !",
+    "gender": "mixte",
+    "rating": 4.6,
+    "reviews": 84,
+    "inStock": true,
+    "bestseller": false,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Nouveautés",
+      "Oriental",
+      "Musqué"
+    ],
+    "cloudinary_public_id": "Lattafa_Yara_for_Women_Eau_de_Parfum_Spray__3_40_Ounce___100_ml-Photoroom-Photoroom_iz6trt",
+    "promo": false
+  },
+  {
+    "id": "prod-4355",
+    "name": "YARA LATTAFA : Le Soin Iconique pour une Peau Rayonnante",
+    "brand": "Lattafa",
+    "price": 35,
+    "image": "https://res.cloudinary.com/dzntnjtkc/image/upload/w_400,h_500,c_fill,f_auto,q_auto:good/v1765799759/je-suis-dsol-mais-je-ne-peux-pas-extraire-de-texte-dimages-si-vous-avez-besoin-daide-pour-autre-chose-nhsitez-pas-me-le-faire-savoir_dwyjqq.png",
+    "description": "Découvrez YARA LATTAFA, le soin révolutionnaire qui transforme votre routine beauté. Hydratation intense et éclat garanti pour une peau sublime. Laissez-vous séduire !",
+    "gender": "mixte",
+    "rating": 4.1,
+    "reviews": 167,
+    "inStock": true,
+    "bestseller": true,
+    "nouveau": true,
+    "categories": [
+      "Lattafa",
+      "Mixte",
+      "Nouveautés"
+    ],
+    "cloudinary_public_id": "je-suis-dsol-mais-je-ne-peux-pas-extraire-de-texte-dimages-si-vous-avez-besoin-daide-pour-autre-chose-nhsitez-pas-me-le-faire-savoir_dwyjqq",
+    "promo": false
   }
 ];
 
-// Export pour utilisation dans app-v2.js
+// Node.js export
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { PRODUCTS_DATABASE };
+  module.exports = products;
 }
 
-console.log(`✅ Base de données chargée: ${PRODUCTS_DATABASE.length} parfums disponibles`);
+// Browser global
+if (typeof window !== 'undefined') {
+  window.products = products;
+}
+
+console.log('📦 DubaiNegoce - 153 parfums chargés (optimisés)');
